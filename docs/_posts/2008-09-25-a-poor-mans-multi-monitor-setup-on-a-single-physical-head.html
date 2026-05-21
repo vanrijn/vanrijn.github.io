@@ -1,0 +1,23 @@
+---
+layout: post
+title: A Poor Man's Multi-Monitor Setup On A Single Physical Head
+date: 2008-09-25 18:40:48.000000000 -07:00
+published: true
+categories:
+- Desktop
+- Linux
+tags: []
+permalink: "/2008/09/25/a-poor-mans-multi-monitor-setup-on-a-single-physical-head/"
+---
+<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
+<html><body><br />
+<a title="screenshot-xdmx-xephyr-multihead by vanRijn" href="{{site.baseurl}}/assets/2008/09/2888721942_c9db3eb435.jpg"><img src="{{site.baseurl}}/assets/2008/09/2888721942_c9db3eb435.jpg" alt="screenshot-xdmx-xephyr-multihead" width="500" height="313"></a></p>
+<p>Finally!! I've been trying to figure out how to do this for a while now. Namely, I need to be able to test multiple display stuff out in Linux and being that I use my laptop pretty much exclusively for development, and I don't have mulitple physical monitors handy at home (and certainly not whilst travelling), I've been thus far unable to test anything multi-head-ish. But, thanks to Xdmx and Xephyr, this is now possible.</p>
+<blockquote><p>Xephyr :3.0 -ac -br +xinerama -screen 600x400 &amp;<br />
+Xephyr :4.0 -ac -br +xinerama -screen 600x400 &amp;<br />
+Xdmx :5 -display localhost:3 -display localhost:4 +xinerama<br />
+export DISPLAY=:5<br />
+openbox&amp;<br />
+xterm&amp;</p></blockquote>
+<p>So, the first 2 lines start up X-within-X displays on localhost:3 and localhost:4. The third line starts up the distributed multi-head X server, Xdmx, and tells it to use 2 displays (the two Xephyr displays started in lines 1 and 2) as the back ends. The fourth line exports a new DISPLAY variable (:5 -- the Xdmx uber-display) that openbox and xterm both use. The screenshot shows my 1200x400 Xinerama 2-head X session, with the xterm dragged half-way between the two heads.</p>
+<p>There are still some things that I need to figure out with this. Moving the mouse between the virtual heads is a little wonky (read: doesn't work?). But at least, this is a promising beginning of what feels like a really cool answer to this problem. Anyone else have any insight to add to this? Any thoughts on how to get the mouse to behave sanely between virtual heads (which are actually X windows on my host)?</body></html></p>

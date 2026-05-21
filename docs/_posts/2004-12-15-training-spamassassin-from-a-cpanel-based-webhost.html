@@ -1,0 +1,93 @@
+---
+layout: post
+title: Training spamassassin from a cpanel-based webhost
+date: 2004-12-15 08:49:59.000000000 -08:00
+published: true
+categories:
+- Life in General
+tags: []
+permalink: "/2004/12/15/training-spamassassin-from-a-cpanel-based-webhost/"
+---
+<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
+<html><body></p>
+<p>Just to answer my own question, sort of, <a href="http://www.lunarforums.com/forum/viewtopic.php?t=13960">I've found this</a>.</p>
+<p>which turns out to be very useful.  It's not quite as automatic as I would like, but it seems to work.  In case the page is moved/removed/whatever, I'll paste some of it here...</p>
+<blockquote><p>
+Assumptions<br />
+- that you know how to log in to CPanel<br />
+- that you know how to use Outlook, or know how to configure your Email client based on my descriptions of using Outlook, to add an IMAP account<br />
+- for these examples, the LunarPages account name is lpaccount and password is lppassword ; your domain name will be mydomain.com ; I'll do my best to keep those colors used throughout this text to highlight where you'll need to insert your own information. </p>
+<p>Terminology<br />
+SPAM: unsolicited Emails that you've received that want you to buy something or contain adult-themed references that you'd rather not get anymore.<br />
+HAM: non-spam, legitimate Emails<br />
+SA: short for SpamAssassin </p>
+<p>Getting Started<br />
+Generally speaking, there are a handful of steps to follow to get this working:<br />
+1. set up IMAP folders to hold spam and ham messages<br />
+2. set up an IMAP account in Outlook if you so choose<br />
+3. set up your SA user_prefs file<br />
+4. build the training Perl script<br />
+5. learning how to run the script<br />
+6. closing notes and suggestions<br />
+7. more thoughts on SpamAssassin </p>
+<p>1. Set up IMAP folders to hold spam and ham messages<br />
+- log in to cpanel<br />
+- click on the mail icon<br />
+- click on the 'spam assassin' link<br />
+- click on the button to 'enable spam assassin'<br />
+- click on the button to 'enable spam box' </p>
+<p>- click the 'home' link at very top of the screen </p>
+<p>- click on the 'webmail' icon<br />
+- click on the 'squirrelmail' link<br />
+- click on the 'folders' link<br />
+*snip*<br />
+- also in the 'folders' screen, towards the top, you should be able to create new folders under a heading called 'create a folder'<br />
+- create a folder called "myham" under the subfolder of 'none'<br />
+- create a folder called "myspam" under the subfolder of 'none'<br />
+- click 'refresh folder list' on left frame again, and you should see 'myham' and 'myspam' in the list </p>
+<p>2. Set up IMAP in Outlook to manage these mailboxes<br />
+*snip*<br />
+basically, this is very-well documented in the linked page and I won't repeat it here.  Suffice it to say here that the goal is to copy HAM (not SPAM, but mistakenly identified as SPAM) into the "myham" folder and missed SPAM into the myspam folder through your e-mail client.</p>
+<p>3. Set up SpamAssassin's preferences file: user_prefs<br />
+SA has a configuration file that you should have accessible to you in your CPanel file manager. </p>
+<p>In CPanel:<br />
+- click on the File Manager icon<br />
+- should see a folder called /.spamassassin/<br />
+- click the folder icon beside it to move into that folder<br />
+- you should have 3 files in there: </p>
+<p>Quote:<br />
+bayes_toks holds data about various elements it has seen from messages from previous scans; this information includes where the message came from, the route it took to get to you, when the message was sent, who it was from, who it was to, the subject line, other headers, and elements within the body of the message itself<br />
+bayes_seen holds data about which messages it has looked at in the past<br />
+user_prefs is the configuration file we're going to edit	</p>
+<p>- click on user_prefs link to change the menu on the upper-right side of the screen, and click on 'edit file' from that menu </p>
+<p>- here is what i have set in my configuration file, you will need to modify a few elements in this file: </p>
+<p>Quote:<br />
+required_hits 5<br />
+rewrite_subject 1<br />
+subject_tag {SPAM}<br />
+bayes_path /home/ lpaccount /.spamassassin/bayes<br />
+bayes_file_mode 0600<br />
+bayes_ignore_header X-MailScanner<br />
+bayes_ignore_header X-MailScanner-SpamCheck<br />
+bayes_ignore_header X-MailScanner-SpamScore<br />
+bayes_ignore_header X-MailScanner-Information</p>
+<p>- save the file and close the window that CPanel opened for you to edit that file<br />
+- go up one level in the file manager<br />
+- go into public_html<br />
+- go into cgi-bin<br />
+- click on the link to 'create a new file'<br />
+- call it "sa-learn.cgi" (no quotes)<br />
+- here are the contents of the file:</p>
+<p>#!/usr/bin/perl </p>
+<p>my $salearn = "/usr/bin/sa-learn" ;<br />
+$| ; </p>
+<p>print "Content-type: text/plain\n\n" ; </p>
+<p>print "Learning SPAM:\n" ;<br />
+print `$salearn -p /home/lpaccount/.spamassassin/user_prefs --mbox --spam --showdots /home/lpaccount/mail/myspam` ;<br />
+print "\n\n" ; </p>
+<p>print "Learning HAM:\n" ;<br />
+print `$salearn -p /home/lpaccount/.spamassassin/user_prefs --mbox --ham --showdots /home/lpaccount/mail/myham` ;<br />
+print "\n\n" ; </p>
+<p>exit ;
+</p></blockquote>
+<p></body></html></p>

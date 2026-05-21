@@ -1,0 +1,40 @@
+---
+layout: post
+title: SUSE 10.1 On A Powerbook
+date: 2006-10-31 21:28:16.000000000 -08:00
+published: true
+categories:
+- Apples
+- KDE
+- Linux
+tags: []
+permalink: "/2006/10/31/suse-101-on-a-powerbook/"
+---
+<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
+<html><body></p>
+<p>So, no, it's not nearly as easy as it should be; it's not nearly as easy as it is in kubuntu; and it has consumed the last few days of my life.  But I've gotten things working for the most part and since I've been utterly unable to find any help on ye olde 'net about the problems I faced, I'll post some of my pain and learnings here...</p>
+<p>For starters, things sort of worked out of the box on my 15" Powerbook with SUSE 10.1.  You <em><strong>DO</strong></em> have to be VERY careful during the disk partitioning steps of the installation. For some unexplainably silly reason, by default, SUSE's installation wanted to format my OS X partition.  So watch out for that and make sure you don't let it (unless you do, in fact, want to lose all of your OS X data).</p>
+<p>Secondly, SUSE 10.1 doesn't know how to deal with my Powerbook's display.  It came up in 800x600 mode or something silly.  I still can't get YaST2 to configure my display.  I saved my xorg.conf file from ubuntu and used it, for the most part.  I do still have weird video problems (spots here and there cropping up, especially in konsole).  But it's tolerable now.</p>
+<p>Next issue: network.  SUSE 10.1 comes with kernel 2.6.16.something.  Unfortunately, the broadcom (bcm43xx) and softmac drivers that are necessary for the powerbook's built-in wireless card don't come in 2.6.16.something.  They are in 2.6.17.something.  I downloaded 2.6.18.1, since it was the latest.  And WOW.  2.6.18.1 works REALLY well as far as the wireless goes.  It even works perfectly with NetworkManager and the KDE network manager interface.  Excellent work to all involved here!!  =:)  I did have an old snapshot of bcm43xx and softmac on my hard drive, so my first attempt that consumed a few hours of my life was in trying to compile and install those into SUSE's 2.6.16.something kernel, but I could not for the life of me get it to work.  I kept getting undefined symbol errors or some-such.  I gave up and went after the 2.6.18.1 kernel instead.</p>
+<p>Along with the new 2.6.18.1 kernel (and pbbuttonsd, I guess), for the first time ever, the backlit keys on my keyboard work!!  Woot!!  =:)</p>
+<p>Next up: sound.  This was a bloody nightmare.  Apparently somewhere between 2.6.17.13's alsa and 2.6.18.1, the ALSA boys decided to stop using snd-powermac and start using snd-aoa.  Now, I challenge you to try to find ANY information on how to get that to work!!!  Bloody heck, folks!!  I still don't know if I'm doing it right, but I have hacked things enough to get sound working.  First, I downloaded all of the alsa-* stuff from the ALSA project page.  At time of writing, it's 1.0.13.  I reconfigured the kernel and enabled ONLY the base sound section and did not enable ALSA or OSS.  I then compiled alsa-driver-1.0.13 with " ./configure --with-cards=aoa,aoa-fabric-layout,aoa-tas,aoa-soundbus,aoa-soundbus-i2s" and then "sudo make install".  I built and installed all of the other alsa-*1.0.13 into /usr, over the top of the existing alsa packages, which I never, ever do, but after 3 days of beating my head against the wall, I was at wit's end.  I'm sure there's a better way, but I'm past caring.  Oh, and yes, I did try installing everything into /usr/local/alsa-1.0.13 first, but that didn't seem to work, so I gave it one more shot at installing into /usr.  Incidentally, you don't have to do this--it was what I did below that got things working, not installing into /usr.</p>
+<p>Anyway, give up all hope of getting YAST to help you configure your soundcard.  Seriously.  It does not know about ALSA 1.0.13 and will insist on trying to using snd-powermac, even though it doesn't exist as a kernel module (I compiled alsa-driver 1.0.13 without snd-powermac).</p>
+<p>So, instead, add this to /etc/modprobe.conf.local: "alias snd-powermac snd-aoa".  And then, change /etc/modprobe.d/sound to this:</p>
+<blockquote><p>#options snd-powermac index=0<br />
+# zWvw.ITz6G5CcwPB:Integrated Sound (awacs)<br />
+#alias snd-card-0 snd-powermac<br />
+options snd-aoa index=0<br />
+alias snd-card-0 snd-aoa</p>
+<p>install snd-aoa /sbin/modprobe --ignore-install snd-aoa; { /sbin/modprobe --ignore-install -a snd-aoa-soundbus snd-aoa-i2sbus snd-aoa-fabric-layout snd_mixer_oss snd-pcm-oss snd-seq-oss ; }</p>
+<p>remove snd-aoa  { /sbin/modprobe -r --ignore-remove snd_pcm_oss snd_mixer_oss snd_seq snd-aoa-codec-tas snd-aoa-i2sbus snd-aoa-fabric-layout snd-aoa-soundbus; } /sbin/modprobe -r --ignore-remove snd-aoa;</p></blockquote>
+<p>This is most probably not the right way to do this, I know.  But it seems to work.  After doing this, if I do /etc/init.d/alsasound stop/start, I see this in /proc/asound/cards:</p>
+<blockquote><p>0 [SoundByLayout  ]: AppleOnbdAudio - SoundByLayout<br />
+SoundByLayout</p></blockquote>
+<p>Note--this is on a Powerbook, reported as "motherboard     : PowerBook5,6 MacRISC3 Power Macintosh" in /proc/cpuinfo.  Your mileage may vary....</p>
+<p>So, having doing all this, I can get kmix to work and aplay works with a wav file.  I've found lame and other essential packages for SUSE 10.1 ppc from <a href="ftp://spike.fa.gau.hu/pub/pmppc101/ppc/">this site (THANKS SO MUCH!!)</a> (set up smart like this:</p>
+<blockquote><p>sudo smart channel --add pmppc101 type=rpm-md name="PackMan SUSE Linux 10.1 PPC" baseurl="ftp://spike.fa.gau.hu/pub/pmppc101/"</p></blockquote>
+<p>), and I'm working on getting amarok and such working now.  Hm.  Just got gkrellm-volume working too (have to do "enable_alsa=1 make").  Cool.</p>
+<p>Next up: latest KDE packages.  SUSE 10.1 comes with KDE 3.5.1 and 3.5.5 has been out for a while now.  I run SUSE 10.1 on my x86 laptop at work, so I was assuming that I could use the KDE:Backports repository and just upgrade everything to the latest like I could at work.  WRONG!  I also thought that I could take advantage of all of the cool SUSE support repositories, like suser-guru, etc.  WRONG again.  These are only compiled for x86 and 64-bit x86 architectures.  Those of us with PPC (powerpc) chips are out of luck entirely.  =:(  This, seriously, is lousy, and I sure hope that the SUSErs remedy this poste haste.</p>
+<p>All in all, it feels good to have solved some of the problems that SUSE 10.1 was having with my powerbook.  I absolutely love SUSE as a distro on my x86 laptops and desktops.  It would appear, however, that it's just not completely there for the PPC platform.  While I've been fighting with SUSE these last few days, I've been looking at alternatives.  There's Kubuntu Edgy, of course, and that would be the upgrade to the Dapper I've been using on my powerbook for the last year or so.  But there's also Fedora Core 6 that's just recently been released.  I've not played with Fedora in a long, long time.  I'm download the ppc dvd iso right now.  I think I might give that a shot next if I can't figure out these annoying video problems.</p>
+<p>HTH!  =:)</p>
+<p><em>Update:</em> After several reboots and failed boots (apparently you have to use 24 bpp for X on the powerbook??), and in general bad and unstable things happening on my powerbook with SUSE 10.1, I'm now burning my Fedora Core 6 and Ubuntu Edgy DVDs and will install FC6 and if that doesn't work out of the box, I'll go back to Ubuntu with Edgy (instead of Dapper, which I had been running).  It's a bloody shame that SUSE 10.1 is acting so wonky.  I really do prefer it, and I'm just getting the hang of smart.  *sigh*  But these weird video problems are killing me and I'm sincerely becoming concerned that they're going to do permanent damage to my powerbook screen.</body></html></p>

@@ -1,0 +1,26 @@
+---
+layout: post
+title: Hi, it's me
+date: 2005-09-23 13:23:07.000000000 -07:00
+published: true
+categories:
+- Life in General
+- Linux
+tags: []
+permalink: "/2005/09/23/hi-its-me/"
+---
+<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
+<html><body></p>
+<p>Wow. Long time no blog.</p>
+<p>Life has been keeping me pretty busy lately.</p>
+<p>Work is... well, it's work after all.  I suppose that if one were to love one's job, it would not be work, so much.  I'd like that!</p>
+<p>An update on the OpenSuSE distribution I'm running....  It's still a really nice system, especially considering the fact that it's a beta (well, release candidate 1 now), but there are a few annoyances that I have that I'm hoping will get ironed out in the final release of SuSE 10.  If they don't get fixed, I'm going to go back to Mandrake.  Annoyances:</p>
+<ul>
+<li>My PCMCIA wireless network card does not get re-configured automatically when I suspend and resume my laptop.  This means that whenever I suspend, go home, and resume (or suspend, go to work, and resume), I have to manually eject my card and put it in again.  This is strictly annoying. <strong>update:</strong> Seems that <a href="https://bugzilla.novell.com/show_bug.cgi?id=106708">this got fixed in RC1</a> and I never followed up on checking to see if it truly was fixed...  Will have to check that Monday.  =:) <strong>update to the update:</strong> Woohoo! This got fixed!</li>
+<li>The USB stuff doesn't work across suspend/resume either.  Whenever OpenSuSE 10 (rc1) resumes after an APM suspend, it removes the USB modules (usb-uhci, to be precise) and doesn't put them back into kernel space after the resume.  This means that whenever my laptop resumes, I have to try moving my mouse, notice that it doesn't work, and then run this:<br />
+<blockquote><p>sudo rmmod usbhid lmpcm_usb; sudo modprobe lmpcm_usb ; sudo modprobe uhci-hcd</p></blockquote>
+<p><strong>update:</strong> I <a href="https://bugzilla.novell.com/show_bug.cgi?id=106897">reported this one too </a>and it will hopefully be fixed in -final.  Guess I'll have to download the new powersave package and try it now.  =:) <strong>update to this update:</strong> Woohoo also!  This one got fixed as well.  The only thing I have to do now is add "usbhid" to /etc/hotplug/blacklist so that hotplug doesn't try to load usbhid (I have a <a href="http://movingparts.net/2005/01/07/me-and-my-logitech-mediaplay-mousie-and-linux/">funky mouse</a> that has a special Linux usb driver), but that's no biggie--that's done once and forgotten.</li>
+<li>OpenSuSE's powersave daemon (why on earth does every Linux distribution feel the need to reinvent how to do this stuff???) keeps getting disconnected from the KDE user interface applet (kpowersave).  It also seems to generally stop working occasionally, and is quite annoying.  This means that when I want to suspend my laptop, I click the powersave applet, select "suspend to RAM", wait a second, notice that it doesn't work, and then run "powersave --suspend-to-ram" from the command line.  Then I wait a second, notice that that's not doing anything, and then run "sudo /etc/init.d/powersaved restart", wait a second again and then run "powersave --suspend-to-ram" again.  Ick. <strong>update:</strong> Cool!  It looks like the <a href="ftp://ftp.suse.com/pub/people/seife/powersave/SUSE-10.0-test/10.0-i386/">latest powersave RPM's</a> that Stefan built fixed this too!</li>
+</ul>
+<p>So, the above are obviously annoyances, but I can live with them just long enough to see if the actual released-version of SuSE 10 has these things fixed.  *sigh*</p>
+<p><strong>accumulative update:</strong> Well, all of my above gripes have been fixed by the OpenSuSE guys and gals.  That's pretty impressive, honestly.  With SuSE opening up their distribution to allow beta testers like myself, I can't say how much easier their lives have  gotten (are thousands more testers and bug-reporters actually helpful?), but it has definitely renewed my faith in SuSE and Novell and Open Source desktops once again.  Nice work, SuSErs!  =:)</body></html></p>

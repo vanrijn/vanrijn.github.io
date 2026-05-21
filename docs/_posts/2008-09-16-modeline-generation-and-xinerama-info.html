@@ -1,0 +1,28 @@
+---
+layout: post
+title: Modeline Generation and Xinerama Info
+date: 2008-09-16 19:17:12.000000000 -07:00
+published: true
+categories:
+- Linux
+tags:
+- Linux
+- X
+permalink: "/2008/09/16/modeline-generation-and-xinerama-info/"
+---
+<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
+<html><body></p>
+<p>So, I'm trying to think positively about the 3-hour battle I just had with X. I learned 2 new things today, which I didn't really want to learn but yay nonetheless.</p>
+<p>First, Xinerama. I'm going to be doing multiple monitor stuff for work, which should be really interesting if I can keep my self-imposed stress level down. I have never had more than a single monitor to use on any given desktop or laptop until I started working at VMware, and as such I am currently less than clueful with how all of this stuff works in X. (As an aside, if anyone can refer me to some really good documentation or multi-head/multi-screen/multi-monitor/multi-display Linux/X resources, I'd <em>greatly</em> appreciate it!) So today I was looking into a bug report that had to do with a Twinview side-by-side display configuration, and I discovered that "xdpyinfo -ext XINERAMA" will tell you what the screen topology looks like currently. For example, my normal Twinview cloned 1680x1050 setup looks like this:</p>
+<blockquote><p>XINERAMA version 1.1 opcode: 158<br />
+head #0: 1680x1050 @ 0,0</p></blockquote>
+<p>... whereas if I change it to a side-by-side 1680x1050 configuration, I believe it will show this:</p>
+<blockquote><p>XINERAMA version 1.1 opcode: 158<br />
+head #0: 1680x1050 @ 0,0<br />
+head #1: 1680x1050 @ 1600,0</p></blockquote>
+<p>(I can't be certain since apparently in all of my fiddling, I disabled Xinerama in my /etc/X11/xorg.conf file and currently, it shows me this: XINERAMA version 1.1 opcode: 158 head #0: 3360x1050 @ 0,0 *sigh*) This is coolness that I'm sure I'll be needing to use frequently in the coming months.</p>
+<p>Secondly, Modelines. Now, honestly, it's been years since I've had to worry about manually putting Modelines into my XF86Config/xorg.conf files. X has gotten much better since those bad old days and things have pretty much Just Worked (TM). Although I still do fondly remember the days of working with some hard-core X hackers in trying to get my laptop display drivers working (like 10 years ago??) But somewhere between my Ubuntu 8.04 installation and my current OpenSUSE 11 installation, X no longer thinks that it should allow me to output a 1680x1050 resolution to my external monitor (a Dell 2007FPb). I disagree strongly. =;D Unfortunately, my Lenovo T61 laptop looks like crap unless it displays in its native resolution of 1680x1050, so in Ubuntu Hardy, I became accustomed to doing the cloned twinview 1680x1050 thing. Like I said, something broke this when I went to OpenSUSE 11. I'm guessing it's a newer X version. But anyway, after a whole lotta Google action, I came across a post that suggested another dude use the "gtf" command to find a good X11 Modeline. Wow, cool!! Here's what it does:</p>
+<blockquote><p>$ gtf 1680 1050 60</p>
+<p># 1680x1050 @ 60.00 Hz (GTF) hsync: 65.22 kHz; pclk: 147.14 MHz<br />
+Modeline "1680x1050_60.00"   147.14   1680 1784 1968 2256    1050 1051 1054 1087   -HSync +Vsync</p></blockquote>
+<p>Awesome!!! I don't know if this little tool didn't exist back in the bad old days when X required you to enter this or if I just didn't know about it, but this would have saved me lots of agony over the years had I known about it. =:) I copied/pasted that into my /etc/X11/xorg.conf inside the Monitor section for my Dell 2007FP, restarted X, and now nvidia-settings will kindly let me use 1680x1050 resolution again. YAY!</body></html></p>

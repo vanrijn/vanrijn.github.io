@@ -1,0 +1,14 @@
+source "https://rubygems.org"
+
+gem "jekyll", "~> 4.3"
+
+group :jekyll_plugins do
+  gem "jekyll-remote-theme"
+  gem "jekyll-feed"
+  gem "jekyll-include-cache"
+  gem "jekyll-sitemap"
+  gem "jekyll-paginate"
+end
+
+# Ruby 3+ no longer bundles webrick, but `jekyll serve` needs it
+gem "webrick"

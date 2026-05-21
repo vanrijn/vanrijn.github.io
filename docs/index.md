@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 ---
 
 # Welcome to my little Pagesey Page! 

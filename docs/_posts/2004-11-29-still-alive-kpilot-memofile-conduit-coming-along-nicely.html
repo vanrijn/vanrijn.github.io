@@ -1,0 +1,18 @@
+---
+layout: post
+title: Still alive; kpilot memofile conduit coming along nicely
+date: 2004-11-29 07:42:25.000000000 -08:00
+published: true
+categories:
+- Life in General
+tags: []
+permalink: "/2004/11/29/still-alive-kpilot-memofile-conduit-coming-along-nicely/"
+---
+<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
+<html><body>
+<p>I should have known better, but I dove straight into code with my kpilot memofile conduit.  To be fair, I had no clue about kpilot's code base or classes, so it wasn't a waste of time or anything.  It was necessary, and now I have a decent understanding of how things work within kpilot.  But I reached a point in my conduit where the code needed to be designed/architected, not just thrown in, so I took a break from coding for a day and looked at design.  I used <a href="http://uml.sourceforge.net/index.php">umbrello (kde's UML tool)</a>, and it does a fairly nice job.  My only complaint is that it doesn't do live round trip code syncing/generation, but I due to the fact that <a href="http://www.gentleware.com/products/compare.php4">both Poseidon</a> and <a href="http://www.visual-paradigm.com/vpuml.php">Visual Paradigm for UML</a> don't offer that either with their free versions, I suppose I shouldn't complain.  I don't suppose anyone knows of a good UML tool that does live round-trip well with C++???</p>
+<p>Anyway, I sketched out on paper 4 sequence diagrams, one for copyHHToPC, copyPCToHH, a common initialization diagram, and HotSync.  I then used umbrello to import the single memofileconduit-action.h, and from there, generated a class diagram and from that class diagram created 2 new classes.  Umbrello allowed me to create the attributes and operations in my class diagram that I had created on my sequence diagrams.  Since it doesn't do live round trip, though, I just had it generate code for the 2 new classes so that it didn't touch my existing conduit class.  And now, it's just a matter of moving the code from my conduit class into the 2 new classes and writing the code for the necessary methods.  =:)</p>
+<p>If you've used <a href="http://en.wikipedia.org/wiki/Rational_Unified_Process">RUP</a> at all, you know this already, but using their methodology makes coding SO much easier.  I love it because it cleanly separates the intelligent design of software from the implementation/coding of it, making sure that both get done more cleanly, better, and most probably only once to be done right.  I'll get off my soap-box now, I suppose. </p>
+<p>I need to come back and put my sequence diagrams into a UML tool (probably umbrello) when I'm done flushing them out.  I'll likely export them to JPEGs and include both the JPEGs and XMI file in the source code for my kpilot memofile conduit so that at the least, they will make the flow of the program easier to understand and maintain.</p>
+<p>Not a bad weekend, then.  =:)</p>
+<p></body></html></p>

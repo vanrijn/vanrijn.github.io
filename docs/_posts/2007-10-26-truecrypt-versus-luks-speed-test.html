@@ -1,0 +1,24 @@
+---
+layout: post
+title: Truecrypt versus LUKS Speed Test
+date: 2007-10-26 17:36:13.000000000 -07:00
+published: true
+categories:
+- Linux
+tags: []
+permalink: "/2007/10/26/truecrypt-versus-luks-speed-test/"
+---
+<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
+<html><body></p>
+<p>I did a small performance test yesterday and was very surprised by the results.  I wanted to see which encrypted filesystem was faster betweeen Truecrypt and LUKS.  I created 2 20-gig files, one with Truecrypt and the other with LUKS encryption.  Then I mounted the encrypted files and copied a 180 meg file 10 times, synced, and then reported the time taken.  Here's the results:</p>
+<p>Truecrypt test:</p>
+<blockquote>
+<pre class="code" id="codemain">time (for f in $(seq 1 10); do; cp bigfile truecrypt-mnt/bigfile-$f; done;)</pre>
+<pre class="code" id="codemain">0.22s user 26.30s system 15% cpu 2:47.06 total</pre>
+</blockquote>
+<p>LUKS test:</p>
+<blockquote>
+<pre class="code" id="codemain">time (for f in $(seq 1 10); do; cp bigfile luks-mnt/bigfile-$f; done;)</pre>
+<pre class="code" id="codemain">0.20s user 8.40s system 15% cpu 55.169 total</pre>
+</blockquote>
+<p>Wow.  Now, granted, this is a simple enough test, but does anyone have any ideas why LUKS would be 3 times faster in writing 1.8 Gigs than Truecrypt?</body></html></p>

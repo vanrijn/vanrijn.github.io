@@ -1,0 +1,17 @@
+---
+layout: post
+title: KPilot Fixes and New Years Resolution
+date: 2007-12-31 00:43:51.000000000 -08:00
+published: true
+categories:
+- Life in General
+tags: []
+permalink: "/2007/12/31/kpilot-fixes-and-new-years-resolution/"
+---
+<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
+<html><body></p>
+<p>Haven't been very good at all lately on keeping my blog up to date. *sigh* Well, for that matter, I haven't been very good at all lately on keeping up with much of anything. But I digress...<br><br>After <a href="http://thread.gmane.org/gmane.comp.kde.users.pim/11896">a friendly post from Pablo Yepes</a> about some address book goofiness, I removed the ugly kludge that had been in KPilot for quite a while now:<br><br></p>
+<blockquote><p>r754992 | vanrijn | 2007-12-30 21:49:50 -0500 (Sun, 30 Dec 2007) | 10 lines<br>Changed paths:<br>   M /branches/KDE/3.5/kdepim/kpilot/ChangeLog<br>   M /branches/KDE/3.5/kdepim/kpilot/conduits/abbrowserconduit/abbrowser-conduit.cc<br>   M /branches/KDE/3.5/kdepim/kpilot/conduits/abbrowserconduit/kabcRecord.cc<br>   M /branches/KDE/3.5/kdepim/kpilot/lib/options.h<br><br>* Fixing bug reported by Pablo Yepes on kdepim-users mailing list. We did<br>  severe goofiness with middle names... The Palm can't handle them, so we<br>  blindly tacked firstname + " " + lastname and stuck it into the Palm's<br>  firstname field. The problem is that whenever a copy from palm-&gt;pc is<br>  done, the kludged first name is transferred to kabc ("firstname middle").<br>  And, it's compounded by every change in either direction. It's an ugly<br>  hack and I've removed it. The only way to work around it would be to add<br>  an additional check for !firstname.endsWith(abEntry.additionalName()),<br>  but that's even sillier. Stop the insanity!<br>
+</p></blockquote>
+<p>I've also forward-ported the fix to trunk (KDE4), so as soon as I can get around to re-enabling the addressbook conduit in trunk, at least this problem won't be there...  =;)<br><br>Speaking of KDE4....  I keep finding myself with zero time to hack on KPilot for KDE4, but if ever I do, I think I need to approach it more different and more betterer than I have in the past. Bertjan has put a lot of work into unit tests for the new base conduit and keyring code, and I absolutely love it. Haven't taken the time to understand it completely, but I LOVE it. I think that the goal going forward should be that <u>everything</u> in KPilot is unit-test-driven. I need to be able to test all code and code changes without having to physically connect a Palm device to test it with. We'll call that a New Year's resolution.<br><br>Oh, also, rumor on the streets all over Americana is that the <a href="http://people.fruitsalad.org/adridg/">world-famous Adriaan</a> may just possibly be coming to our little <a href="http://www.kde.org/kde-4.0-release-event/">KDE4 launch party</a> in January! Oh, that would but rock.  =:D<br><br />
+</body></html></p>

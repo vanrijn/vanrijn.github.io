@@ -1,0 +1,21 @@
+---
+layout: post
+title: Zypper versus Smart
+date: 2008-02-13 02:59:06.000000000 -08:00
+published: true
+categories:
+- Linux
+tags: []
+permalink: "/2008/02/13/zypper-versus-smart/"
+---
+<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
+<html><body></p>
+<p>sudo zypper update:<br><br></p>
+<blockquote><p>
+<br>2 Problems:<br>Problem: No valid solution found with just resolvables of best architecture.<br>Problem: Cannot install java-1_5_0-sun-plugin, because it is conflicting with java-1_6_0-sun-plugin<br><br>Problem: No valid solution found with just resolvables of best architecture.<br>  With this run only resolvables with the best architecture have been regarded.<br>Regarding all possible resolvables takes time, but can come to a valid result.<br> Solution 1: Make a solver run with ALL possibilities.<br>  Regarding all resolvables with a compatible architecture.<br>number, (r)etry or (c)ancel&gt; 1<br>Applying solution 1<br><br>Problem: Cannot install java-1_5_0-sun-plugin, because it is conflicting with java-1_6_0-sun-plugin<br>  A conflict over java-1.5.0-plugin == 1.5.0_update14 (java-1.5.0-plugin) requires the removal of java-1_5_0-sun-plugin-1.5.0_update14-0.1.i586[opensuse-updates] which is scheduled for installation<br>=== java-1_5_0-sun-plugin-1.5.0_update14-0.1.i586[opensuse-updates] ===<br>    java-1_5_0-sun-plugin-1.5.0_update14-0.1.i586[opensuse-updates] is needed by atom:java-1_5_0-sun-plugin-1.5.0_update14-0.1.i586[opensuse-updates] (java-1_5_0-sun-plugin &gt;= 1.5.0_update14-0.1)<br>    findutils-4.2.31-24.i586 is needed by java-1_5_0-sun-plugin-1.5.0_update14-0.1.i586[opensuse-updates] (/usr/bin/find)<br>=== java-1_6_0-sun-plugin-1.6.0.u4-0.1.i586[opensuse-updates] ===<br>    java-1_6_0-sun-plugin-1.6.0.u4-0.1.i586[opensuse-updates] is needed by atom:java-1_6_0-sun-plugin-1.6.0.u4-0.1.i586[opensuse-updates] (java-1_6_0-sun-plugin &gt;= 1.6.0.u4-0.1)<br><br> Solution 1: do not install java-1_5_0-sun-plugin<br>  do not install java-1_5_0-sun-plugin-1.5.0_update14-0.1.i586[opensuse-updates]<br> Solution 2: do not install java-1_6_0-sun-plugin<br>  do not install java-1_6_0-sun-plugin-1.6.0.u4-0.1.i586[opensuse-updates]<br> Solution 3: Ignore this conflict of java-1_5_0-sun-plugin<br>number, (r)etry or (c)ancel&gt;<br>^C<br>
+</p></blockquote>
+<p><br>*boggle*<br><br>sudo smart upgrade:<br><br />
+<blockquote>
+<br>Computing transaction...<br><br>Upgrading packages (234):<br>  MPlayer                                          kdegames4-carddecks-default<br>  SDL                                              kdegames4-carddecks-other<br>  SDL-devel                                        kdegraphics3-kamera<br>  SDL_image                                        kdegraphics3-pdf<br>  alsa                                             kdegraphics3-postscript<br>  alsa-devel                                       kdegraphics3-scan<br>  alsa-oss                                         kdegraphics4<br>  alsa-plugins                                     kdelibs3<br>  alsa-utils                                       kdelibs3-arts<br>  [snip lots of stuff in between]<br>  kdeedu4                                          qtcurve-kde<br>  kdegames3                                        screenlets<br>  kdegames3-arcade                                 soprano<br>  kdegames3-board                                  transcode<br>  kdegames3-card                                   vorbis-tools<br>  kdegames3-tactic                                 xfsprogs<br>  kdegames4                                        xmoto<br><br>Installing packages (4):<br>  kaffeine-lang      kdebase3-runtime   libavahi-qt3-1     libdca0<br><br>Removing packages (4):<br>  gnucash         gnucash-lang    ktorrent-lang   slib<br><br>571.7MB of package files are needed. 46.3MB will be freed.<br><br>Confirm changes? (Y/n): y<br>
+</p></blockquote>
+<p><br>Um. Yeah. I think I'll stick with smart for now, guys...</body></html></p>
