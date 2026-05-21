@@ -1,6 +1,9 @@
 ---
-layout: default
 title: Blog
+layout: posts
+permalink: /posts/
+entries_layout: list
+paginate: true
 ---
 # My Blog Posts
 
