@@ -22,6 +22,9 @@ algolia:
 
 # Build settings
 markdown: kramdown
+# WordPress-imported posts have one <p> per line separated by single newlines,
+# so the Jekyll default \n\n separator never matches and excerpt = full post.
+excerpt_separator: "\n"
 sass:
   quiet_deps: true
   silence_deprecations:
