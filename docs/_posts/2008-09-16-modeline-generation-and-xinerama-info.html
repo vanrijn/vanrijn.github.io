@@ -10,8 +10,6 @@ tags:
 - X
 permalink: "/2008/09/16/modeline-generation-and-xinerama-info/"
 ---
-<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
-<html><body></p>
 <p>So, I'm trying to think positively about the 3-hour battle I just had with X. I learned 2 new things today, which I didn't really want to learn but yay nonetheless.</p>
 <p>First, Xinerama. I'm going to be doing multiple monitor stuff for work, which should be really interesting if I can keep my self-imposed stress level down. I have never had more than a single monitor to use on any given desktop or laptop until I started working at VMware, and as such I am currently less than clueful with how all of this stuff works in X. (As an aside, if anyone can refer me to some really good documentation or multi-head/multi-screen/multi-monitor/multi-display Linux/X resources, I'd <em>greatly</em> appreciate it!) So today I was looking into a bug report that had to do with a Twinview side-by-side display configuration, and I discovered that "xdpyinfo -ext XINERAMA" will tell you what the screen topology looks like currently. For example, my normal Twinview cloned 1680x1050 setup looks like this:</p>
 <blockquote><p>XINERAMA version 1.1 opcode: 158<br />
@@ -25,4 +23,4 @@ head #1: 1680x1050 @ 1600,0</p></blockquote>
 <blockquote><p>$ gtf 1680 1050 60</p>
 <p># 1680x1050 @ 60.00 Hz (GTF) hsync: 65.22 kHz; pclk: 147.14 MHz<br />
 Modeline "1680x1050_60.00"   147.14   1680 1784 1968 2256    1050 1051 1054 1087   -HSync +Vsync</p></blockquote>
-<p>Awesome!!! I don't know if this little tool didn't exist back in the bad old days when X required you to enter this or if I just didn't know about it, but this would have saved me lots of agony over the years had I known about it. =:) I copied/pasted that into my /etc/X11/xorg.conf inside the Monitor section for my Dell 2007FP, restarted X, and now nvidia-settings will kindly let me use 1680x1050 resolution again. YAY!</body></html></p>
+<p>Awesome!!! I don't know if this little tool didn't exist back in the bad old days when X required you to enter this or if I just didn't know about it, but this would have saved me lots of agony over the years had I known about it. =:) I copied/pasted that into my /etc/X11/xorg.conf inside the Monitor section for my Dell 2007FP, restarted X, and now nvidia-settings will kindly let me use 1680x1050 resolution again. YAY!</p>

@@ -8,12 +8,9 @@ categories:
 tags: []
 permalink: "/2007/12/17/kpilot-almost-progress/"
 ---
-<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
-<html><body>
 <p>Blef.  So, I finally got a chance, late tonight, to hit the code, so to speak.  After an encouraging couple of e-mails with a KPilot user (hi Ryan!), and my own discouraging lack of time as of late to touch KPilot code, and the fact that I can't sync with my Treo 700p (grr), I dug in and started looking at the guilty code.</p>
 <p>It's my fault, really.  I changed the device communications code in the version of KPilot that got released with KDE 3.5.7.  It was some bandaid fixes that pulled the device communications out of the main GUI thread and put it into a worker thread.  This fixed several bugs that were tied to KPilot breaking horribly for users who used libusb (device "usb:") and bluetooth (device "net:any").  Pulling blocking, non-UI work out of the main UI thread is goodness.  Yay!</p>
 <p>However, it also broke the "USB workaround" feature of previous versions of KPilot that detected a non-hotsync connection from a Palm.  Now, mind you, there were problems with that code as it was, and there's some improvements that I plan on making to it, but... frustrating....  You fix 3 things and you break 2 others.</p>
 <p>The other problem is that there have been so many bandaids to this code (by myself, included) that what it really needs is a good house-cleaning.  So I fought with the code for a few hours tonight and I think that what I need to do next is to step back and look at the logic flows, needed functionality, involved classes, and come up with a clean design for it all.  Blech.  Which means that it'll take a wee bit longer to have a working, syncing KPilot for my Treo 700p.</p>
 <p>But, theoretically, we should have a much-cleaned-up code base for device comm, with fewer bugs, and much more maintainable code for the future.</p>
 <p>Yay.  =:(</p>
-<p></body></html></p>

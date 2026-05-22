@@ -11,8 +11,6 @@ categories:
 tags: []
 permalink: "/2006/05/05/ldap-microsoft-exchange-and-kaddressbook-or-thunderbird/"
 ---
-<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
-<html><body></p>
 <p>My current employer uses Exhange 2003 as its current groupware solution.  I have on-and-off-again been beating my head against the proverbial concrete wall in trying to get it to work nicely with <a href="http://www.intranetjournal.com/foundation/ldap.shtml">LDAP</a> and addressbooks other than Evolution or Outlook, for obvious reasons.  Today, my geeky noggin' has broken through the proverbial concrete wall and I now have both <a href="http://www.kontact.org/">KDE's kaddressbook</a> and <a href="http://www.mozilla.com/thunderbird/">Thunderbird's</a> address book successfully using the Exchange server here at work.</p>
 <p>Yay, me!</p>
 <p>Two things I've found this morning that have helped my noggin' and I'll list them here for future reference for myself as well as in hopes of helping some other poor concrete/geek/proverbial/noggin'-banging soul.</p>
@@ -52,4 +50,4 @@ bind dn: [windows domain]\[username]<br />
 search filter: (objectclass=*)<br />
 scope: subtree</p></blockquote>
 <p>The trick was, I think, that I had to provide a more specific base dn to the address books.</p>
-<p>Hope this helps someone else out there, wherever your geeky proverbial concrete-bashing noggin' may find you.  =:)</body></html></p>
+<p>Hope this helps someone else out there, wherever your geeky proverbial concrete-bashing noggin' may find you.  =:)</p>

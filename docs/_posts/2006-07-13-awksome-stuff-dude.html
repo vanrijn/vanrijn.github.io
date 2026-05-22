@@ -8,8 +8,6 @@ categories:
 tags: []
 permalink: "/2006/07/13/awksome-stuff-dude/"
 ---
-<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
-<html><body></p>
 <p>I had need to convert some files today from being newline-separated (one line per file, key-value pairs) to '###'-separated.  In other words, instead of this:</p>
 <blockquote><p>foo=bar<br />
 smith=wibble<br />
@@ -24,4 +22,4 @@ neo=smith</p></blockquote>
 <blockquote><p>cat $file | awk '{printf("%s###", $0);} END {printf("\n")}'</p></blockquote>
 <p>That's just sweet!  Incidentally, I did figure out how to do it with a combination of tr and sed (convoluted because of the missing \n at the end):</p>
 <blockquote><p>F=$(cat $f | tr "\n" "_"  ); echo $F | sed 's,_,###,g'</p></blockquote>
-<p>But it's not nearly as pretty.  =;)</body></html></p>
+<p>But it's not nearly as pretty.  =;)</p>

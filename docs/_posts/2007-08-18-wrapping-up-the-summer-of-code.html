@@ -9,8 +9,6 @@ categories:
 tags: []
 permalink: "/2007/08/18/wrapping-up-the-summer-of-code/"
 ---
-<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
-<html><body></p>
 <p>I wrote this for this last week's commit digest and didn't want to steal Danny's thunder, but here's my thoughts on this year's SOC KPilot project...</p>
 <p>The KPilot summer of code project is winding down to a close, with this Monday being the “pencil's down” date. Bertjan Broeksema has done an outstanding job and has accomplished all that we said we wanted to on our <a href="http://code.google.com/soc/2007/kde/app.html?csaid=Ol0GAQRUWDIANRIkFAZQWi1LOxwJSV4FVyMAOUEHSV5UVndQPhZc">Summer of Code proposal</a>. The problem that we faced in KPilot was that each of our conduits did a lot of things in common, but all of them had their own code for doing these things. This has made maintenance a much harder job than it should be, and has led to some conduits being less feature-complete than they should be--not to mention having too many bugs from the duplicate code. So the idea was that each of our record-based conduits should be doing the same sorts of things as far as algorithm, process, and flow, and that we should pull as much of this common code out of the conduits and into some base classes as possible. This leaves our conduits to be responsible mainly for data transformation (turning a PC calendar vcal record into something that can be synchronized with a Palm database record), and should address the problems listed above.</p>
 <p>But while we were at it (and while we were taking the time to think through and design how KPilot should work), we also put as much effort into making it as hard as possible for our conduits to destroy our user's data.  It's something that needs to be carefully included in the design process, since it simply doesn't happen by accident (not destroying data during edge cases, etc.).  So we made some intentional design decisions that should hopefully result in fewer <a href="http://lists.kde.org/?l=kdepim-users&amp;m=117535933600408&amp;w=2">"KPilot ate my future"</a> e-mails.</p>
@@ -29,4 +27,3 @@ permalink: "/2007/08/18/wrapping-up-the-summer-of-code/"
 <li>stabilize, test, wash, rinse, repeat</li>
 <li>look at OpenSync framework again and (now that we have a common conduit framework in KPilot) see if we can leverage OpenSync's libraries for the underlying syncing algorithms.</li>
 </ul>
-<p></body></html></p>

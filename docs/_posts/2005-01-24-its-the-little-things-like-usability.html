@@ -8,8 +8,6 @@ categories:
 tags: []
 permalink: "/2005/01/24/its-the-little-things-like-usability/"
 ---
-<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
-<html><body></p>
 <p>I've been banging my head against the wall for a good couple of hours and had to vent....  </p>
 <p>I needed to get <a href="http://kopete.kde.org/" target="_parent">Kopete</a> (a REALLY good KDE IM client) to use my Squid proxy server.  Well, it's not designed to do that, so that's one thing, but what it can do is use a SOCKS proxy server.  I proceeded to set up <a href="http://www.inet.no/dante/" target="_parent">the Dante SOCKS proxy server</a> on my aging-but-still-ticking debian box.  All that's left is getting Kopete to use it, right?  Nope, not so easy.  You can't have just Kopete use a SOCKS proxy server, like gaim can.  You have to have the entire desktop environment (all of KDE) use the SOCKS server.  Okay, fair enough and understandable.  Ahhh, but then my question for you, oh fair seeker of truth, knowledge and KDE enlightenment, is how the bloody heck you do that.</p>
 <p>There's the Proxy configuration settings dialog in KDE's control center.  And it has 2 tabs... Proxy and SOCKS.  One would think that one could just go to the SOCKS tab and enable SOCKS support, right?  Well, at least for me (running Fedora Core 3), this doesn't work.  Every time I tried to enable Dante support, I got an error saying "SOCKS could not be loaded" or some-such.  I had to download <a href="http://dag.wieers.com/packages/dante/" target="_parent">dag's dante RPM</a> to get the libsocks library, and then set this up as a custom library.  This was a pain, but after that, things should just work swimmingly, right?  Wrong.</p>
@@ -23,4 +21,4 @@ permalink: "/2005/01/24/its-the-little-things-like-usability/"
     }
 </p></blockquote>
 <p>Literally--that's it.  Just put that into a text file and save it as is.  I'll likely expand it later to be more complex, but for now, it does what I want it to.</p>
-<p>Okay, I feel better now.</body></html></p>
+<p>Okay, I feel better now.</p>

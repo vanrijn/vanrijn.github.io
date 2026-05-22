@@ -10,8 +10,6 @@ categories:
 tags: []
 permalink: "/2006/04/12/kubuntu-on-a-powerbook/"
 ---
-<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
-<html><body></p>
 <p>So, in an attempt to get back to hacking/programming again (since I'm definitely not getting it at work), I've installed Linux on my Powerbook.  Actually, I'd installed SuSE 10 on it the day after I bought the powerbook 5+ months ago, but I'd never really done anything with it--partly because I really wanted to see what OS X was really like (it is REALLY, REALLY cool, but not conducive to feeling like I can start improving things/hacking/programming) and partly because neither the trackpad nor the wireless ethernet worked.  But recently, the folks at the <a href="http://bcm43xx.berlios.de/">Broadcom 43xx Linux Driver</a> project have made GREAT strides in getting the proprietary Broadcom wireless network card working in Linux.  And, the kind folks with the <a href="http://kubuntu.org/">kubuntu</a>project (probably also the core <a href="http://www.ubuntu.com/">ubuntu</a> project as well, but I much prefer <a href="http://www.kde.org">KDE</a>...) have made almost everything work out of the box for Linux running on the Powerbook.</p>
 <p>There are a few things that I had to do to get things working as well as I wanted them to.  This, then, is some notes on what I've done....</p>
 <p>First, the trackpad.  By default, the latest kubuntu (Dapper Drake, at time of writing) comes with the driver for the apple trackpad.  The kernel module for this is "appletouch."  To get it to play nicely with X, I've replaced kubuntu's default section for the Synaptics mouse in /etc/X11/xorg.conf with this:</p>
@@ -118,4 +116,4 @@ echo "`date`: doing resume stuff" &gt;&gt; /tmp/apm-debug.log<br />
 esac
 </p></blockquote>
 <p>And with that, my Linux powerbook correctly restarts the wireless network whenever I suspend and resume (which works perfectly well out of the box too, by the way).</p>
-<p>Okay, bye.</body></html></p>
+<p>Okay, bye.</p>

@@ -8,8 +8,6 @@ categories:
 tags: []
 permalink: "/2006/12/05/cpanel-web-host-and-imap-email-filtering/"
 ---
-<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
-<html><body></p>
 <p>I wish I would have found <a href="http://forums.cpanel.net/showpost.php?p=50826&amp;postcount=70">this very helpful post</a> a long time ago, but such is life, I suppose.  I've been trying to figure out a good way to do server-side filtering on my cpanel-based IMAP server for quite a while now, but hadn't found anything official.  I wrote some custom exim filters that my last web host was gracious enough to let me put in place, but that was a little hackish, since it required a good-natured web-hosting admin.</p>
 <p>But following Pda0's suggestions from <a href="http://forums.cpanel.net/showpost.php?p=50826&amp;postcount=70">his post</a>  seems to be working quite well thus far.  I'll quote him below...</p>
 <blockquote><p>I've been able to set up procmail in a per-user basis, not globally! The .procmailrc is global to a domain though.</p>
@@ -72,4 +70,4 @@ $OPERA</p>
 :0<br />
 * $DELIVER_TO ?? ^^USER@YOURDOMAIN<br />
 $DEFAULT</p></div>
-<p>Hope this helps the next poor soul who tries to do server-side IMAP filtering on a cpanel-based web host.  =:)</body></html></p>
+<p>Hope this helps the next poor soul who tries to do server-side IMAP filtering on a cpanel-based web host.  =:)</p>

@@ -9,8 +9,6 @@ categories:
 tags: []
 permalink: "/2006/04/21/converting-a-cvs-repository-to-subversion/"
 ---
-<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
-<html><body></p>
 <p>I had thought that this would be a straight-forward mission, but it was not.  While the front-end tools look and feel very much the same between <a href="http://ximbiot.com/cvs/wiki/index.php?title=Main_Page">CVS</a> and <a href="http://cvs2svn.tigris.org/">Subversion</a>, the back ends are VERY different.  Honestly, I much-prefer the CVS approach (all flat-files, predictably placed in $CVSROOT), but since that's probably part of the problem of CVS's lack of flexibility with file/directory moves, etc., it's understandable that Subversion does it differently.</p>
 <p>Anyway, in using cvs2svn to convert my existing CVS repositories, I faced a problem that was covered in <a href="http://cvs2svn.tigris.org/faq.html">cvs2svn's FAQ</a>:<!--more--></p>
 <blockquote><p>
@@ -90,4 +88,3 @@ svn mkdir file://${NEWSVNROOT}/$module -m "Added $module directory."
 svnadmin -q --parent-dir=$module load ${NEWSVNROOT} &lt; ${TMPSVNDUMP}/$module.dump
 done</pre>
 </blockquote>
-<p></body></html></p>
