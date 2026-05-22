@@ -1,10 +1,10 @@
 ---
-layout: home
-paginate: true
+layout: page
 ---
 
 # Links
 
+- [Blog](/posts/)
 - [Github](https://github.com/vanrijn)
 - [Mastodon](https://hachyderm.io/@vanRijn)
 - [My old blog that I haven't touched in years](https://movingparts0.wordpress.com)
