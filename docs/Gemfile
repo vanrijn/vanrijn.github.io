@@ -8,6 +8,10 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
+  gem "jekyll-paginate-v2"
+  # Required because jekyll-theme-basically-basic's gemspec lists it as a
+  # dependency. Not enabled in _config.yml plugins list — pagination is
+  # handled by jekyll-paginate-v2.
   gem "jekyll-paginate"
 end
 

@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{% include page-intro.html %}
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="index inner">
+    {% if content != blank %}<div>{{ content }}</div>{% endif %}
+
+    <div class="entries-{{ page.entries_layout | default: 'list' }}">
+      {% include posts-paginated.html %}
+    </div>
+  </div>
+</main>

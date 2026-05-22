@@ -3,5 +3,6 @@ title: Blog
 layout: posts
 permalink: /posts/
 entries_layout: list
-paginate: true
+pagination:
+  enabled: true
 ---
