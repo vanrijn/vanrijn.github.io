@@ -1,0 +1,16 @@
+- title: GitHub
+  url: https://github.com/vanrijn
+  icon: github
+- title: Mastodon
+  url: https://hachyderm.io/@vanRijn
+  icon: mastodon
+  rel: me
+- title: LinkedIn
+  url: https://linkedin.com/in/nosajka
+  icon: linkedin
+- title: Twitter
+  url: https://twitter.com/jdotk
+  icon: twitter
+- title: Email
+  url: mailto:vR@movingparts.net
+  icon: email

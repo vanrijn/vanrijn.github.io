@@ -1,0 +1,19 @@
+<ul class="contact-list">
+  {% for link in site.data.social %}
+    <li>
+      <a href="{{ link.url }}"{% if link.rel %} rel="{{ link.rel }}"{% endif %}>
+        <span class="icon icon--{{ link.icon }}">{% include {{ link.icon | prepend: 'icon-' | append: '.svg' }} %}</span>
+        <span class="label">{{ link.title }}</span>
+      </a>
+    </li>
+  {% endfor %}
+
+  {% if site.plugins contains 'jekyll-feed' or site.gems contains 'jekyll-feed' %}
+    <li>
+      <a href="{{ site.feed.path | default: 'feed.xml' | relative_url }}" title="Atom Feed">
+        <span class="icon icon--rss">{% include icon-rss.svg %}</span>
+        <span class="label">{{ site.data.theme.t.subscribe | default: 'Subscribe' }}</span>
+      </a>
+    </li>
+  {% endif %}
+</ul>
