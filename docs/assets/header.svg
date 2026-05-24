@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 84" width="1400" height="84" role="img" aria-label="movingparts.net — casa de vanRijn">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1402 84" width="1402" height="84" role="img" aria-label="movingparts.net — casa de vanRijn">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#dde6f2"/>
@@ -40,9 +40,13 @@
     <filter id="textShadow" x="-50%" y="-50%" width="200%" height="200%">
       <feDropShadow dx="0.6" dy="0.6" stdDeviation="0.35" flood-color="#000000" flood-opacity="0.85"/>
     </filter>
+
+    <filter id="textShadowLarge" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="1.5" dy="1.5" stdDeviation="0.8" flood-color="#000000" flood-opacity="0.7"/>
+    </filter>
   </defs>
 
-  <rect y="12" width="1400" height="60" fill="url(#bg)"/>
+  <rect x="0.5" y="12.5" width="1401" height="59" rx="6" ry="6" fill="url(#bg)" stroke="#2c3d58" stroke-width="1"/>
 
   <g filter="url(#shadow)">
     <ellipse cx="160" cy="42" rx="150" ry="42" fill="url(#ovalfill)" stroke="#2c3d58" stroke-width="0.75"/>
@@ -50,8 +54,8 @@
   <rect x="10" y="0" width="300" height="84" fill="url(#stipple)" clip-path="url(#ovalclip)" pointer-events="none"/>
   <ellipse cx="160" cy="22" rx="120" ry="10" fill="#ffffff" opacity="0.22" clip-path="url(#ovalclip)"/>
 
-  <text x="160" y="54" text-anchor="middle" font-family="'Helvetica Neue Condensed', 'Arial Narrow', 'Helvetica Neue', Helvetica, Arial, sans-serif" letter-spacing="-1">
-    <tspan font-size="38" font-weight="600" fill="#4a6385">movingparts</tspan><tspan font-size="15" font-style="italic" fill="#1a2840" dx="2" dy="-4" font-weight="400">dot</tspan><tspan font-size="38" font-weight="600" fill="#4a6385" dx="2" dy="4">net</tspan>
+  <text x="160" y="54" text-anchor="middle" font-family="'Helvetica Neue Condensed', 'Arial Narrow', 'Helvetica Neue', Helvetica, Arial, sans-serif" letter-spacing="-1" filter="url(#textShadowLarge)">
+    <tspan font-size="42" font-weight="600" fill="#4a6385">movingparts</tspan><tspan font-size="17" font-style="italic" fill="#1a2840" dx="2" dy="-5" font-weight="400">dot</tspan><tspan font-size="42" font-weight="600" fill="#4a6385" dx="2" dy="5">net</tspan>
   </text>
 
   <g transform="translate(1355, 35)" filter="url(#softshadow)">
