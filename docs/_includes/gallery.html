@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+<link rel="stylesheet" href="{{ '/assets/css/gallery.css' | relative_url }}">
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var galleries = document.querySelectorAll('figure > ul');
+    galleries.forEach(function (ul, i) {
+      ul.classList.add('mp-gallery');
+      var anchors = ul.querySelectorAll('a');
+      anchors.forEach(function (a) {
+        a.classList.add('glightbox');
+        a.dataset.gallery = 'mp-gallery-' + i;
+        var img = a.querySelector('img');
+        if (img && !img.hasAttribute('loading')) {
+          img.setAttribute('loading', 'lazy');
+        }
+      });
+    });
+    if (window.GLightbox) {
+      GLightbox({ selector: '.glightbox' });
+    }
+  });
+</script>

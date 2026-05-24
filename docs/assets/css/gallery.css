@@ -1,4 +1,4 @@
-.entry-content figure > ul {
+.mp-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 12px;
@@ -7,22 +7,22 @@
   margin: 1.5em 0;
 }
 
-.entry-content figure > ul > li {
+.mp-gallery > li {
   margin: 0;
 }
 
-.entry-content figure > ul > li > figure {
+.mp-gallery > li > figure {
   margin: 0;
 }
 
-.entry-content figure > ul a {
+.mp-gallery a {
   display: block;
   overflow: hidden;
   border-radius: 4px;
   background: #f0f0f0;
 }
 
-.entry-content figure > ul img {
+.mp-gallery img {
   display: block;
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -30,6 +30,6 @@
   transition: transform 0.2s ease;
 }
 
-.entry-content figure > ul a:hover img {
+.mp-gallery a:hover img {
   transform: scale(1.04);
 }
