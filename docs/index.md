@@ -5,7 +5,7 @@ title: Home
 
 {% include hero.html %}
 
-<p style="font-size: 1.15rem; text-align: center; margin: 0 0 2rem; color: #888;"><em>Software engineer by day, dad-of-three by night, accidental blogger since 2000.</em></p>
+<p style="font-size: 1.15rem; text-align: right; margin: 0 0 2rem; color: #888;"><em>Kinda like Batman but with a wife and 3 kids.</em></p>
 
 By day I write software at Apple. The rest of the time, life happens — my darling bride, three kids, faith, movies, video games, code, fountain pens and Japanese paper, the occasional adventurous home improvement project. This site is the [running record](/posts/) of all of it, going back to 2000 — when I have something to say (and sometimes when I don't).
 
