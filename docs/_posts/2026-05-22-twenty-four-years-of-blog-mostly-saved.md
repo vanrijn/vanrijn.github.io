@@ -1,5 +1,5 @@
 ---
-title: "Twenty-Four Years of Blog, Mostly Saved"
+title: "Twenty-Six Years of Blog, Mostly Saved"
 date: 2026-05-22 23:30:00 -0700
 categories:
 - Computer Stuff
@@ -7,17 +7,35 @@ categories:
 tags: []
 ---
 
-I started blogging in 2000, and I never quite stopped — though there were stretches where I really, really did stop. The blog has lived on WordPress at movingparts.net for most of those twenty-four years, and during that time I've managed to make roughly every long-term-thinking mistake a person can make with their own content.
+I started blogging in 2000, and I never quite stopped — though there were stretches where I really, really did stop. The blog has lived in WordPress at movingparts.net for all of those twenty-six years, and during that time I've managed to make a few long-term-thinking mistakes.
 
-This week I finally moved the whole thing — 425 posts, 231 images, twenty-four years of bad fashion choices and decent takes about Linux — to a static Jekyll site. GitHub-hosted, fully self-contained, no database, no plugins, no server-side anything. Here's the damage report.
+This week I finally moved the whole thing — 425 posts, 231 images, twenty-six years of excellent fashion choices, hot takes about Linux, notes on family and video games and such — to a static Jekyll site. GitHub-hosted, fully self-contained, no database, no plugins, no server-side anything. Here's a retrospective.
 
-## The Original Sin: Flickr, around 2009
+## Flickr sure was great until it wasn't!
 
-Somewhere around 2009 I cancelled my Flickr Pro account. I had a vague sense that "I should probably make sure my photos aren't only on Flickr," but I lacked a more specific sense of "the previous five years of my blog has every single photo embedded as an `<img src="https://farm2.staticflickr.com/.../whatever.jpg">` and the moment your account goes away, every single one of those URLs returns a `410 Gone`."
+I started using Flickr to store all of my personal photos in 2005, way back when Flickr was free and cool. I had 1 Terabyte of storage, for free!!
+It was fun! It was neat! It had great features! It was free! I loved old, free Flickr! And I kept literally every photo
+our family had ever taken in Flickr.
 
-Past Me didn't think this through. Past Me lived for several years with a quietly-rotting blog before noticing.
+And heck, since Flickr worked so well, and since they legitimately had really nice
+features and functionality like gallery views, photo sets, etc., I also used Flickr for all of my website pictures.
+Herein lies the start of my blog mistakes. What I should have done way back then was set up a separate Flickr account
+that just hosted my blog graphics, but mistakes were made and I did not think of that.
 
-Sometime in 2019, in a fit of belated responsibility, I at least did a full Flickr export — `2019-01-06 Flickr Export/`, around 9,600 photos and 9,600 metadata JSON files, into a folder I then promptly forgot about for seven years. Past Me also forgot to actually USE the export to fix anything on the blog. Past Me was, once again, not thinking ahead.
+14 years later, in 2019, after SmugMug bought Flickr, they limited the amount of free photos you could have in your
+account to 1000 photos or videos. Then they started actively deleting photos that were above that 1000 photo limit. This
+sucked and I started looking for options ASAP.
+
+I at least had the forethought do do a full export of my Flickr library and saved it to my NAS,
+around 9,600 photos and 9,600 metadata JSON files. The tools at the time
+were pretty bad for doing anything with this export, so it was all I could do to try to go through the export and at
+least name the files from the absolutely useless `img_3423_4675736600_o.jpg` format to something more manageable like
+`2015-03-07-picture-of-family-dog.jpg`.
+
+Shortly after doing the Flickr export and trying to salvage all the family photos, I cancelled my Flickr account. I had a vague sense that "I should probably make sure my photos aren't only on Flickr," but I lacked a more specific sense of "the previous 19 years of my blog has every single photo embedded as an `<img src="https://farm2.staticflickr.com/.../whatever.jpg">` and the moment your account goes away, every single one of those URLs returns a `410 Gone`."
+
+I did go through some of my more photo-centric blog pages and found those images in the Flickr export and uploaded them
+to WordPress's database. But there were so many images missing that I just didn't have the time to deal with.
 
 ## The WordPress → Jekyll Import
 
@@ -38,7 +56,8 @@ So before I could even look at the content, I had a 425-file regex problem and a
 
 ## The Cleanup
 
-Working through this over the course of a long afternoon, the rough order was:
+Working through this over the course of several long evenings, and with the help of our new friendly and amazingly
+capable AI/LLM friends, the rough order was:
 
 1. **Strip the WP wrapper junk** from all 425 posts. Two regex patterns covered the standard wrapper, plus an extended variant some posts had picked up (DOCTYPE / html / head / meta / body, all wrapped across two paragraphs) that hit 8 outliers.
 2. **Patch orphan `</p>` tags** the wrapper-stripper left behind. About 95 posts had ended up with a closing `</p>` that no longer had a matching `<p>` open — readers saw a literal `</p>` floating in the rendered text.
@@ -51,15 +70,15 @@ Working through this over the course of a long afternoon, the rough order was:
 
 There were also a handful of secondary cleanups along the way: switching from `jekyll-paginate` (which only paginates `/index.html`) to `jekyll-paginate-v2` (which paginates anything with `pagination: enabled: true`), then chasing down why the sidebar nav broke after the swap (because v2 strips the `path` attribute on paginated pages, which breaks the theme's `where: "path", "blog.md"` lookup), then fixing excerpt extraction (because WordPress-imported posts have one `<p>` per line separated by single `\n`, and Jekyll's default `excerpt_separator` is `\n\n` — which never matched, so every "excerpt" was the whole post).
 
-## The Sermon
+## Lessons Learned
 
 If you take anything from this, take this:
 
 - **Don't cancel a photo host without searching your blog for `<img src>` references to it first.** The `<img>` tag's silent failure mode — the broken-image icon — is one of the loudest forms of personal-archive rot, and you don't usually notice until years later.
 - **Take the export.** Even if you don't use it for seven years. *Especially* if you don't use it for seven years.
 - **Filenames are interfaces.** Photo IDs in filenames, machine-readable metadata in sidecars, naming conventions you'll be able to grep five years later — these are gifts from Past You to Future You.
-- **Static sites are forgiving.** Once everything is just files in `_posts/` and `assets/`, you can do almost any cleanup with a few hundred lines of Python and an afternoon. Try doing that to a live WordPress database with whatever affiliate plugin you installed in 2008.
+- **Static sites are forgiving.** Once everything is just files in `_posts/` and `assets/`, you can do almost any cleanup with a few hundred lines of Python and some quality time with your computer. Try doing that to a live WordPress database with whatever affiliate plugin you installed in 2008.
 
-The blog's back. The photos are back. I owe most of this rescue to a single one-good-decision-among-many that 2018-Me made — taking that Flickr export — and most of the actual labor to an afternoon of regex hygiene. Past Me wasn't ALL bad.
+The blog's back. The photos are back. I owe most of this rescue to a single one-good-decision-among-many that 2019-Me made — taking that Flickr export — and most of the actual labor to several evenings of regex hygiene. Yay Jason!
 
 Now to go actually post things.
