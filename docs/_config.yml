@@ -70,6 +70,7 @@ exclude:
   - node_modules
   - Rakefile
   - README
+  - THEME-NOTES.md
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/

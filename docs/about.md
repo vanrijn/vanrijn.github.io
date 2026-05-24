@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: page
 title: About Me
 date: 2006-05-02 08:32:46.000000000 -07:00
 published: true
@@ -7,6 +7,8 @@ categories: []
 tags: []
 permalink: "/about/"
 ---
+
+<img src="{{ site.author.picture | relative_url }}" alt="{{ site.author.name }}" style="float: right; width: 220px; margin: 0 0 1rem 1.5rem; border-radius: 8px;">
 
 My name is Jason 'vanRijn' Kasper.
 

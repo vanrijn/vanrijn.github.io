@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 84" width="1400" height="84" role="img" aria-label="movingparts.net — casa de vanRijn">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#dde6f2"/>
+      <stop offset="100%" stop-color="#4a6385"/>
+    </linearGradient>
+
+    <linearGradient id="ovalfill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a6385"/>
+      <stop offset="100%" stop-color="#dde6f2"/>
+    </linearGradient>
+
+    <linearGradient id="lens" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0f4f9" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#aebdd2" stop-opacity="0.55"/>
+    </linearGradient>
+
+    <pattern id="stipple" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.5" fill="#0e1a2f" opacity="0.32"/>
+    </pattern>
+
+    <clipPath id="ovalclip">
+      <ellipse cx="160" cy="42" rx="150" ry="42"/>
+    </clipPath>
+
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="2" dy="2.5" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.4"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <filter id="softshadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1"/>
+      <feOffset dx="1" dy="1.5" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.35"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <filter id="textShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0.6" dy="0.6" stdDeviation="0.35" flood-color="#000000" flood-opacity="0.85"/>
+    </filter>
+  </defs>
+
+  <rect y="12" width="1400" height="60" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)">
+    <ellipse cx="160" cy="42" rx="150" ry="42" fill="url(#ovalfill)" stroke="#2c3d58" stroke-width="0.75"/>
+  </g>
+  <rect x="10" y="0" width="300" height="84" fill="url(#stipple)" clip-path="url(#ovalclip)" pointer-events="none"/>
+  <ellipse cx="160" cy="22" rx="120" ry="10" fill="#ffffff" opacity="0.22" clip-path="url(#ovalclip)"/>
+
+  <text x="160" y="54" text-anchor="middle" font-family="'Helvetica Neue Condensed', 'Arial Narrow', 'Helvetica Neue', Helvetica, Arial, sans-serif" letter-spacing="-1">
+    <tspan font-size="38" font-weight="600" fill="#4a6385">movingparts</tspan><tspan font-size="15" font-style="italic" fill="#1a2840" dx="2" dy="-4" font-weight="400">dot</tspan><tspan font-size="38" font-weight="600" fill="#4a6385" dx="2" dy="4">net</tspan>
+  </text>
+
+  <g transform="translate(1355, 35)" filter="url(#softshadow)">
+    <line x1="-22" y1="0" x2="-12" y2="-1" stroke="#1a2840" stroke-width="1.4" stroke-linecap="round"/>
+    <line x1="22" y1="0" x2="32" y2="-2" stroke="#1a2840" stroke-width="1.4" stroke-linecap="round"/>
+    <ellipse cx="-10" cy="0" rx="9" ry="7.5" fill="url(#lens)" stroke="#1a2840" stroke-width="1.5"/>
+    <ellipse cx="10" cy="0" rx="9" ry="7.5" fill="url(#lens)" stroke="#1a2840" stroke-width="1.5"/>
+    <path d="M -1 -1 Q 0 -3 1 -1" fill="none" stroke="#1a2840" stroke-width="1.4" stroke-linecap="round"/>
+  </g>
+
+  <text x="1355" y="55" text-anchor="middle" font-family="Georgia, serif" font-size="10" font-style="italic" fill="#ffffff" filter="url(#textShadow)" letter-spacing="0.4">casa de vanRijn</text>
+</svg>
