@@ -1,0 +1,35 @@
+.entry-content figure > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 1.5em 0;
+}
+
+.entry-content figure > ul > li {
+  margin: 0;
+}
+
+.entry-content figure > ul > li > figure {
+  margin: 0;
+}
+
+.entry-content figure > ul a {
+  display: block;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #f0f0f0;
+}
+
+.entry-content figure > ul img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  transition: transform 0.2s ease;
+}
+
+.entry-content figure > ul a:hover img {
+  transform: scale(1.04);
+}
