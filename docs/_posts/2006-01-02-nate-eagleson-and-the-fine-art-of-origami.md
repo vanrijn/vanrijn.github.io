@@ -1,0 +1,21 @@
+---
+layout: post
+title: Nate Eagleson and the fine art of Origami
+date: 2006-01-02 01:39:41.000000000 -08:00
+published: true
+categories:
+- Life in General
+tags: []
+permalink: "/2006/01/02/nate-eagleson-and-the-fine-art-of-origami/"
+---
+
+Nate Eagleson, ladies and gentlemen... Now [this is absolutely hilarious](http://www.codeninjaz.net/~nate/writing/decor.html).
+
+> Note that the above image gives good detail on the tear. At first I refused to make the tear, fearing it might damage the purity of the art, which had involved only folding and thumbtacks to that point, but eventually, my passion for realism (and pseudo-legible characters) surpassed my passion for artistic purity.
+>
+>
+> Many thanks to the Rite Aid Corporation, for providing the IS team with a digital camera that was sitting abandoned in my cube. I can completely understand why we would need such a thing.
+
+You might not find the humor in this, but having worked at Rite Aid for 13 years, I feel able to say that it is, in fact, absolutely hilarious. The art of it is subject to the eye of the beholder, of course, but the canvas (my old cubicle at Rite Aid) is apropos or nothing, as is the medium he has chosen.
+
+[Nate](http://www.codeninjaz.net/~nate/), I wish I could have worked with you longer. Perhaps time and God will cause our paths to cross again. =:)

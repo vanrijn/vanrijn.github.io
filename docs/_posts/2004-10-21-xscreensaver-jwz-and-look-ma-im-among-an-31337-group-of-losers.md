@@ -1,0 +1,26 @@
+---
+layout: post
+title: XScreenSaver, jwz, and Look Ma, I'm among an 31337 group of losers!!!
+date: 2004-10-21 01:31:50.000000000 -07:00
+published: true
+categories:
+- Life in General
+tags: []
+permalink: "/2004/10/21/xscreensaver-jwz-and-look-ma-im-among-an-31337-group-of-losers/"
+---
+
+[![portrait-vanrijn-revised]({{site.baseurl}}/assets/2004/10/3067585449_41d4e506ef_o.png)]({{site.baseurl}}/assets/2004/10/3067585449_41d4e506ef_o.png "portrait-vanrijn-revised by vanRijn") In other non-related-really news, I got an e-mail from [the infamous jwz](http://www.jwz.org/) last night. He has patiently [outlined all of the issues](http://www.jwz.org/xscreensaver/toolkits.html) related to replacing the not-exactly-unugly [xscreensaver](http://www.jwz.org/xscreensaver/) unlock dialog. It was kind of funny--the e-mail that he sent had 18 recipients, of which I was one. The docu-page that jwz posted read VERY much like all of the questions and answers that I still have in my IMAP mailbox from when I was working on doing this bit of side-coding. =:) It was pretty funny reading it--just about all of the questions I asked jwz and all of the answers he so patiently gave me are on his [explanatory page](http://www.jwz.org/xscreensaver/toolkits.html).
+
+jwz, for those of you who have been living in a sub-oceanic cave for the last 20 years, is a legend in the Open Source community, having been a major reason that Netscape was successful, and as a result, one of the major reasons that we have such an incredible browser in the mozilla family today. I think he has a reputation for being a difficult guy to get along with--at least that was the perception I had after having read up on his previous posts on the 'net regarding this topic. At any rate, he's opinionated, very knowledgeable, not afraid to speak his mind, and stands up for what he believes in. All of the things you'd want in a good coder, then. =:) Anyway, he was VERY patient and thorough with me in the mini-barrage of e-mails that I sent at him on this subject.
+
+But to get back to my point in all of this... well, other than the fact that jwz has posted a very useful and timely document on a sore subject that he's constantly harassed about....
+
+It made my day to get jwz's e-mail, as it grouped me with 17 other people (most of which I immediately recognized as being huge in the open-source community), like [Nat](http://www.nat.org/), [Miguel](http://primates.ximian.com/~miguel/), and [JSpaleta](http://www.livejournal.com/users/jspaleta/).
+
+Why did that make my day? Well for one, I think it's another clue to the puzzle that is my future--many things are pointing out to me that working in and with the Open Source community is innate to my being. I don't know what that means as far as my have-to-pay-the-bills future, but it does make one give pause, certainly. Novell, Sun, and Google immediately come to mind as seem-like-incredibly-cool places of have-to-pay-the-bills futures. =:)
+
+Secondly, I am (per this e-mail) officially one of the folks who have tried to accomplish the replacing of xscreensaver's Xlib-based unlock dialog with a Gtk/Gnome/Qt/KDE-based one, but have not succeeded.
+
+I guess what I'm saying is that all 18 of us recipients to jwz's e-mail are losers in a very loose sense of the word. None of us have yet succeeded in this lofty goal. And if I am to be grouped with a bunch of losers (which isn't at all how I view my fellow recipients to this e-mail), these are the guys that I'd want to be grouped with--heroes of Open Source all of them. =:)
+
+Look Ma, I am an Open Source loser. =:D

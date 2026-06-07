@@ -1,0 +1,18 @@
+---
+layout: post
+title: Feelin' Blarghy
+date: 2005-05-02 16:36:46.000000000 -07:00
+published: true
+categories:
+- Life in General
+tags: []
+permalink: "/2005/05/02/feelin-blarghy/"
+---
+
+[I am](http://www.faqs.org/docs/jargon/B/blargh.html).
+
+I feel like I'm standing still when I should be running. I feel exhausted. I have little time and too much to do in it.
+
+Blargh.
+
+That's about all I have to say about that.

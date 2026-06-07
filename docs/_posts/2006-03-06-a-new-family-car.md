@@ -1,0 +1,14 @@
+---
+layout: post
+title: A New Family Car
+date: 2006-03-06 00:00:58.000000000 -08:00
+published: true
+categories:
+- Life in General
+tags: []
+permalink: "/2006/03/06/a-new-family-car/"
+---
+
+[![]({{site.baseurl}}/assets/2006/03/19263858_80a9b9335b_m.jpg)]({{site.baseurl}}/assets/2006/03/19263858_80a9b9335b_m.jpg "photo sharing")
+
+No, it's not the trike I'm sporting in the picture, but I thought it was blog-worthy all the same. Oh. We broke down and bought a 2005 Chrysler Town & Country. It's a truck, dangit.

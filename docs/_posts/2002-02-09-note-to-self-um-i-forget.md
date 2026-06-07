@@ -1,0 +1,14 @@
+---
+layout: post
+title: 'note to self: um. I forget...'
+date: 2002-02-09 23:54:15.000000000 -08:00
+published: true
+categories:
+- Linux
+tags: []
+permalink: "/2002/02/09/note-to-self-um-i-forget/"
+---
+
+It's an interesting thing to note--I'm still using blackbox. =:) Heh. I must be getting old....
+
+Further note to self: put some newer screenshots up... sheesh!

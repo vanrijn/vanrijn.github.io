@@ -1,0 +1,18 @@
+---
+layout: post
+title: New ways to waste time!!!
+date: 2005-03-05 01:05:02.000000000 -08:00
+published: true
+categories:
+- Life in General
+tags: []
+permalink: "/2005/03/05/new-ways-to-waste-time/"
+---
+
+- [What in the world???](http://www.halfbakery.com/)
+- Also, as noted previously, I've broken down and bought an Xbox for the fam (well, okay, and largely for me too  =:) ).  I also have purchased the VERY cool [Street Fighter Anniversary Collection](http://web.archive.org/web/20220417093626/https://www.capcom.com/sfac/), and with it Xbox Live for a year. I have discovered several new and exciting things since then:
+  - It is un-healthy for several key areas of your body to play for 5 hours, hunched over, trying to keep your head perfectly still so as not to move your Xbox Live headset.
+- One or more of the following is sucking badly and causes terrible lag: the Street Fighter game itself, the server it's connecting to, Xbox Live server, my Linksys WRT54GS router, Verizon DSL, or my 3com hub.  I have gone so far as to connect the Xbox directly up to the Verizon DSL modem, and it did seem to get less laggy, but not all that much (still had pretty laggy games tonight).  Any and all insight into this phenomenon of suckiness would be greatly appreciated, though having read through some online forums, I think it's mostly a function of how Capcom wrote their online fighting games.
+- It is simultaneously absolutely fun and entirely unhealthy to play said Xbox Live games from roughly 8:30 p.m. until 12:30 a.m. for 4 nights in a row.
+- The average Xbox Live citizen curses approximately once every 9 words.  This is a rough average, mind you, and there are those who are striving to achieve a higher ratio of foul language per meaningful conversation, and thankfully a few under-achievers too.   Due to this, unfortunately, I shall not be able to let my kiddos play games with the headset on.  Pity.
+- Apparently, it takes longer than 2 weeks to get [something from Hong Kong](http://www.lik-sang.com/info.php?category=166&products_id=1860&) via Global Priority mail.

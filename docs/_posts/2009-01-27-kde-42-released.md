@@ -1,0 +1,13 @@
+---
+layout: post
+title: KDE 4.2 Released!!
+date: 2009-01-27 22:17:10.000000000 -08:00
+published: true
+categories:
+- KDE
+- KPilot
+tags: []
+permalink: "/2009/01/27/kde-42-released/"
+---
+
+Woohoo! KDE 4.2 is released!! I only wish the last few KPilot bug fixes would have made it into the 4.2.0 release, but we were too late. Still, if you think you knew what KDE4 was all about, think again. Check out KDE 4.2.0. =:)

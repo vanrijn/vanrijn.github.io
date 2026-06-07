@@ -1,0 +1,16 @@
+---
+layout: post
+title: the war on simulator sickness
+date: 2004-10-08 20:30:59.000000000 -07:00
+published: true
+categories:
+- Video Games
+tags: []
+permalink: "/2004/10/08/the-war-on-simulator-sickness/"
+---
+
+I am determined to figure out how to beat simulator sickness. There has to be some tricks or something to get my body to not be confused/sickened/making me feel like puking.
+
+Wish me luck.
+
+And let me know if you have any secret hints!!!

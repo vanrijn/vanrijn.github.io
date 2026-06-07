@@ -1,0 +1,18 @@
+---
+layout: post
+title: Ubuntu Linux, External Speakers, Your Powerbook, and You
+date: 2006-04-15 23:24:42.000000000 -07:00
+published: true
+categories:
+- Apples
+- Life in General
+- Linux
+tags: []
+permalink: "/2006/04/15/ubuntu-linux-external-speakers-your-powerbook-and-you/"
+---
+
+Yet another small blip from the life and times of a powerbook owner and Linux glutton-for-pain... I think this issue has been fixed in the [Alsa](http://www.alsa-project.org/) 1.0.11-rc4 snd-powermac modules, but since I haven't taken the time to recompile the kernel yet and since Ubuntu Dapper Drake still only comes with 1.0.10, I'm stuck with a workaround for a time being.
+
+So, I have a 15" 1.5G powerbook, and I just bought some really nice Altec Lansing speakers from the local Target and would like to use them with my powerbook in Linux. Sounds simple enough of a request, no? Well, believe it or not, it doesn't work out of the box. I plug my headphones/external speakers in and sound still comes out of my powerbook's internal speakers. I'm using kmix here (KDE > * =;) ), so what I've found is that I have to manually go into kmix's full mixer window (right-click on the tray icon and click "Show Mixer Window". Go to the "Switches" tab. Note that "PC Speaker" is selected. "Headphone" may or may not be selected also if you have your external speaker/headphones plugged in, but no sound is coming out of your headphones/external speakers--that is the problem, after all. Also, "Auto Mute" is selected by default on mine (probably should do exactly what I need it to do by default, but methinks it's broken). So, anyway, unselect "Auto Mute", then click "Headhpone". Beautiful. Music now comes out of all 4 of my speakers. =:) Flippin' sweet!! At first, I had to keep playing with the "Headphone" and "PC Speaker" selections--turning one off, then the other, etc., but now it seems to be working perfectly well.
+
+HTH some other glutton-for-pain Linux powerbook user.... =:)

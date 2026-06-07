@@ -1,0 +1,16 @@
+---
+layout: post
+title: The Sky is Falling
+date: 2006-02-19 23:31:51.000000000 -08:00
+published: true
+categories:
+- Life in General
+tags: []
+permalink: "/2006/02/19/the-sky-is-falling/"
+---
+
+We now are the almost owners of a 2005 Chrysler, Town and Country "Truck" (read: "minivan" for those not worried about what it means to one's coolness factor to own a minivan).
+
+Oh, and [what the heck](http://www.survivingpeakoil.com/index.php)??? Is it finally time to go buy a few guns, install solar panels and windmills, convert the cars to run on raw sewage, go buy some cows and chickens, and plant an acre of vegetables in my new back yard??? And equally as important, will there be any use for mathematicians or computer hackers or IS Architects whatsoever in the new world order? What trade could the mathematically/algorithmically/computationally-inclined possibly transition over to when there is no more electricity, oil, power, or the like?
+
+How about a penguin-farmer??

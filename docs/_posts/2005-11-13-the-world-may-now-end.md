@@ -1,0 +1,29 @@
+---
+layout: post
+title: The world may now end
+date: 2005-11-13 03:27:20.000000000 -08:00
+published: true
+categories:
+- Apples
+- Life in General
+tags: []
+permalink: "/2005/11/13/the-world-may-now-end/"
+---
+
+Holy freakin' crap, Batman.
+
+This just in:
+
+I've finally done it and went and bought a new (well, refurbished) Powerbook. 15" beautiful widescreen. 1.5G processor. 1G of RAM. 80G of 5400-rpm hard drive sweetness. Superdrive (DVD burner, etc.). All for the unbelievable price of $1499 (plus $59 for the second 512 megs of RAM).
+
+This thing rocks my world in amazing ways.
+
+I believe that this has always been one of the signs that the world will soon be ending. You know... Jason buys a powerbook, cats and dogs living together... MASS hysteria.
+
+WOOOOT!! I love this machine!
+
+I've just spend the entire evening repartitioning the hard drive to give Mac OS X 45 gigs and Linux the rest, as well as re-installing OS X and then installing SuSE 10 PPC onto the hard drive. The Linux install was a little bit more painful than I thought it would be. And for some reason, the built-in ethernet (yes, I know--not the Airport card--the old-fashioned RJ-45 port) card won't get a DHCP address.
+
+But I am tickled pink by this. I am absolutely loving OS X.
+
+Watch this space for more details of my new life as a Mac user, as well as my upside-down, turned-all-crazy life as a moving-to-Rhode-Island CVS IS Architect.

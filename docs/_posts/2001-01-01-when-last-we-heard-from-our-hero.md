@@ -1,0 +1,14 @@
+---
+layout: post
+title: when last we heard from our hero
+date: 2001-01-01 22:41:46.000000000 -08:00
+published: true
+categories:
+- Life in General
+tags: []
+permalink: "/2001/01/01/when-last-we-heard-from-our-hero/"
+---
+
+So it's a new year, a new decade, a new century, and a new millennium. Scary times, some might say. Yeah, yeah--I know, you've heard it all before and I'm not saying anything different. But I cannot begin to tell you the peace that comes in knowing that no matter what, God is in control. We're living in the midst of a knowledge explosion right now, and it is absolutely amazing what man can do these days. But what really saddens and worries me is that in the midst of all of our "brilliance", we've convinced ourselves that we're all we need in this world. We can do so much more, so much faster, so much better, and so much more efficiently than all the generations that lived before us that we as a race have been blinded by our own success. And in the process, we've lost the whole focus that God created us with--to have the true peace and happiness that comes from a real relationship with the living Creator of this time-bound reality we exist in.
+
+Food for thought.... What is the use in living longer if you live without hope? If you're looking for answers to questions like these like I was, I sincerely encourage you to try asking God Himself for some of the answers. Not only is He listening, but if you honestly listen, you'll find that He's waiting to answer you....

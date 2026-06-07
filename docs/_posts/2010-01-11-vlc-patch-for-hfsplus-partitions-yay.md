@@ -1,0 +1,26 @@
+---
+layout: post
+title: VLC patch for hfsplus partitions, yay!
+date: 2010-01-11 09:18:56.000000000 -08:00
+published: true
+categories:
+- Apples
+- Linux
+tags: []
+permalink: "/2010/01/11/vlc-patch-for-hfsplus-partitions-yay/"
+---
+
+I have a 13" MacBook Pro that I use for my personal and non-work shtuff. I resized OS X down, installed Linux (Kubuntu), and set up a shared partition so that I can keep files there that I want to access from both OS X and Linux. Things like my music and video collection, Snooker torrents, VMware virtual machines, etc. It appears that there are basically 4 decent options for a shared filesystem between OS X and Linux, but IMHO only 2 of them are worth trying and only 1 of them seems to actually work almost perfectly:
+
+1. The venerable FAT32 filesystem. Yes, it works. No, it doesn't work like you'd want a UNIX filesystem to work. You can't store files that are bigger than 4 GB on it, and the whole lack of permissions and filename length limitations thing just really sticks in my craw, so this isn't a viable option for me.
+2. The newer and even more proprietary NTFS filesystem. Come on, seriously? Why would anybody pick NTFS, which is native to only one proprietary operating system in the world (hint: not Linux and not OS X) and try to use it in Linux and OS X? Insanity, I say. Moving on.
+3. ext2/ext3. Thanks to FUSE and fuse-ext2, the native-to-Linux ext2 and ext3 filesystem can be accessed in OS X. Of course, it works perfectly in Linux. However, in testing, it feels like trying to navigate through the ext2 partition in OS X's finder is REALLY slow and choppy. I'm not sure what's going on, and it doesn't seem like the CPU is getting pegged or anything. But it felt slow enough that I don't think I want to put all my data on it and hope it works right.
+4. hfsplus. Now this one actually works (or seems to thus far) really well. Reading up on it a bit after having been using it makes me a smidge nervous, since it would seem that it's extremely unloved from the Linux kernel devs and currently unmaintained. Yay! But if you set up an unjournaled hfsplus partition from OS X, Linux can very happily read/write it and it seems to be very stable and fast in both Linux and OS X.
+
+Great. So why am I blogging about this? Well, like I said, hfsplus access in Linux is working almost perfectly. Except for VLC. Apparently, hfsplus has some nasty problems and isn't actually POSIX compliant when it comes to opening directories. Due to how VLC handles "files" that it is asked to play (it accepts both directories and files as playlist arguments and VLC chooses to try to open the playlist element as a directory first, and this doesn't fail with hfsplus the way it should in POSIX-compliant filesystems) VLC is unable to play anything that's on an hfsplus partition. This is quite a bummer for me and others who use hfsplus as a filesystem and also like to use VLC.
+
+Enter [this bug report](https://bugs.launchpad.net/ubuntu/+source/vlc/+bug/349707) and [Tobias's awesome little patch for VLC](http://launchpadlibrarian.net/37707309/vlchfs-1.0.4.tar.gz). After using his patch and applying it over the top of my 1.0.3 VLC here in Kubuntu Karmic, I am now able to watch movies and listen to music stored on my hfsplus shared partition again from Linux, using VLC. Huzzah! Maybe this'll help someone else out there struggling with this (or just generate a lot of "you suck, why would you use proprietary Apple hardware or OS X?!?!" comments).
+
+Oh, and while this is a hfsplus filesystem problem at the root, because of how Kaffeine or KDE's own Dragon Player open files, they are not affected by this bug. Only VLC is. So.... yeah.
+
+I am curious, though... I know I'm not the only KDE hacker out there who's using a MacBook or MBP, and who *gasp* also has OS X and Linux sharing the hard drive. What do you guys use for a shared partition between Linux and OS X?

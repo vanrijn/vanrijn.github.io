@@ -1,0 +1,21 @@
+---
+layout: post
+title: All Your Email Are Belong To Gmail
+date: 2006-12-27 11:26:02.000000000 -08:00
+published: true
+categories:
+- Google
+- KDE
+tags: []
+permalink: "/2006/12/27/all-your-email-are-belong-to-gmail/"
+---
+
+![]({{site.baseurl}}/assets/2006/12/google_sm.gif)As [written](http://movingparts.net/2006/12/01/moving-moving-parts/) about [previously,](http://movingparts.net/2006/12/03/using-gmail-hosted-with-your-hosted-elsewhere-website/) I've decided to let [Google's Apps For Your Domain](http://www.google.com/a/) handle all of the e-mail for my domain. What this means is that for all incoming and outgoing e-mail I'll have them saved permanently (as permanently as 2 gigs of space allows at least) stored in GMail for my domain users and also stored on my web hosts's IMAP server. Cool beans, yes. But what about the e-mail that I've been keeping on my IMAP server for the last 8+ years, eh? It sure would be nice to get all that e-mail into GMail as well so that I can take advantage of GMail's searching.
+
+Well, along comes some spectactular 5+year-old(?) technology by [Mark Lyons called GMail Loader](http://www.marklyon.org/gmail/). It handles a variety of e-mail storage formats, like mbox, and maildir, among others. Since I have been using disconnected IMAP with kmail for quite a while, I had a nice local copy of all of my old e-mail from my IMAP server. All I had to do was put in my GAFYD MX record SMTP server into GMail Loader and point it to my dimap directories and watch it go.
+
+A couple of notes, though... First, GMail Loader forces you to select a file in its "Find" dialog. So, for using a Maildir (like kmail stores your dimap mail in), you have to browse to a /cur/, select it, and then backspace to /. Secondly, make sure you leave the trailing "/" (slash) on the directory name. For example, let's say you have a mailbox that you want to import into GMail from your kmail dimap cache. First, find which directory in your ~/.kde/share/apps/kmail/dimap/ contains your account. Kmail happens to call my account "719735571". My IMAP server puts everything underneath INBOX, so I have INBOX/attaboys, for example, in kmail. This translates into this directory: "~/.kde/share/apps/kmail/dimap/.719735571.directory/.INBOX.directory/attaboys". So, in this example, point GMail Loader to ~/.kde/share/apps/kmail/dimap/.719735571.directory/.INBOX.directory/attaboys/cur/SOMEFILE, then backspace over that until it reads "~/.kde/share/apps/kmail/dimap/.719735571.directory/.INBOX.directory/attaboys/" in GMail Loader's Find text field (don't forget the trailing slash!).
+
+Another annoyance was that as I was importing things into GMail, half of it kept going into my Spam folder in GMail. I'm guessing it's because the mail looks funky being of such an old date, etc. But I had to keep marking my mail that was imported as "Not Spam". The next annoyance was that I had to keep Archiving everything that showed up in my Inbox from GMail Loader, but I guess that's to be expected.
+
+So anyway, I'm all done importing now. It actually does import the mail pretty quickly. Now I can use the GMail interface to my mail to search mails I've kept for the last 8+ years! =:)

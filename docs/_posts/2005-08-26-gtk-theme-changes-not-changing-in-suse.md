@@ -1,0 +1,22 @@
+---
+layout: post
+title: Gtk+ theme changes not... changing... in SuSE
+date: 2005-08-26 13:06:47.000000000 -07:00
+published: true
+categories:
+- Life in General
+tags: []
+permalink: "/2005/08/26/gtk-theme-changes-not-changing-in-suse/"
+---
+
+This one threw me for a loop.
+
+I found [a nice new program to change](http://plasmasturm.org/code/gtk-chtheme/)[Gtk+](http://www.gtk.org/) themes. It seems cleaner, nicer, and more finished-er than [muhri's gtk-theme-switch programs](http://www.muhri.net/nav.php3?node=gts). And it does previews nicely, etc., and the only thing that it didn't seem to do well was actually activate the theme that I wanted to use--which was, after all, the entire point of using said program.
+
+What I found was that [SuSE](http://www.novell.com/linux/suse/) has done something to change gtk programs and where said gtk programs actually look for for their style configuration settings is in $HOME/.kde/share/config/gtkrc and $HOME/.kde/share/config/gtkrc-2.0. So, when I used the gtk theme switcher program, gtk programs didn't notice the change since I was changing the standard $HOME/.gtkrc* files.
+
+Ah hah, I thought to myself--I can be smarter than that! So I created soft links (ln -s) to these files from $HOME/.gtkrc*. And it worked! Once. The very first time I made a change after I created the soft link, the change was recognized. But nothing after that. So I used hard links instead (ln) and all seems to be working correctly now.
+
+> ln $HOME/.gtkrc $HOME/.kde/share/config/gtkrc ln $HOME/.gtkrc-2.0 $HOME/.kde/share/config/gtkrc-2.0
+
+Hope this helps somebody else who is trying to change Gtk+ themes in SuSE or OpenSuSE and doesn't run a GNOME environment....

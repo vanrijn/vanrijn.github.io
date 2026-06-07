@@ -1,0 +1,38 @@
+---
+layout: post
+title: Mere Christianity, Sunday BBQ
+date: 2005-07-17 23:38:06.000000000 -07:00
+published: true
+categories:
+- Books
+- Life in General
+tags: []
+permalink: "/2005/07/17/mere-christianity-sunday-bbq/"
+---
+
+[![mere_Christianity]({{site.baseurl}}/assets/2005/07/3067584877_3696fc48e6_o.jpg)]({{site.baseurl}}/assets/2005/07/3067584877_3696fc48e6_o.jpg "mere_Christianity by vanRijn") After talking with [John from KKSM](http://profile.myspace.com/index.cfm?fuseaction=user.viewProfile&friendID=1844431), I ordered and received [Mere Christianity by C.S. Lewis](http://www.amazon.com/exec/obidos/tg/detail/-/0060652926?v=glance). I read the preface thus far and underlined about half of it. It is SOOOOO good!! I absolutely love C.S. Lewis's writing style. He is both precisely clear and creative at the same time. One example:
+
+> "It so happens that the impulse which makes men gamble has been left out of my make-up; and, no doubt, I pay for this by lacking some good impulse of which it is the excess or perversion." -- C.S. Lewis, Mere Christianity, Preface page XII
+
+Love it! And the section following that, where he talks about the meaning of the very word "Christian"... amazing!!! Ahh, and thank goodness for the Internet! I was actually considering typing this all in meself, but I found that [another](http://www.wheelercreek.com/tom_pages/religion/christians.php) had done this very thing already, leaving me only to copying/pasting, whee! To quote [the page](http://www.wheelercreek.com/tom_pages/religion/christians.php), "I planned to trim it up - but there's just no doing that to Lewis."
+
+> Far deeper objections may be felt - and have been expressed -against my use of the word Christian to mean one who accepts the common doctrines of Christianity. People ask: 'Who are you, to lay down who is, and who is not a Christian?' : or 'May not many a man who cannot believe these doctrines be far more truly a Christian, far closer to the spirit of Christ, than some who do?' Now this objection is in one sense very right, very charitable, very spiritual, very sensitive. It has every available quality except that of being useful. We simply cannot, without disaster, use language as these objectors want us to use it. I will try to make this clear by the history of another, and very much less important, word.
+>
+>
+> The word gentleman originally meant something recognisable; one who had a coat of arms and some landed property. When you called someone 'a gentleman' you were not paying him a compliment, but merely stating a fact. If you said he was not 'a gentleman' you were not insulting him, but giving information. There was no contradiction in saying that John was a liar and a gentleman; any more than there now is in saying that James is a fool and an M.A. But then there came people who said - so rightly, charitably, spiritually, sensitively, so anything but usefully - 'Ah, but surely the important thing about a gentleman is not the coat of arms and the land, but the behaviour? Surely he is the true gentleman who behaves as a gentleman should? Surely in that sense Edward is far more truly a gentleman than John?' They meant well. To be honourable and courteous and brave is of course a far better thing than to have a coat of arms. But it is not the same thing. Worse still, it is not a thing everyone will agree about. To call a man 'a gentleman' in this new, refined sense, becomes, in fact, not a way of giving information about him, but a way of praising him: to deny that he is 'a gentleman' becomes simply a way of insulting him. When a word ceases to be a term of description and becomes merely a term of praise, it no longer tells you facts about the object: it only tells you about the speaker's attitude to that object. (A 'nice' meal only means a meal the speaker likes.) A gentleman - once it has been spiritualised and refined out of its old coarse, objective sense, means hardly more than a man whom the speaker likes. As a result, gentleman is now a useless word. We had lots of terms of approval already, so it was not needed for that use; on the other hand if anyone (say, in a historical work) wants to use it in its old sense, he cannot do so without explanations. It has been spoiled for that purpose.
+>
+>
+> Now if once we allow people to start spiritualising and refining, or as they might say 'deepening', the sense of the word Christian, it too will speedily become a useless word. In the first place, Christians themselves will never be able to apply it to anyone. It is not for us to say who, in the deepest sense, is or is not close to the spirit of Christ. We do not see into men's hearts. We cannot judge, and are indeed forbidden to judge. It would be wicked arrogance for us to say that any man is, or is not, a Christian in this refined sense. And obviously a word which we can never apply is not going to be a very useful word. As for the unbelievers, they will no doubt cheerfully use the word in the refined sense. It will become in their mouths simply a term of praise. In calling anyone a Christian they will mean that they think him a good man. But that way of using the word will be no enrichment of the language, for we already have the word good. Meanwhile, the word Christian will have been spoiled for any really useful purpose it might have served.
+>
+>
+> We must therefore stick to the original, obvious meaning. The name Christians was first given at Antioch (Acts 11:26) to 'the disciples', to those who accepted the teaching of the apostles. There is no question of its being restricted to those who profited by that teaching as much as they should have. There is no question of its being extended to those who in some refined, spiritual, inward fashion were 'far closer to the spirit of Christ' than the less satisfactory of the disciples. The point is not a theological or moral one. It is only a question of using words so that we can all understand what is being said. When a man who accepts the Christian doctrine lives unworthily of it, it is much clearer to say he is a bad Christian than to say he is not a Christian. from the preface to Mere Christianity - by C.S. Lewis
+
+Brilliant!! I can't wait to read more!
+
+In other news, I spent 5 hours or so yesterday cleaning up [KPilot's home page](http://www.kpilot.org), thanks to Adriaan enabling me to. =;) There's not much visible change yet--it's more back-end cleanups (converting ~ 10 static HTML pages to using PHP includes and magical code). Still, nonetheless, it felt good to do something for KPilot, since I've not had time as of late to help too much with bugs. =:/
+
+It was another busy weekend, this, seeming to lack almost entirely of the deep rest I need. Although today, it was fun to have gathered at Pete's lovely home with some of our project members and their families. I spent several hours there with my beautiful Lynn (Hi, darling--see, I *do* talk about you!) and wonderful kiddos. Pete is a marvelous host, has an incredibly manly grill, and is a good cook, to boot. =;) Thanks again, Pete!!
+
+And now, to sleep, perchance to dream.
+
+And whatever you do, Jason, don't think about having to go back to work tomorrow... *Doh!!*

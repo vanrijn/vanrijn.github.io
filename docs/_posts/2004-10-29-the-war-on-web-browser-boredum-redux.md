@@ -1,0 +1,14 @@
+---
+layout: post
+title: The war on web browser boredum, redux
+date: 2004-10-29 20:16:35.000000000 -07:00
+published: true
+categories:
+- Life in General
+tags: []
+permalink: "/2004/10/29/the-war-on-web-browser-boredum-redux/"
+---
+
+So, I'm using Opera again for a bit. =:) Actually, I'm using the just-released Opera 7.60 TP2 for Linux, and it is REEEHEEEEHEEEEALLY nice!! I have always been very impressed with the Opera team, but this release is the best one *evar*. It looks like they've finally improved (dare I say "fixed"?) the printing issues in Linux!!! And this release works with gmail now too!!
+
+All I can say is... Opera guys, you are doing a FANTASTIC job! Please keep the great work up!!

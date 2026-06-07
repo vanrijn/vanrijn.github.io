@@ -1,0 +1,24 @@
+---
+layout: post
+title: The Timeless Power of a Sunset
+date: 2006-09-17 22:20:57.000000000 -07:00
+published: true
+categories:
+- Life in General
+tags: []
+permalink: "/2006/09/17/the-timeless-power-of-a-sunset/"
+---
+
+That, my friend, is pure joy. I enjoyed exactly that sort of pleasure just yesterday.
+
+We went down to Newport, the Kasper family, we did. Walked quite a distance around Fort Adams, which was really, really fun. We shall definitely have to go back at some point and take the tours.
+
+Drove then down to our favorite spot in Newport--Brenton Point State Park--and explored all around the tidepools, shoreline, rocks, and such. The water was pretty cold already, but it felt invigorating on one's legs and feet. Made you feel good to just be alive and to be a part of the vastly larger-than-you ocean!
+
+My darling bride and I found a cozy little rock to sit on and hold each other. We watched the bright, deep orange, beautiful sun slowly traversing its way down the horizon. We held hands and talked softly as we watched our beautiful children enjoying their youth, each other's company, and God's beautiful creation--running up to us every couple of minutes to show us the beautiful treasures they had found. And then we kept our eyes fixed on the sun as it slowly crept its way down under the cover of the amazingly large ocean, drinking in the beauty of the moment as time slowed to a crawl just for us.
+
+It was a truly magical evening, yesterday evening was. It made me feel more alive than I've felt in many months. I saw wonderful sides of my beautiful wife and beautiful children that I don't often get to see. I felt closer to my Creator than I have in a long while. I felt His love and pleasure in the midst of that peaceful setting. I also felt His amazing power and saw it mirrored in the beauty and timeless strength of the ocean before us.
+
+I found peace and strength yesterday evening.
+
+I shan't soon forget it.

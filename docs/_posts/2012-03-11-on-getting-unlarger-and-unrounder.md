@@ -1,0 +1,39 @@
+---
+layout: post
+title: On Getting Unlarger and Unrounder
+date: 2012-03-11 20:38:57.000000000 -07:00
+published: true
+categories:
+- Life in General
+tags:
+- exercise
+- getting older
+- life
+permalink: "/2012/03/11/on-getting-unlarger-and-unrounder/"
+---
+
+How many times have you heard something that starts with "it's a funny thing when you start getting older" and then end up hearing things that make you cringe and silently vow to yourself that it'll never happen to you. Yeah, me neither. But let's imagine that we have.
+
+If "it's a funny thing when you start getting older", it's an even funnier thing when you get older and work from home 100% of the time. And if you think that's funny, it's an absolute riot when you get older, have a sit-down job, have a wife and 3 kids, work from home 100% of the time, and have no reason to go outside your front door more than once a week.
+
+Unfortunately, as much as I have tried to deny, ignore, argue against, and shrug off these things, it's not actually all that funny, and it's high time I start doing something about it.
+
+I had an awesome Dad growing up. He was my hero, truly. He was larger than life, powerful, strong, forceful, loving, gentle, kind, and caring. Oh, and he was a bodybuilder and worked out with the likes of Jack LaLanne, Lou Ferrigno, Arnold, and a bunch of other really awesome names that have long since faded into the sunset. But my Dad and I worked out together as I grew up and he taught me to take care of my body. And though I never took things to the level of bodybuilding competitions like he did, the years I spent with my Dad laid down a solid core to my physique that have lasted me my whole life since. So far at least.
+
+And then I got married, and finding the time to work out regularly became pretty tough. And then we had kids and that time disappeared again. And then I got a job in IT where instead of walking around for 10+ hours a day constantly, I was now parking my butt in a chair for 8+ hours a day. And then I got an AWESOME job (my current job with VMware which I cannot even explain how much I love enough) where I get to work from home (stupid housing market crash *spit*) doing programming and such 100% of the time, from my chair in the basement.
+
+And now I look in the mirror as I walk by and wonder who in the heck that chubby older dude is and why he's in my bedroom, wearing my underwear and the [Woot shirt](http://shirt.woot.com/) I just picked out this morning.
+
+It's a funny thing when you get older and you find that you have to figure out how to take care of your body again.
+
+So I'm taking a stand against these long stories that end badly and make people cringe and vow silently to themselves. I've been doing little bits and pieces of this incrementally through the last couple of years, but I'm getting more serious about it now. Especially since I've lost exactly zero pounds since the same date 1 year ago. I've also gained exactly zero pounds since the same date 1 year ago, but that's little solace since the kindly-yet-roundly gentleman keeps showing up in my bedroom mirror.
+
+I still need to actually sit down and write up an official "this is what I'm going to do every day" routine, but thus far, here's what I have:
+
+Every day, Monday - Friday, I'm planning on doing this stuff:
+
+1. Yoga for at least 20 minutes. I really enjoy Rodney Yee's videos and I've been using [A.M. Yoga for Your Week](http://www.amazon.com/gp/product/B000YV1L4E/ref=as_li_ss_tl?ie=UTF8&tag=movipart-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B000YV1L4E) for a year+ now. It has a different 20-minute routine for every day of the week (M-F). I highly recommend it. I also think that maybe it's time for me to grow beyond these rather beginner-level routines, so if anyone has advice on the next place to go here, I'd appreciate it.
+2. Running on the treadmill or biking for at least 20 minutes. Been doing this for a while now too and I've been catching up on Netflix videos while doing it and it's pretty enjoyable and I get a good sweat going.
+3. Ab-Doer core and abdominal routines. My Dad had already bought me the Ab-Doer Professional workout equipment years ago (it was the earlier version of the [Ab-Doer Twist Abdominal Trainer](http://www.amazon.com/gp/product/B004G7D5GO/ref=as_li_ss_tl?ie=UTF8&tag=movipart-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B004G7D5GO)), and while it may look kind of goofy, I do believe that it offers a really good full-midsection workout. So I'm going to try working my way through the videos John Abdo did again and see if I can stick to it and see some progress. Sadly, I lost the original VHS tapes that I had for my Ab-Doer Pro and had to [re-order them from Mr. Abdo](http://johnabdo.com/). These videos are 10 - 20 minutes long as you work your way up.
+
+So there's my story and I'm sticking to it. I think that if I can be consistent with this and actually do it well for a year or so, I should be in a much better physical condition. Really, I'd just like to stop seeing that portly dude who keeps stealing my underwear and [Woot shirts](http://shirt.woot.com/).

@@ -1,0 +1,114 @@
+---
+layout: post
+title: You Are Here
+date: 2006-11-28 00:17:18.000000000 -08:00
+published: true
+categories:
+- Apples
+- Google
+- KDE
+- Life in General
+- Linux
+- Movies
+- Music
+- Video Games
+tags: []
+permalink: "/2006/11/28/you-are-here/"
+---
+
+Warning: a brain dump followeth:
+
+Blockbuster has sweetened their deal by allowing in-store trade-ins of online-rented movies. This, to me, blows NetFlix out of the water, since NetFlix does not yet have a brick-and-mortar presence anywhere (?). And, because we signed up with Blockbuster a while ago, we still get to keep our 2 free movie-or-game rental coupons per month too. Pretty cool! As a result, we've been watching tons of movies as of late, including the Indiana Jones trilogy (forgot how good they were!!).
+
+I've been a busy little beaver over the last few weeks, OSS-code-wise, anyway. Adriaan and I have whipped kpilot into shape proper-like, it seems. I've spent a decent chunk of time twice now and merged our codeyard.net svn repository into kde's svn (it's in kdepim-3.5.5+ branch now, but will be merged into branches/KDE/3.5/kdepim before 3.5.6 is release, iirc) using [this spiffy little shell fu that I created for the purpose of merging code from one svn repository into another](http://websvn.kde.org/branches/work/kdepim-3.5.5%2B/kpilot/Documentation/merge-into-svn.sh). Also, Sune from the debian packaging team has been a tremendous help in motivating us to get the critical data loss bugs fixed and backported (that's my pain) into kde's svn. It's been really refreshing and fun hacking on kpilot again. I'm reaching a point, though, where we either need to architect kpilot to be more like opensync or I bite the bullet and start helping kdepim use opensync working towards kde4. That's assuming my current time-to-spend-on-OSS holds up, which is a big assumption. Ohh--also, bbroeksema has helped bring cmake into kpilot, and I must say that I REALLY like it. Adriaan and I have pitched in and we now have a fully-functional build system (bye bye AAP) that I can fully grok. I've even written a custom configure script that helps bridge the gap. Sweet! Oh, and if you're a kpilot user who cares about malconduit (syncing with Avantgo) or docconduit (creating palm docs), your help is required. Since none of the current kpilot maintainers/developers use these conduits, and there's a decent amount of bit-rot in them, they are going to be disabled for the next release of kpilot/kde, unless you step up and help us with them. Help, please?
+
+Thanksgiving was really, really fun. I need to put up some of our latest pics, but we had a wonderful time just staying home with our little family. I cannot tell you how stress-free our holidays are, not having to pack up and hobble off to a not-short list of relatives' homes every holiday. Although it was a completely unintentional side-effect of moving cross-country, I really think that this is how it should be. For the first time ever, we have been able to establish our own traditions and have some really neat bonding time as a family that you just miss out on rushing to various relatives' houses. Plus, my wifey is a really great cook and I get to cut turkey, so it's enjoyable all around. =:)
+
+Work goeth on. It's looking to be a stressful year ahead of me with my current employer, and I'm not so sure how I feel about it at this point, other than to hang on for the ride and see what God provides
+
+My darling bride allowed me to play The Matrix - Path of Neo for a few days (and I really appreciate it hon! =:)). I can honestly say that it's a dissapointing game. First, the graphics are very poor and at least on my "last-year's-model" Xbox, the characters and artwork are choppy, blocky, and bad. Second, the combat system is horrible. For the most part, you get through the game pressing "Y" repeatedly. Call me an old-school fogey, but coming from a Street Fighter and Killer Instinct background where you have learnable, predictable, more-than-one-button-mashing combos, the fights in this game are really sad. And the camera system is absolutely atrocious. I've noticed that there are several games that follow this model--where you are allowed to change your camera perspective, but you don't have complete control since as soon as you start to move, the game takes over your camera again. Yuck! Make me puke on my jammies! Learn from Splinter Cell, folks, please.
+
+Music-wise, I've been really taken by Skillet's new CD (Comatose), Orbital's Blue Album, Everything But The Girl, Aaron Shust (Anything Worth Saying is excellent!!), and most recently (don't laugh) Dean Martin's Baby It's Cold Outside duet that played a really cute scene in Will Farrell's Elf movie.
+
+We've had our good friends The Wallers come up and visit us recently, and our family had a wonderful time with them. Sarah was gracious enough to stay with us for almost 2 weeks and we had an absolute ball. I was able to be "one of the girls" a little bit, which I really, really miss from our Bible Quiz days. *sniffle* I also was reminded of how cool my son is, and how much he is like me, with all of his Lego Star Wars 2 kung fu. =:)
+
+And my beautiful daughter, A (name withheld to protect the innocent), is really into her NeoPets thing. What impresses me the most, though, is that she's walking herself through some basic HTML tutorials and writing some content for her NeoPets pages. Cool!! The hacker spirit lives on in my children, vahoo!! =:) She is an amazingly talented, artistic hacker, though, and I need to start working with her on web designs so she can get exposed to that early on as a modern art form.
+
+Laptop wise, I've bounced from Kubuntu Dapper to SUSE 10.1 to Fedora Core 6 to Kubuntu Edgy and back to Fedora Core 6 again for my powerbook. I'm settling on FC6 for the time being. Unfortunately, NONE of these distros work acceptably with my powerbook and NetworkManager. My goal was to be able to use NetworkManager solely as I do on my x86 SUSE 10.1 laptop at work, which is why I kept bouncing between distros. But since none of them do, and I really like what the Fedora boys have done with Core 6, and my powerbook runs pretty darned stable with it, I'll keep using it. Oh--one thing I still need to figure out is how to get the keyboard backlighting working with FC6. I had it working with SUSE 10.1-ppc, iirc, and it does not work out of the box with FC6.
+
+Lastly, I've been using vortexhost.com as my web hosting solution for the last 2 years. They have been really, really stable and been a good home for a good price (250 megs for $55/year). However, my little family has outgrown 250 megs and now I need to figure out what to do in the next 2 weeks. I've been looking around at some of the bigger-space-for-slightly-more-money players and some of the hosts I'm looking at are:
+
+<table border="1" cellspacing="0" frame="void" rules="groups">
+<tbody><tr>
+<td align="left"></td>
+<td align="left">Disk space</td>
+<td align="left">Bandwidth</td>
+<td align="left"></td>
+<td align="left">Money-back guarantee</td>
+<td align="right">1 year</td>
+<td align="right">1 year(/mo)</td>
+<td align="right">2 years</td>
+<td align="right">2 years (/mo)</td>
+</tr>
+<tr>
+<td align="left">hostmonster.com</td>
+<td align="left">50G</td>
+<td align="left">999G</td>
+<td align="left"></td>
+<td align="left">30 days</td>
+<td align="right">$83.40</td>
+<td align="right">$6.95</td>
+<td align="right">$118.80</td>
+<td align="right">$4.95</td>
+</tr>
+<tr>
+<td align="left">hostdime.com</td>
+<td align="left">1G</td>
+<td align="left">30G</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right">$66.00</td>
+<td align="right">$5.50</td>
+<td align="right"></td>
+<td align="right">$0.00</td>
+</tr>
+<tr>
+<td align="left">icdsoft.com</td>
+<td align="left">1G</td>
+<td align="left">20G</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right">$72.00</td>
+<td align="right">$6.00</td>
+<td align="right">$129.60</td>
+<td align="right">$5.40</td>
+</tr>
+<tr>
+<td align="left">hostgator.com</td>
+<td align="left">3.5G</td>
+<td align="left">50G</td>
+<td align="left"></td>
+<td align="left">30 days</td>
+<td align="right">$83.40</td>
+<td align="right">$6.95</td>
+<td align="right"></td>
+<td align="right">$0.00</td>
+</tr>
+<tr>
+<td align="left">bluehost.ocm</td>
+<td align="left">50G</td>
+<td align="left">999G</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right">$95.40</td>
+<td align="right">$7.95</td>
+<td align="right">$166.80</td>
+<td align="right">$6.95</td>
+</tr>
+</tbody></table>
+
+I've researched them at webhostingjury.com and webhostingtalk.com, and from what it looks like, hostgator would be the best in terms of decent price, decent disk space, good customer service, and good reputation. However, I'm really hesitant to fork over $83.40 for 1 year of web hosting. Yeah, I know, it's only $30 more than I was spending before, but still... $83.40 is a decent chunk of change for a personal/family web site. So I've been looking at Google's accounts for domains stuff and I might poke into it a little more, but still, I need to so something because we're out of space right now and my contract with vortexhost.com is up in 2 weeks.
+
+One thing I'd like to look at as part of this adventure is using Google as a spam filter. I use spamassassin with some custom training fu right now, but it still lets spam through every once in a while. And I really want to be able to provide my kiddos with some web space so they can have some room to play and learn. So, all in all, I still don't know what I'm going to do. One side of my brain is saying that I could host our domain on a PC at the house, but I've already been down that road and it's just painful (especially considering that my always-on box at home is a PII-200 laptop with zero disk space) and I'd like to not have to deal with that headache again. And I want something rock-solid and reliable for our e-mail solution, which is why GMail would be nice. The downside to GMail, though, and this is probably the ONLY reason I'm not going to use them yet is that they don't support IMAP. *sigh* Any helpful suggestions, solutions, watch-out-fors, etc., would be greatly appreciated.
+
+Okay, well, I think that touches every category I have defined, so with that (and the fact that it's midnight, *grrr*), I guess I'll hit the "publish" button and call it a night. G'night, Gracie...

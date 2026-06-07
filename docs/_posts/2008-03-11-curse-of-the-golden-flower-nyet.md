@@ -1,0 +1,18 @@
+---
+layout: post
+title: 'Curse of the Golden Flower: Nyet'
+date: 2008-03-11 23:48:05.000000000 -07:00
+published: true
+categories:
+- Movies
+tags: []
+permalink: "/2008/03/11/curse-of-the-golden-flower-nyet/"
+---
+
+I'm sorry, but 2 words: Don't Bother. You can say what you want about the ornate costumes, the beautiful colors, the amazing sets. Yeah, maybe. But the story? I'm sorry, but if I wanted to be depressed and bored and looking for the fast forward button for 2 hours, I could have watched the housing market reports for a few hours while hitting myself in the head every couple of minutes. Don't get me wrong, I mean no disrespect to China or the actors/actresses in the film or the director. But as far as enjoying a movie goes, I had a better time watching the ultra-violent *Shoot 'Em Up*. At least there the good guys win at the end. Blef. Anyway, if you love Martial Arts movies as much as I do and can't wait to see the next Jet Li movie, don't bother renting *Curse of the Golden Flower*. It's like taking *Crouching Tiger, Hidden Dragon*, but without any of the really good fight scenes, and the absolute worst *Jerry Springer* episode ever imagined, plus the daytime soap that was deemed too drawn out and boring to have made it to television, and throw it all together into a 2-hour long fun-fest. Yeah, like that. I can't imagine what I'd be looking for in a movie that would make me ever want to watch it again, but if you're looking for a really cool Martial Arts movie, this ain't it. Also, Chow Yun-fat: please don't kick my butt. A couple of good reviews from [Rotten Tomatoes](http://www.rottentomatoes.com/m/curse_of_the_golden_flower/):
+
+> I wanted to be swept away, but even with half of China as extras, I was mostly unimpressed.
+
+> Curse of the Golden Flower has no emotional center. There’s nobody to root for here (even the wildly charismatic Chow Yun-Fat seems remote and surly), and the characters' scheming seems more like an elaborate pageant than a viable drama.
+
+> Not even Chow Yun-fat and Gong Li, two of the world's most impressive actors, can inject any dazzle into this dud.

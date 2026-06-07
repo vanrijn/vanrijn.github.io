@@ -1,0 +1,13 @@
+---
+layout: post
+title: My Teen Bible Quiz team at Regionals, 2005
+date: 2005-06-09 15:00:14.000000000 -07:00
+published: true
+categories:
+- Life in General
+tags: []
+permalink: "/2005/06/09/my-teen-bible-quiz-team-at-regionals-2005/"
+---
+
+[![]({{site.baseurl}}/assets/2005/06/18389517_d783b802c6_m.jpg)]({{site.baseurl}}/assets/2005/06/18389517_d783b802c6_m.jpg "photo sharing")
+Forgot to mention this previously, but since I'm playing with Flickr, I figured I'd give it a shot.  Here's a quick shot of my team outside of the church we spent 2 days at in REALLY tough competition.  Check out my Flickr pages for more pictures....

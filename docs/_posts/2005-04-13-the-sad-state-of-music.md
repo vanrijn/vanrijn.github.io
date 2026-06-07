@@ -1,0 +1,39 @@
+---
+layout: post
+title: The sad state of music
+date: 2005-04-13 12:20:21.000000000 -07:00
+published: true
+categories:
+- Life in General
+- Music
+tags: []
+permalink: "/2005/04/13/the-sad-state-of-music/"
+---
+
+I found [this ExtremeTech article](http://web.archive.org/web/20110417140640/http://www.extremetech.com:80/article2/0,1558,1784304,00.asp) looking at where the state of the state is for online music. I was *very* impressed with the approach they took in the article. Most reviews like this are completely Microsoft or Apple-centric and ignore the fact that there is a large user community that refuse (or can't afford) to use these two operating environments.
+
+> Flexibility Where can you play your downloaded songs? Does the service offer playback support in digital media adapters (DMAs)? Can you play your tracks on other PCs on your home network?
+>
+>
+> Portable Device Support Can you play your downloaded tracks on your portable player? Are there restrictions as to which players are currently supported?
+>
+>
+> Platform Support Does the service require a specific web browser (i.e. Internet Explorer)? Can you listen to downloaded tracks on non-Windows platforms? We used a system running Xandros OCE 3.01 with the Xine and VideoLAN (VLC) media players installed.
+
+I also appreciated the candor and truth regarding the How We Got Here bit at the front of the article....
+
+> When cassette tapes became popular in the late 1970's and early 1980's, the music industry did the now-familiar Chicken Little dance about its way of life being destroyed. The industry quickly co-opted that threat, turning albums on cassettes into a very lucrative business. In the mid-80's, CDs promised superior quality at lower prices, but we wound up only getting the better quality. Consumers never got the promised price break—album prices continued to climb. Those chickens would come home to roost soon enough.
+
+It's funny thinking about it, but I spent an inordinate amount of my youth consumed by music--listening to the radio, requesting songs, taping my favorite songs off the radio, making "mix" tapes, asking friends to copy their tapes to my tapes, etc. But I digress....
+
+The article is very smartly written, and the criteria used for measuring the online music stores are nicely thought out (not just the currently popular artists, but using a much broader measuring stick). And, after viewing [the brief analysis](http://www.extremetech.com/image_popup/0,1554,s=25684&iid=102502,00.asp) of the current offerings, I am disgusted to see that nobody is even allowing non-Microsoft/Apple users to be participants in the online music business model, as none of the services reviewed allow the user to use the Firefox browser in Linux. This has certainly been my experience outside of this article as well. If I want to "legally" listen to online music, I am expected to be running either Windows or MacOS, and most probably I am expected to be using IE (you remember IE... the browser that "everybody" uses that has more security holes than swiss cheese).
+
+I guess that's my rant for the moment. I would GLADLY use iTunes (in specific, but others if they offered the same service) *if only Apple would consider me a first-class citizen and provide me with a way to use it from Linux.* As it is, we of the non-Microsoft/Apple persuasion are being ignored in the worst possible way with regards to the legal online music scene. And my question is this: what can be done to change this sad state of affairs? I'm guessing that most users (myself included) simply walk away in disgust from every purveyor of online music and find our own way of getting music to listen to.
+
+The thought in the retail world is that the worst kind of problem to have is to have a customer who does not tell you that he/she is upset and never coming back to your store. You've just lost money (both now and forever) and you don't even know it. I wonder why this does not translate over to the online music industry? Surely there are thousands (at least) of non-Microsoft/Apple users who would like to be treated like real people and allowed to give companies their hard-earned money for the privelege of listening to music legally?
+
+Are we not being loud enough?
+
+Where does the problem lie and how do we fix it?
+
+Why can't companies get a clue and [treat Linux like the popular alternative that it is](http://www.pcpro.co.uk/news/71402/adobe-releases-new-linux-version-of-reader.html)?

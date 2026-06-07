@@ -1,0 +1,35 @@
+---
+layout: post
+title: Hello, I am an Open Source Developer
+date: 2006-11-01 14:29:16.000000000 -08:00
+published: true
+categories:
+- Life in General
+- Open Source
+tags: []
+permalink: "/2006/11/01/hello-i-am-an-open-source-developer/"
+---
+
+[Zack Rusin](http://zrusin.blogspot.com/)'s [blog post from a week ago](http://zrusin.blogspot.com/2006/10/disappointing.html) really resonated deep within me on a couple of points. His post, titled "Disappointing", was written in response to some negative feedback he got from some mis-guided souls who were commenting on [one of his earlier posts](http://zrusin.blogspot.com/2006/10/benchmarks.html) about some very impressive Qt graphics results he'd shown. While blog-commenters behaving badly is not something new, certainly, nor is one (very) talented Open Source developer having to set said folks straight, that's not what caught my eye. I was truly impressed with the benchmarking results that Zack reported with Qt, compared to some of the other toolkits, but that's not what caught my eye either. What jumped out at me most was his definition of self and purpose, if you'll forgive the generalization:
+
+> I am first and foremost an Open Source developer. Yes, I do prefer to write desktop code in C++ than C which was the basis for me joining KDE in the first place, but that's all. If I'll decide to quit Trolltech at some point and will get an offer from company supporting GNOME, I'll start contributing to GNOME the next day. It's all Free Software, that's what's really important to me. Qt is Free Software, that's why I work on it. I'm an Open Source developer, I just happen to work on KDE. I moved half way across the globe, to a country where I knew I'm going to be hungry all the time, just to be able to work on Free Software full time so please skip my blog if you want to bring something as ignorant as that here.
+
+Well-spoken, Zack!
+
+Here's a (lengthy) explanation of my affinity to this paragraph...
+
+Zack speaks with the passion of an Open Source developer--a man who loves what he does, is passionate about it, and who gains meaning and joy from it. I completely share this passion with Zack. I have met plenty of folks who are in the IT industry who sort of landed here with not much thought--many of whom could care less about software (much less Free Software) and would just as soon be working in any other industry. That's definitely not me. Ever since I first laid eyes on the Apple ][e's in grade school, I knew that was what I wanted to do.
+
+Fast forward 8 years or so from grade school, and you'll find me buying the first computer that I could afford--a 486 with Windows 3.11 Workgroup. About a month or so after that, I discovered Linux and bought a Linux Unleashed book which came with Slackware and kernel 1.2.13, and Windows was promptly forgotten.
+
+I. Was. Hooked.
+
+I started hanging out on the #linux undernet irc channel as Rembrandt and then vanRijn, and made friends with a bunch of like-minded geeks. I learned tons through living in #linux. One of my fellow geeks went by the nick of nyztihke (shortened later to nyz and seen lately as bhughes). He started writing his own window manager for X11. It was not nearly as feature-rich as the prevailing [AfterStep](http://www.afterstep.org/) back then, but I was intrigued and helped out where I could. Brad called his window manager [blackbox](http://blackboxwm.sourceforge.net/) and it has become one of the best, fastest, and most-enduring window managers. I joined in somewhere during 1999 and wrote the keyboard handling counterpart to blackbox, called [bbkeys](http://bbkeys.sourceforge.net/). Sometime later, I joined forces with xOr and we whipped together the [bbconf](http://bbconf.sourceforge.net/) blackbox-configurator in an astonishingly quick 2 months. The coolest part of all of this, though, was contributing to and being a part of a really fun Open Source community.
+
+From there, I started using KDE and contributing to the KDE project in the PIM space (mostly kpilot), and still am. And again, the greatest part of doing so lies in the essence of being an Open Source developer--being a part of an Open Source community, being a part of a huge world-wide team, making quality Free Software, and supporting, helping, and providing features for users. If you know anything about me, you'll likely know that I am passionate about Open Source and Free Software, as is demonstrated by what I spend my time doing, the solutions I bring to the table at my place of work, and the conversations that I constantly find myself in. It drives me nuts to see people (and companies) still paying money through the nose to the likes of Microsoft for the privilege of using software and services that are readily available from the global Open Source world for free. The most interesting area for me personally is the Free Desktop, which is why I'm spending my time there.
+
+So, let me tailor Zack's paragraph to my own place in life:
+
+I am first and foremost an Open Source developer. It is who I am. Yes, I do prefer to write desktop code in C++ rather than C which was the basis for me joining KDE in the first place, but that's all. If I were ever to get an offer from company supporting GNOME, I'll start contributing to GNOME the next day. It's all Free Software, that's what's really important to me. I'm an Open Source developer, I just happen to work on KDE. I would gladly make some large life adjustments (pending wifely approval, of course) just to be able to work on Free Software full time.
+
+So, please, if you are looking for an Open Source developer who has a history of working with Open Source communities, has corporate experience in providing large, mission-critical applications, has a demonstrated passion and commitment to Open Source solutions, and would like said person to work on Open Source desktop solutions, please, please please feel free to contact me. =;)

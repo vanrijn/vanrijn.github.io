@@ -1,0 +1,16 @@
+---
+layout: post
+title: In-Ear Headphones and Puking Yer Guts Out?
+date: 2008-02-25 17:57:15.000000000 -08:00
+published: true
+categories:
+- Music
+tags: []
+permalink: "/2008/02/25/in-ear-headphones-and-puking-yer-guts-out/"
+---
+
+I bought $180 of in-ear headphones to try out (the Shure SE210's and the Sennheiser CX300's) and both of them, I think, made me feel dizzy to the point of falling over and feeling like I was going to hurl my guts out the next morning. I've [blogged previously about motion sickness](http://movingparts.net/2004/10/16/ataxia-a-new-word-that-means-i-cant-play-halo/), but this is just frightening and frustrating and badness.
+
+Does this make any sense to anyone? Is it possible to be predisposed to dizziness and room-spinning-ness? Are in-ear, noise-isolating headphones known for making you feel dizzy, causing the room to spin on you, and not take effect until the next morning? I felt fine while I was listening to them. But after I took them off, went to bed, and got up the next morning, the room just spun ferociously.
+
+Blef.

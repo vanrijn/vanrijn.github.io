@@ -1,0 +1,26 @@
+---
+layout: post
+title: How To Transfer Hi-8 Camcorder Videos To DVD
+date: 2007-05-08 22:19:10.000000000 -07:00
+published: true
+categories:
+- Life in General
+tags: []
+permalink: "/2007/05/08/how-to-transfer-hi-8-camcorder-videos-to-dvd/"
+---
+
+![dvd]({{site.baseurl}}/assets/2007/05/widescreen20060111.jpg "dvd")I have spent the better part of the last 4 days trying to figure this out, so this will serve both as a reminder to self of how to do this, as well, hopefully, as some form of help to those who come after and, like me, cannot find a stinking tutorial about how to do it for the life of them...
+
+We have about 10 Hi-8 (8mm) camcorder tapes from days of yore. However, the camcorder that we used to record said taped memories has long-since died and stopped working. So the time has come to figure out how to get these tapes converted to DVD. But how... Well, thanks to some positive reviews, the fact that Linux (and [MythTV](http://www.mythtv.org/)) works well with it, and the local CompUSA having a really good closeout deal on it, I've purchased a [Hauppage WinTV USB2 PVR](http://www.hauppauge.com/pages/products/data_pvrusb2.html) video bridge.
+
+Linux does in fact load the proper drivers ([pvrusb2](http://www.isely.net/pvrusb2/pvrusb2.html)) and get the device working pretty easily with OpenSUSE 10.2 (kernel 2.6.18). In fact, it was extremely simple to view the video coming in through the composite feed pretty quickly and with little fuss. However, what is very lacking is any sort of GUI interface to the pvrusb2 (VideoForLinux2, actually) settings. You can play with the sys "cur_val" files to make changes, but this gets old really really quick ( sudo su -c "echo false >> /sys/class/pvrusb2/sn-8610055/ctl_mute/cur_val", for example, to turn off Mute ). [Xawtv](http://linux.bytesex.org/xawtv/) 4.x is still in heavy beta, seems less functional than Xawtv 3.x. And the latest [VLC](http://www.videolan.org/vlc/), with --enable-pvr starts to look functional, but in the end turns out not to be. So, as it turns out, the simplest way to transfer a video in Linux is to manually play with the "cur_val" settings in /sys/class/pvrusb2/*/ctl*, and then simply "cat /dev/video > file.mpeg".
+
+But I don't have an internal DVD burner on my work laptop, and I've not yet found a nice, feature-complete DVD creator with menus/animations/etc. on Linux. So, that and the fact that the Powerbook (OS X 10.4.9) has some really nice built-in software for this in the form of iDVD. I was very impressed with the quality and features that iDVD has. So the challenge, then, now became getting the videos off of the camcorder and onto the Powerbook.
+
+I used the [Hauppage-provided MyTV/X](http://www.hauppauge.com/pages/support/support_eskape.html) software that's freely available. This allows for tweaking the record rate, hue, saturation, brightness, contrast, and other things for recording the stream to the hard drive. The thing to note here is that the stream comes off of the WinTV device in interlaced MPEG-2 format. Quicktime, oddly enough, cannot read MPEG-2 format. Out of desperation (on day 3 of my self-imposed tour of pain), I forked over $19.99 for the MPEG-2 component for Quicktime, thinking that that would be all I'd need. I was wrong. Save your $19.99.
+
+So, as far as the settings that I'm using to pull off the camcorder feed... Tell MyTV/X to use the composite feed, set your record quality to DVD Short Play (6.4 Mbit/second VBR quality), as that seems a good compromise between chewing up all of your disk and having bad quality. I've raised the saturation setting up quite a bit to come close to the original colors on the tapes. And one surprise that I've hit is that after recording each session, if I try to record another one immediately, the device seems to be very jerky (every second it pauses or something). To get around this oddity, I just change the record quality setting to something else and then change it back and it's fine again. Record your videos to disk. Step 1.
+
+The next problem that you'll find after you record your video stream to disk is that nothing in OS X can open MPEG-2 files natively. And even if it did, you'd find that your recorded video file is interlaced (very choppy and jerky). So the next step in the process is to re-encode your videos to a format that Quicktime and iDVD understands and de-interlace the video streams to remove the jerkiness/choppiness while you're at it. I have used [ffmpegX](http://homepage.mac.com/major4/) for this, and it does a very admirable job. What I've used to successfully re-encode and subsequently burn to DVD is the "DV" target format. I can't for the life of me get it to use less than an enormous amount of disk space for each job, but it does actually get handled correctly by Quicktime and iDVD as a result. I'm going to play with different target formats now to see if I can get a smaller intermediate re-encoded file. But the important thing here is to make sure you check the "De-Interlace" checkbox.
+
+From there on it's pretty straightforward and I'm sure there are tutorials on how to add videos to iDVD and add the polish, menus, etc., so I won't go into detail about how to drag and drop movies into iDVD. =:)

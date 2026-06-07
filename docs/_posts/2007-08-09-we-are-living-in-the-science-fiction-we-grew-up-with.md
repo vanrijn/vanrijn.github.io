@@ -1,0 +1,16 @@
+---
+layout: post
+title: We are living in the science fiction we grew up with
+date: 2007-08-09 00:18:03.000000000 -07:00
+published: true
+categories:
+- Life in General
+tags: []
+permalink: "/2007/08/09/we-are-living-in-the-science-fiction-we-grew-up-with/"
+---
+
+I just got an e-mail from one of my best friends, who profoundly stated:
+
+> I was removing my SD card from one slot and putting it in another, when I realized this was shown on the original Star Trek over 40 years ago. We are living in the science fiction we grew up with.
+
+So true, [SuperDataMan](http://www.google.com/search?hl=en&q=superdataman)!! =:)

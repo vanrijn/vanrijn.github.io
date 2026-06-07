@@ -1,0 +1,32 @@
+---
+layout: post
+title: I need to blog more again, social media and iPad be darned
+date: 2013-12-22 13:08:39.000000000 -08:00
+published: true
+categories:
+- Life in General
+tags: []
+permalink: "/2013/12/22/i-need-to-blog-more-again-social-media-and-ipad-be-darned/"
+---
+
+I haven't blogged much lately. I'm sure this isn't that big of a deal to anyone but me, based on the complete lack of questions like "hey, you haven't blogged much lately, is everything okay", etc. It's also obvious to me that my friends, who themselves used to be avid bloggers, now don't really do all that much with their blogs anymore either.
+
+But it's been bothering me for a while.
+
+I blame Twitter and Facebook, personally. It used to be that the only way we had to be social, with ideas and feedback and such, were blogs. And with Twitter and Facebook, it's so easy to satisfy 90% of my desire to communicate with and get feedback from my friends, that I just rarely think about blogging much anymore.
+
+I blame awesome technology like my iPad too. It used to be that I'd nearly always have a laptop on my lap, and it was much easier to just open a new tab and blog something. I was the loudest of scoffers when the iPad first came out. I thought that this was just one new technology that was a clear attempt at taking more money out of my wallet and that there's no way it would actually work for me. After all, I'm a software developer!! I eat and breathe and live code! I live in the Matrix!!! So why would I ever want to get a device like a tablet that I couldn't even compile code on?!?
+
+That didn't last long, of course. I got an iPad because it was shiny and I thought it would be neat to have as a cool toy, and I wanted to have one like my friends. But I honestly didn't think it'd be the device that I used most whilst not at work.
+
+Boy was I wrong.
+
+I'm sure I'm not alone in this, but I now use my iPad probably at least 99% of the time when I'm not at work. I won't even go into the discussion about how this has led me to not hacking on Open Source projects hardly at all anymore. That's just too depressing. But I will say that having my iPad be my 99% device outside of work means that it's just not as easy to blog anymore.
+
+But I think I want to change this. I managed to resurrect my Think Outside Stowaway folding bluetooth keyboard once again (COME ON, JORNO KEYBOARD!!!!). And I've discovered the free Posts application for the iPad, which is what I'm using right now. And this feels doable.
+
+So here I sit, in the local Starbucks lobby, about to enjoy a Pumpkin Spice Egg Nog Latte, blogging once again. And it feels good.
+
+I still need to figure out how to tie my blog into the social networks better. I'd love any suggestions and help with that. I think I'm using the Social plugin for my Wordpress blog right now. Maybe there's something better?
+
+Anyway, here's to blogging in the New Year. And here's wishing all of you a very Merry Christmas. =:)

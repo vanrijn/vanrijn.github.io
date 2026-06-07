@@ -1,0 +1,12 @@
+---
+layout: post
+title: Ack.  Sorry, I've moved back to / from /b
+date: 2005-06-09 17:05:04.000000000 -07:00
+published: true
+categories:
+- Life in General
+tags: []
+permalink: "/2005/06/09/ack-sorry-ive-moved-back-to-from-b/"
+---
+
+I guess I was thinking that it would be neat to have a different /index.php than my WordPress blog. But... well, I never have and never will and there's no point in it begin there. So I'm moving everything back to http://movingparts.net/ from http://movingparts.net/b/. Sorry for the chaos. =:/

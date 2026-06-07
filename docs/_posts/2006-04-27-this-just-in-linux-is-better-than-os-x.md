@@ -1,0 +1,27 @@
+---
+layout: post
+title: 'This Just In: Linux Is Better Than OS X'
+date: 2006-04-27 07:13:03.000000000 -07:00
+published: true
+categories:
+- Apples
+- Desktop
+- Life in General
+- Linux
+tags: []
+permalink: "/2006/04/27/this-just-in-linux-is-better-than-os-x/"
+---
+
+Well, at least it is for me. And it's taken me $1500 to figure it out the hard way.
+
+How much is it to ask for to be able to {alt,command}-tab through ***ALL*** bloody open windows in OS X? You know... **ALL** of them. Like, **ALL** of them--including the X11 windows that all get bunched up underneath one stinking X icon. Or the 2 Firefox windows. Not just one of them. **ALL** of them. And yes, I do know about [Witch](http://www.petermaurer.de/nasi.php?section=witch). And no, it doesn't work with X11 windows. And why would I want to use X11 to begin with? Because sometimes Free applications are much, much better than the ones you have to pay for. For example, kontact is MUCH much better an integrated mail/PIM environment than Mail.app could ever dream of being. I realize that some people (mostly Mac-only [people](http://mschindler.com/)) don't bother their pretty little heads about such things. OS X is pretty, after all, and it's sooooo much better than OS 9, etc. And if you stay in the Apple box, it truly is a really nice and functional and pretty environment. Blah.
+
+I now realize that what I have is a really pretty, sexy, sleek, expensive computer (again, they all suck) that is completely incompatible with me. I'm not saying it's not compatible with others--obviously that's not the case, and I wish them all the best of luck. But it sucks for me.
+
+I realize this, but it comes down to what you're used to and what you can be most-productive with. And for me, I'm used to working the way that I'm used to working for the last 10+ years on Linux, and be it "better", "worse", "ugly", or "whatever", it's what I'm comfortable with and what I'm most-productive with.
+
+As I've blogged about previously, I cannot just use Linux on the powerbook (Linux works absolutely great, persay, but the proprietary applications that I need to run on it I cannot since they're not made for Linux-PPC, but only Linux-x86). Let this be a lesson to all those who come behind.... Yes, Linux (the Kernel and distribution) works *wonderfully* on the PPC platform. But do the apps you need? Realize up front that you cannot use Flash (like 50+% of the websites on the WWW use these days?!?), Moneydance (forget OFX because Moneydance is proprietary, as is Java, and the only "complete" JVM you can use decently is IBM's JDK, which doesn't work with Moneydance's SSL layer or something... blah), Win32-based multimedia codecs (.mov, .avi, .asf, etc.... any of the codecs that work in Linux-x86 that are based on windows32 will NOT work in Linux PPC), and others you may not realize you really need to have until you're stuck with a powerbook running Linux and can't have them.
+
+I also cannot just use OS X. This is partly because of comfort/what-I'm-used-to, as well as some practical things, like having to jump through some really screwy hoops to be able to develop for the KDE environment. And how bloody difficult is it to have the "end" key mean "End of Line" to OS X????? Or the "Home" key mean "beginning of Line", not "top of page"???? And why not put the to-the-rest-of-the-world standard keys (ever heard of insert? single-key delete/page down/page up/home/end?????) as single keys on the Mac keyboard, Steve???
+
+Bloody **BLAH**.

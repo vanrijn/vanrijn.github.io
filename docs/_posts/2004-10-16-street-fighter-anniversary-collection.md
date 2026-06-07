@@ -1,0 +1,14 @@
+---
+layout: post
+title: Street Fighter Anniversary Collection
+date: 2004-10-16 20:13:47.000000000 -07:00
+published: true
+categories:
+- Video Games
+tags: []
+permalink: "/2004/10/16/street-fighter-anniversary-collection/"
+---
+
+[![streetfighter-anniversary]({{site.baseurl}}/assets/2004/10/3067585877_0ee88b9057_o.jpg)]({{site.baseurl}}/assets/2004/10/3067585877_0ee88b9057_o.jpg "streetfighter-anniversary by vanRijn") Man, I'm excited about this.... I [found this](http://xbox.gamespy.com/articles/553/553714p2.html).... All I can say is... Josh, you'd better get yer game back, baybee.... =:) Ooooh. [This looks soooo intense](http://web.archive.org/web/20220417093626/https://www.capcom.com/sfac/).
+
+> If you've never played any of the Street Fighter games, well, you've probably wandered onto this page accidentally. The unquestioned king of fighting franchises is coming to the Xbox for the first time, and it's going to be the first time the series has ever allowed players to do battle online. As the title suggest, there are a bunch of games on the disc, including the many flavors of SF2, as well as the wonderful SF3: Third Strike. Unfortunately, we don't know much about the online play yet, as the game was recently pushed back until February of 2005. The PS2 version came out recently, and many gamers were mad that it didn't feature online play. Will it be worth the wait for the Xbox iteration? If Capcom can give their fans a reliable, lag-free experience, this might be the greatest online fighter of the bunch.

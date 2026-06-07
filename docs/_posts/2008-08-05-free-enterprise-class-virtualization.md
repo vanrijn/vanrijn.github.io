@@ -1,0 +1,28 @@
+---
+layout: post
+title: Free Enterprise-Class Virtualization
+date: 2008-08-05 11:05:57.000000000 -07:00
+published: true
+categories:
+- Work Stuff
+tags: []
+permalink: "/2008/08/05/free-enterprise-class-virtualization/"
+---
+
+I don't know how many people are aware of this bold move VMware made recently, but I think it's pretty amazing. Just last week, [VMware made its hypervisor free](http://www.vmware.com/company/news/releases/esxi_pricing.html)!!
+> # VMware ESXi Hypervisor Now Free
+>
+>
+>
+> #### With Customers Deriving Value from More Than 20 Products in the  VMware Portfolio, Company Makes #1 Hypervisor Free
+>
+>
+> **PALO ALTO, Calif., July 28,** **2008** – VMware, Inc., (NYSE: VMW), the global leader in virtualization solutions from the desktop to the datacenter, today announced its stand-alone ESXi hypervisor will be available at no cost to help companies of all sizes experience the benefits of virtualization. Since 2001, VMware has provided the industry’s most popular and reliable hypervisor, which is now used by more than 120,000 customers. In December 2007, VMware announced significant improvements with ESXi – its third-generation stand-alone hypervisor. With the industry’s smallest footprint and OS-independence, ESXi sets a new bar for security and reliability. ESXi 3.5 update 2, available today, meets the criteria for mass distribution: (1) ease of use and (2) maturity and stability now having been ‘battle tested’ for six months with customers. The leading server manufacturers have all embedded VMware ESXi, including Dell, Fujitsu-Siemens, Hitachi, HP, IBM, and NEC. ESXi can be downloaded now from [www.vmware.com/products/esxi/](http://www.vmware.com/products/esxi/)
+
+Now, speaking personally, I've always used VMware's desktop virtualization products, namely Player and Workstation. In fact, looking back at my serial number history, I see that I first convinced my boss to splurge on me with a license for VMware Workstation 3.0 (for Linux systems of course) on 2/7/2002. And that's just the first license I *bought*. =;) I'm really excited about the next release of VMware's hosted products and the really cool features in them. The irony of it is that now that I have an awesome job that doesn't require me to use Windows apps, I won't actually need some of the cool features that are coming out and definitely won't appreciate them as much as I would have working in my Corporate USA jobs of yesterday.
+
+But being a geek and all, I have quite a few times wished that I could afford VMware's enterprise hypervisor (ESX) so that I could use it at home and run several virtual machines on the physical box that I have downstairs right now, being horribly under-utilized. And now that cost is no longer an inhibiting factor, I'm already planning an upcoming geek weekend to do just that. Cool!! Oh, and before you tell me that I should just use Xen or KVM, I'll pre-emptively answer that I'd really like to use something rock-solid, enterprise-class, and world-proven, thank you very much. Given the choice of yesterday between a costly enterprise-class VMware hypervisor and the young and comparitively unproven Xen or KVM solutions, I might have eventually given in and tried one of the free solutions. But now that VMware ESX is free, it's pretty much a no-brainer for me to choose it over the other free solutions.
+
+Sweet mama! Go virtualize your toaster or something!! =:D
+
+Disclaimer: I work for VMware and have never been shy about how much I'm loving it. =;P

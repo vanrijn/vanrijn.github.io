@@ -1,0 +1,41 @@
+---
+layout: post
+title: I Want a New Drug
+date: 2008-03-05 21:37:21.000000000 -08:00
+published: true
+categories:
+- Life in General
+tags: []
+permalink: "/2008/03/05/i-want-a-new-drug/"
+---
+
+My apologies to [Huey Lewis and the News](http://en.wikipedia.org/wiki/Huey_Lewis_and_the_News). And warning: this is a wandering, brain-dumping, meandering post which may very well be of no interest to you.
+
+There's nothing like spending the weekend in a hospital to give you a little perspective.
+
+I [blogged previously](http://movingparts.net/2008/02/25/in-ear-headphones-and-puking-yer-guts-out/) about feeling dizzy and nauseous, and I attributed it to the in-ear, sound-isolating headphones that I bought. Well, I don't think that said headphones were the cause as much as a possible contributing factor. Things got so bad on Friday (I couldn't even sit still without the room spinning on me and me feeling like I had to throw up) that I went to the local Emergency Room, which led to my being admitted into the hospital (kind of like a sick graduation of sorts), where I spent a very uncomfortable and frustrating weekend. They ran all sorts of tests on me. I guess the good news is that the doctors couldn't find any of the big, bad signs of problems that might lead to my symptoms. But then again, that's also the bad news--they don't know what caused it, which scares me because that means that it will most probably happen again. My brother in law called a couple of nights ago to cheer me up by telling me that he has chronic Vertigo, which sounds very similar in symptom, and that there's not much doctors can do to treat it. Greaaaat.
+
+So, I'm back home now (got to return on Sunday), taking a nice little handful of drugs to help with the dizziness (some of which, oddly, have the side effect of possibly causing dizziness--explain that to me?), and am today hooked up to a [Holter Monitor](http://en.wikipedia.org/wiki/Holter_monitor). I have never felt more old and decrepit in my life. =:(
+
+Spending the weekend in the hospital is a very different, and altogether disagreeable experience--one which I sincerely hope to not repeat anytime soon. There's nothing quite like being completely alone with your fears, worries, unanswered questions, doubts, and the like with naught to take your mind off of them. And now that I've been out sick from work for 3 days, while the nausea has gotten very much better, the dizziness and not-quite-with-it feelings are still there. And, the growing feeling that there's just something that's not quite right--aside from the physical ickiness, I mean.
+
+I think the biggest thing that I'm finding is that I lack balance in my life. I simply do not know how to relax, it seems.
+
+Prior to my current job, relaxing to me meant programming on something cool and interesting--something that is challenging, that gives me a sense of accomplishment, and that lets me learn stuff I've never learned before. And Open Source has filled that need quite nicely. The ironic thing is that now that I am being challenged and am able to learn and grow and work on something really cool and interesting for my job, I'm finding it very hard to get motivated to spend off-work hours diligently laboring away on my FOSS side projects (KPilot currently). Actually, there are another few factors at work here.... Now that I'm working from home for the majority of the time, my reliance on my trusty little Palm handheld devices is mostly non-existent. Certainly, I have no need for the little guy when I'm working from my desk at home and have my laptop in front of me at all hours. And therefore, I have just about zero desire to hack on things related to it like I used to be when I was absolutely dependent on it for daily survival.
+
+In addition, one of the most exciting things about KPilot development was the camaraderie that I had with my fellow KPilot hackers. And that's not been there in a long, long time. I'm not faulting anyone for it, and I'm as much to blame as anyone else, but there's just nobody working on KPilot anymore, and it doesn't look like that's going to change anytime soon, being that Palm devices are nowhere near as sexy and modern as the other neato gadgetry we have these days (iPhones, PSPs, etc., etc.).
+
+And, I still have not figured out how to find a healthy work/home balance. It's a very easy thing to do when you're working in an office building. The work day starts when you enter the building and it ends when you leave. Plus, you get a nice little buffer before and after that allow you to transition between work and home frame of mind, etc. Now that I don't have that physical separation anymore, it just seems like the days blur together into a [gigantic boulder](http://www.indiana-jones-movie-buzz.com/photos/51/indy-escapes-giant-boulder-wallpaper.php) that keeps picking up momentum. The vicious circle keeps getting more and more out of whack as I get up later, get started working later, and stay up working later as a result. By the time the weekend hits, I'm shot. The time zone difference is somewhat to blame too, I think, but I think that that's not all of it.
+
+I absolutely must get back onto a regular routine and schedule again, like I had when I drove to work every day. I think that this has played a very big piece in my getting so sick recently. And I really need to find something that is cool and interesting that I can start hacking on in my off-work hours.
+
+So, a short list of todos:
+
+- Get on a regular sleep/wake/work/relax routine again. I'm thinking I might even do something silly every day at the same time to give myself the "driving to work" and "driving home" buffer, like driving to the local Dunkin Donuts and getting a coffee or something.
+- Drink much more water. This makes perfect sense. I've never been a big water drinker, but I think that because I've not been drinking enough water, my body was so worn down that it just nose-dived. I need to go out and buy a big honking cup that looks cool.
+- Sleep at least 7 hours every night. I have a horrible time with this one. I'm a night owl, and gravitate towards staying up until the wee hours of the morning, especially when I feel like I have to accomplish something to feel good about the day.
+- Find something interesting and cool to do outside of work again. My sense of obligation and "should do" points me to getting KPilot working in trunk so we can have something useful for KDE 4.1, but it sure is not all that interesting to be perfectly honest at this point. I think I need to poke around a bit and find something that interests me again--if for nothing other than a break. This ties into the regular routine thing again, but I've been living such crazy and out of balance hours lately that I simply do not have any time to relax. And I think I've realized how important it is to have a healthy balance and to be able to have some time every day to feel some peace and relaxation.
+
+Harumph.
+
+I warned you this post wasn't interesting.

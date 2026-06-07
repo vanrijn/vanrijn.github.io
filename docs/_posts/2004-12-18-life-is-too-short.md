@@ -1,0 +1,36 @@
+---
+layout: post
+title: Life is too short.
+date: 2004-12-18 18:12:55.000000000 -08:00
+published: true
+categories:
+- Life in General
+tags: []
+permalink: "/2004/12/18/life-is-too-short/"
+---
+
+Maybe I'm just feeling melancholy today.
+
+Maybe I'm just frustrated by having invested literally more than a dozen hours into researching what the best digital camera would be for my family, and still don't know which one to get or where to get it from.
+
+Maybe I'm burnt out from work-without-vacation-days-off for quite a while.
+
+Maybe I'm just tired from not having slept consistently or well for a while.
+
+Maybe I'm frustrated by my career path.
+
+Maybe I'm suffering paralysis from prosumer over-analysis of the available camera choices.
+
+Maybe I'm dreading going out into the mad sea of almost-Christmas consumerism, cringing from the very thought of the fighting with traffic, unavailable items, checkout lines, ad nauseum.
+
+Maybe I'm frustrated at not being able to master any sort of survival skills in Halo whatsoever (my only semi-successful strategy is smash-and-grab, and that only rarely works in real games).
+
+Maybe I'm frustrated by my inability to buckle down and lose those last 5 pounds.
+
+Maybe it's [D], all of the above.
+
+My bride tells me that I always get like this during Christmas. I don't know about that, but I do know that I'm tired of feeling like this, and that life is too short for it. The Son of the living God spent 33 years on this dusty, frustrating earth, preparing Himself all the while for the most violent and bloody death I've ever read, and living a perfect life all the while. And He did this so that I could be at peace with God, and have that peace in my life. That's a sobering thought. I need to spend more time reflecting on that amazing, loving life and less time focusing in on my frustrations, I think.
+
+I also could use a day off, perhaps, and a $LARGE_SUM_OF_MONEY landing in my bank account.
+
+Maybe just a day off would help.

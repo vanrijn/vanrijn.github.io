@@ -1,0 +1,28 @@
+---
+layout: post
+title: Stranger Than Fiction
+date: 2007-03-15 20:54:53.000000000 -07:00
+published: true
+categories:
+- Movies
+tags: []
+permalink: "/2007/03/15/stranger-than-fiction/"
+---
+
+![]({{site.baseurl}}/assets/2007/03/422641078_f7d05379ed_m.jpg)I just got done watching this movie with my family and I can honestly say that this is one of the most amazing movies I have ever seen.
+
+The cast is perfect. Will Ferrell is absolutely incredible. Dustin Hoffman is excellent. [Maggie Gyllenhaal](http://www.imdb.com/name/nm0350454/) is superb!
+
+The style of the film is just impeccable. I don't think I've seen a movie so artfully directed, shot, and editted in a very long time. Amazingly good use of technology, overlays, and good old-fashioned camera work.
+
+Wonderful!!
+
+And the bitter-sweet emotional roller coaster was almost too much to bear. I loved every minute of it!
+
+I realize that I'm coming across as more of a gushing, emotional school girl than a cool, sophisticated movie reviewer, but my head is still swimming with the emotions, suspense, angst, and adrenaline that a good movie imbues upon its fortunate viewers.
+
+Mostly, all I can say is "WOW." Stranger Than Fiction was a delicious adventure. I would be very surprised if it does not earn more than a few awards at this year's... award thingeys...
+
+Most excellent cinematography.
+
+This is film at its finest.

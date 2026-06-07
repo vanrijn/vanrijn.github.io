@@ -1,0 +1,19 @@
+---
+layout: post
+title: KPilot Hackery of Sorts (or How To Sync Your Work's Exchange Calendar To Your
+  Palm, Part III)
+date: 2008-04-09 00:23:23.000000000 -07:00
+published: true
+categories:
+- KDE
+- KPilot
+tags: []
+permalink: "/2008/04/09/kpilot-hackery-of-sorts-or-how-to-sync-your-works-exchange-calendar-to-your-palm-part-iii/"
+---
+
+It felt darned good to hack on KPilot just a wee bit today! Actually, it was less hacking on KPilot directly and more on some [utility code](http://websvn.kde.org/branches/KDE/3.5/kdepim/kpilot/tests/mergecalendars.cc?view=log) that I've written that allows me to sync my work Exchange calendar into my personal calendar and subsequently to my Palm. I've [blogged previously about this](http://movingparts.net/2007/04/17/syncing-exchange-calendar-1-way-into-korganizerkontact/), but since my last post, I've switched employers (YAY!!!) and I now have to deal with Exchange 2007 OWA, with Forms-Based Authentication (FBA). FBA has managed to break the nifty little Ruby Exchange (RExchange) code that I'd been using, since RExchange doesn't do FBA. So, I've gone back to Graham Cobb's tremendously useful little [OWASync package](http://www.cobb.uk.net/OWA/owasync.html) which has been updated to handle Exchange 2007's schema and FBA, WOOT! So, anyway, if you, like me, need to sync your Exchange calendar to your Palm, and you don't want to have to keep your personal Calendar also in Exchange just for the privilege of being able to sync both work and personal calendars to your Palm, you might find some of this useful. The right answer for this, of course, is to get KDE PIM to be able to speak to Exchange, show it in kontact, allow 2-way manipulation of your Exchange calendar, and then get KPilot to know how to merge multiple calendars into 1 view and 2-way sync them. But that's a whole lotta work. =:) I'm actually thinking that it might be a long-term idea to have KPilot be able to sync to multiple calendars on its own. But, again, that's a whole lotta work. And what's more... while it might not be the prettiest solution, what I have now works and does what I need it to:
+
+1. Retrieve my calendar out of Exchange
+2. Display my calendar in Kontact (or Sunbird--I just checked and it works fine too!) so I don't have to deal with OWA for checking my calendar
+3. Have my work calendar remind me of appointments via my Linux desktop
+4. Sync my Exchange work calendar with my Treo

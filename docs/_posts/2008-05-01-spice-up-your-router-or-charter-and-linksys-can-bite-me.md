@@ -1,0 +1,36 @@
+---
+layout: post
+title: Spice Up Your Router (or Charter and Linksys can bite me!)
+date: 2008-05-01 21:06:10.000000000 -07:00
+published: true
+categories:
+- Life in General
+tags: []
+permalink: "/2008/05/01/spice-up-your-router-or-charter-and-linksys-can-bite-me/"
+---
+
+I had THE most frustrating day yesterday. After a hellish night of not sleeping (darned cold!!), I wake up to find that my internet connection is totally borked. Looked at the router's status page and it can't get a DHCP address from my lovely ISP, Charter.net. Spent an hour on the phone with Charter's completely unhelpful people. The guy actually said "gee, it's kind of funny that you're calling in with a Linksys router that isn't able to get an IP address today--we've had a lot of Linksys router users call us *today* and tell us that." I asked him if he didn't think that that might be an indication of a problem in Charter's setup and that it might be a non-coincidence that *today*, a bunch of Linksys-router-using people are calling?? He actually had the audacity to tell me that he thought it was Linksys's fault... that maybe they pushed a firmware update out (HUH?!?! I have to flash my router to upgrade its firmware, dork), or maybe there's just a bunch of Linksys routers that went belly-up on the same night (again, HUH?!?!?).
+
+He tells me that since we can connect the Powerbook straight to the cable modem and it can get an IP address, that there's something wrong with the Linksys router and that I will have to call Linksys for help. He says that Charter does not support any of its customers using routers at home. That's cute. Like, you know... everyone just has one computer at home nowadays... ya dork! Now, I've not touched a thing on the cable modem or router in the 2 years that it's been in my basement working fine with Charter, so I know for certain that I've not done anything to change things and that it must be something in Charter's network that's changed. The rude little Charter guy insisted that he was as high I could go for technical support and that customers weren't allowed to talk to the network technicians. I didn't but should have told him to bite me.
+
+Oh, and the beauty of this is that I have Vonage for our phone provider, which means that the above conversation and the next one happened via cell phone. And the beauty of having a conversation from my house on a cell phone is that I live in the middle of a stinking forest and I get one bar of reception, if I'm lucky. So that makes for a nice, easy to understand phone call, especially when you're talking... oh, I don't know... to a very heavily-accented outsourced Indian support person.
+
+So I hang up from the stupid Charter guy (I really hate Charter... did I mention that?) and call Linksys's technical support number and start talking with a very heavily-accented outsourced Indian support person over my 1-bar cell phone connection in the middle of a stinking forest. She has a nice chat with me for a good half hour and asks me all kinds of questions about my home network and how many computers I have and how many of them are Windows (0), Mac (1), and Linux (5). Then she tells me that because my router is so old, she's going to have to charge me $33 for helping me with it because it's no longer covered under free technical support. So... just to clarify... because I paid $80 for a WRT54GS router 5 years ago and it's still kicking strong, instead of... oh, I don't know... a note of thanks or congratulations, I get a bill for $33 for her to help me get it working with Charter again. I told her that there's no way in hell that I'm going to pay $33 for her help, which quickly led to the conclusion of that waste of a phone call. Unfortunately, seeing such amazingly awesome customer service by the likes of Moleskine and even Apple makes such patently horrific customer service as this really stand out. =:( Nice work, Linksys. I'll be thinking more than twice about purchasing one of your products in the future.
+
+Meanwhile, it's like noon now and I've not yet been able to start work. That's nice.
+
+So after showering, eating, etc. I run up to the nearest Circuit City and plop down $49 for a new Linksys WRT54G2 wireless-G router, get it home, and connect it--foolishly thinking that it'll work. Nope, same thing. About 10 minutes into my "[Serenity now!!!](http://www.google.com/search?client=opera&rls=en&q=seinfeld+serenity+now)" mental breakdown, I tried using the "MAC address clone" trick on the router. Sure enough, I entered in my Powerbook's en0 MAC address and like magic, the new router is able to get an IP address from Charter's DHCP servers. I run downstairs, pull the new router out, put the old WRT54GS back in, spend the next 10 minutes reconfiguring it and tell it to use the Powerbook's MAC address, and sure enough, now it is able to get an IP address too. Needless to say, I'm taking the new router back and sticking with my old WRT54GS, thank you very much.
+
+Gee, isn't that a coincidence. Yep, there just must be a lot of people whose Linksys routers have died on them in the same day, ya moron.
+
+What I think happened is that Charter rolled something out 2 nights ago so that their DHCP servers would stop handing out IP addresses to Linksys routers. Of course, Charter won't admit to that.
+
+So, now that I've officially been told by Linksys that they're not going to lift a finger to help me if I have any problems with their router, I find this [little lifehacker page that talks about upgrading your $60 router to a $600 router](http://lifehacker.com/software/router/hack-attack-turn-your-60-router-into-a-600-router-178132.php). I'd looked at the [DD-WRT project](http://www.dd-wrt.com/wiki/index.php/Installation) before, but I was always a little nervous about bricking my router and having to go buy another one. With that fear now nicely removed, I figured that now's a good time to see what DD-WRT can do. And DANG, I'm glad I did. There is so much more that I can configure with the DD-WRT interface than I ever could with the old Linksys interface. And the Web UI is so much more responsive! I'm totally impressed with it.
+
+So, to sum up:
+
+- Charter: you can totally bite me. As soon as I find another internet provider, you're dumped like last week's trash.
+- Linksys: your products used to be totally awesome and then you outsourced your customer support, which means you might be saving money, but your customers are getting much less desirable support, at least as far as I'm concerned. You can sort of bite me.
+- DD-WRT project: you guys totally rock.
+- Forest that I live in: you rock except for making living with cell phones not fun.
+- Not being able to start work until 4:30 pm because of all this: you TOTALLY suck. =:(

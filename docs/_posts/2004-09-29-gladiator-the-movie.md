@@ -1,0 +1,20 @@
+---
+layout: post
+title: gladiator, the movie
+date: 2004-09-29 20:44:40.000000000 -07:00
+published: true
+categories:
+- Movies
+tags: []
+permalink: "/2004/09/29/gladiator-the-movie/"
+---
+
+[![gladiator]({{site.baseurl}}/assets/2004/09/3068419028_98410cbb75_o.jpg)]({{site.baseurl}}/assets/2004/09/3068419028_98410cbb75_o.jpg "gladiator by vanRijn")I don't know why movies affect me so much, but they really do. I've always been this way, as long as I can remember.
+
+I still remember getting horribly freaked out by [The Shaggy DA](http://www.imdb.com/title/tt0075200/), watching it with my parents and siblings growing up. The Thing was another horrible one. *shiver*
+
+I think it might be that my mind soaks up visual images so easily and simply refuses to let go of them. I think it also might be because my mind is predisposed to a [suspension of disbelief](http://encyclopedia.thefreedictionary.com/Suspension%20of%20disbelief). Whatever the reason, movies always affect me for longer than I'd like them to.
+
+Sometimes they make me moody and no fun to be around (sorry honey). Sometimes they make me question reality and realize how fragile our grasp on it is (like [A Beautiful Mind](http://www.imdb.com/title/tt0268978/)--now that one REALLY affected me!). Sometimes they make me appreciate my kids and wife even more (like [The Patriot](http://www.imdb.com/title/tt0187393/)). And sometimes, they just stir up a whole bunch of amazing little emotions inside me that touch parts of my mind that aren't used to getting touched.
+
+[Gladiator](http://www.imdb.com/title/tt0172495/) was like that. What an amazing, powerful movie. I need to go digest it some more. =:)

@@ -1,0 +1,26 @@
+---
+layout: post
+title: Nokia N810 and Videos
+date: 2008-09-19 16:21:27.000000000 -07:00
+published: true
+categories:
+- Movies
+tags:
+- N810
+- nokia
+- PSP
+- video
+permalink: "/2008/09/19/nokia-n810-and-videos/"
+---
+
+Dear LazyWeb,
+
+I have ripped/encoded a bunch of (my own) movies previously in order to watch them on my PSP. The command I've been using is a variation of this:
+
+> mencoder -sws 9 -af volume=10.1:0 \ -vf pullup,softskip,scale=320:240,harddup,unsharp=l3x3:0.7 \ -ofps 30000/1001 \ -oac faac -faacopts br=128:mpeg=4:object=2:raw -channels 2 -srate 48000 \ -ovc lavc -lavcopts aglobal=1:vglobal=1:vcodec=mpeg4:acodec=libfaac\ :abitrate=128:vbitrate=500 \ -of lavf -lavfopts format=psp \ -aid 128 dvd://1 -chapter 01-04 \ -o $HOME/Movies/Seinfeld/Seinfeld-Season5-11-TheConversion.mp4
+
+... which plays fine on my PSP. Unfortunately, these mp4 movies do not play on my shiney new Nokia N810. I've tried using Canola, as well as the built-in media player application, and they both don't recognize the data as something they can play. I tried installing MPlayer on the N810 and, while I seem to remember it thinking it could play it, I also seem to remember it skipping, stuttering, and falling all over itself in trying to actually make it viewable. I also tried installing VLC, but when I try to launch it, no UI comes up?
+
+Anyway, if someone could point me to either a way to view these movies on my N810 or to the best mencoder command to watch the best resolution/quality movies on my N810, I'd greatly appreciate it. =:)
+
+[**UPDATE**] Actually, it looks like MPlayer on the N810 does a really nice job! I think the problem that I was having previously was that i was trying to do something else (why does copying/pasting from a UPnP share use so much CPU??) at the same time that MPlayer was trying to play a video. But I just pulled over an mp4 of Office Space and MPlayer played it beautifully--without any hiccups or stutters. Here's to hoping I don't have to re-rip everything I've already done for my PSP!

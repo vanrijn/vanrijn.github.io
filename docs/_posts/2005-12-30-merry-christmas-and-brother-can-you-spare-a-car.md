@@ -1,0 +1,43 @@
+---
+layout: post
+title: Merry Christmas and Brother, Can You Spare a Car?
+date: 2005-12-30 10:19:44.000000000 -08:00
+published: true
+categories:
+- Life in General
+tags: []
+permalink: "/2005/12/30/merry-christmas-and-brother-can-you-spare-a-car/"
+---
+
+Dang, things have been totally nuts lately. We of the relocating-Kasper persuasion have had a [tumultuous](http://www.answers.com/topic/tumultuous?method=8) couple of months.
+
+Our home in Harrisburg has sold, thanks to my good friend and [Real Estate agent, Tom Waller](http://associates.era.com/thomaswaller). (Thank you so, so, so much again, Tom!!)
+
+Our family is all back together again, finally!! We're all in a temporary apartment, graciously provided by CVS. But the important thing is that we're all together again. I will never, never, never go ahead of my family like that again. Lesson learned.
+
+We thought we found a house again just yesterday, put an offer in on it, and found out last night that someone else had just put a full-price offer in the night before, so we don't have a chance. Stink. Let the craziness to try to find a house continue...
+
+We have several large, loud-ticking countdown timers going right now. The first is the mad rush to try to find a home to live in. We only have one more month of temporary housing and we either need to find a house and rush like mad to get into it within a month or resign ourselves to living in an apartment for 3 months at least and paying for storage for whatever of our possessions don't fit in the apartment. Stink.
+
+The second loud-ticking clock is the fact that we only have 22 days to get all of our possessions out of temporary storage or we start paying $30 per day for the privelege of having all of our possessions in storage.
+
+My '93 Tercel is broken again, and this time I can't seem to be able to fix it myself. Last couple of times, it was simply a matter of putting new spark plugs in. Not so this time. It is shaking like mad while idling and it feels like something is seriously out of whack. And we are 400 miles away from the only mechanics we have ever known and trusted (Ubers in Mechanicsburg, PA, by the way, is the place--the best mechanics I have ever met and I trust and recommend them whole-heartedly!!!). Stink. Anyone happen to know of a good (honest, God-fearing, fair, not over-priced) auto mechanic in Rhode Island or Mass?
+
+Along the way during the past 2 weeks, we've managed to have the most chaotic Christmas ever. Heh. No, really. With everything going on, we hadn't gotten anything together to celebrate Christ's birth at all. So at 3:00 p.m. or thereabouts on the day before Christmas (you know--Christmas Eve--the day that your mother always warned you not to go out shopping on) we all bundled into our family jalopy and headed out to WalMart (you know--WalMart--the place your mother always warned you never to go to on Christmas Eve).
+
+My darling bride bought the most pathetic 3-foot tall table-top tree (1 foot of which seems to be the "stand") that ever you would want to see and some decorations for it. No, really, the thing kept falling over under the weight of the star atop it. Heh. It was funny, to be sure, if not entirely pathetic.
+
+Also, me being super-Daddy and all, I wanted to try to do something fun and different with Lynn and the kids for Christmas so that there was at least something memorable about it. So I had everyone write down 4 things that they might like to find as gifts on Christmas (the next day). We each then drew 2 pieces of paper out of a hat until each of us had 2 people to buy presents for and everyone had 2 presents coming, theoretically. In thought, this was an amazingly good idea, replete with sound forethought, good planning, and sure to bring happiness to all. Note--this is the first sign of trouble--being sure that you have a good idea.
+
+So we went to WalMart, on Christmas Eve, each with our 2 secret pieces of paper, and set about buying things for each other. The only problem with such a marvelous idea is that:
+
+1. it's very hard to pull this off when you're all in the same store at the same time
+2. you have to really think about how to combine the present-buyers on their treks throughout the store so that they aren't buying for the person they're with.  This was almost as difficult as some of the college-level discrete math work I've done.  =;)
+3. you need a whole lot of present-covers/disguisers so that when said trekkers come back to the shopping cart, they can't tell what's in the cart
+4. I forgot about the fact that my little present-buyers might not be able to find the present that they are looking for to buy for their target giftee.  Luckily, I had brought the left-over present-idea papers with me so we had something to fall back on when said problem arose (and it did--like at least 6 times).
+
+All in all, though, I am really pleased with how things turned out. We managed to get everything that everyone had pulled out of the hat by trekking through WalMart for entirely too long, then with a quick stop at Bed, Bath and Beyond, and finally the ever-faithful Borders. I don't know if everyone was ecstatic with the amounts of presents that they got this year, but I think it was neat to see each gift-giver more focused on the gift that they were buying, wrapping, and giving to someone else than the "ooh, what am I going to get" fever that can so easily beset children and adults alike. I love my wife and kids sooooo much and I hope that even though this Christmas wasn't the most all-out amazing, they will forgive me for it and focus instead on the good times we have had.
+
+Lastly, in the "good times we have had" category, we all bought [cheap "laser-sighted" Nerf dart guns](http://www.amazon.com/exec/obidos/ASIN/B0009SQEYY/ref=pd_sxp_elt_l1/103-7134733-6394209) and have had several [all-out dart wars](http://www.enquirer.com/editions/2004/05/06/loc_dartwars06.html) thus far, and I can assure you, there are more to come. My darling bride has the annoying habit of stealing one of the children's Nerf guns and dual-shooting with extreme prejudice at anyone who happens to be in the house. I believe a reckoning is coming. I won't give away any details, but I think that this is how [several pirate mutinies](http://www.imdb.com/title/tt0383574/) have started....
+
+[“A merry Christmas to us all, my dears. God bless us!” Which all the [Cratchit] family re-echoed. “God bless us, every one!” said Tiny Tim, the last of all.](http://www.novelguide.com/AChristmasCarol/toptenquotes.html)

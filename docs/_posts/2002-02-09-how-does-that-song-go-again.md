@@ -1,0 +1,24 @@
+---
+layout: post
+title: how does that song go again...
+date: 2002-02-09 00:07:14.000000000 -08:00
+published: true
+categories:
+- Work Stuff
+tags: []
+permalink: "/2002/02/09/how-does-that-song-go-again/"
+---
+
+So not much has changed employment-wise in the last year+ that has gone by. =:\ I think that's a good thing.
+
+I'm still working for Rite Aid. For the last year or so, I've taken on the lead-developer role for Rite Aid in their Internet/Intranet environment. I've had some really great opportunities in that role. I've lead my team in throwing out a really old, crappy frame-based *shudder*, NT-driven, antiquated web site that Rite Aid's had up for at least 2 years. I've architected and implemented the first production Linux solution that Rite Aid has ever used--a fault-tolerant web environment that utilizes balanced clustering as well as director-level failover. And that was REALLY fun. =:) And the kicker is--we did it for just about zero cost. The individual nodes are 5-year-old desktop machines that you'd just as soon throw out the door with any other operating system.
+
+My first choice for this was FreeBSD. You simply cannot beat FreeBSD's speed and performance with Linux--especially on older hardware like this. But FreeBSD gurus are rather few and far-between at my company. My second choice was debian, since it is by far the best long-term Linux distribution. But not that many people are familiar with debian either. So I chose the at-the-time-most stable Linux distro that had a big-enough name behind it as to inspire confidence in those who maintain the boxes themselves. Hey--at least they're Linux. =:)
+
+Since we put my little Linux servers into production, we've had absolutely ZERO downtime due to the servers (network problems are not my problem =:). And it's been exciting to see Linux make serious business-need/solution inroads in other areas of Rite Aid since then.
+
+I am currently still working with the Internet/Intranet environment for Rite Aid, and am Systems Administrator of Rite Aid's Internet development servers. They're debian XFS-filesystem-based boxen, of course. =;) I maintain several large CVS repositories for the team, as well as manage routine server maintenance, hardware/software/network configuration, a decently-large Oracle 8.1.6.1 development database, and do some of the meanest PHP/Perl/Apache coding around (can you spell obfuscation?). =:)
+
+It will be interesting to see where we go from here....
+
+Okay, bye.

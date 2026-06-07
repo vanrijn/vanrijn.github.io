@@ -1,0 +1,38 @@
+---
+layout: post
+title: You Have To Actually Start To Cancel A Phone Line To Get Good Customer Service?
+date: 2012-11-09 14:00:57.000000000 -08:00
+published: true
+categories:
+- Life in General
+tags:
+- phones
+- sprint
+permalink: "/2012/11/09/you-have-to-actually-start-to-cancel-a-phone-line-to-get-good-customer-service/"
+---
+
+This is more of a rant than anything else. I despise the "threaten to cancel your phone account to get good customer service" approach to dealing with companies, so I've not tried it before. And this was no idle threat today... I was fully prepared to cancel a phone line to get what I needed. So please don't read this as "hey, this trick worked for me and you should try it too," because it's definitely not. I was prepared to cancel 1 phone line to get what I needed, but Sprint surprised me by doing what I'd been asking them to do for the last month to keep me from canceling. And I'm hesitant to even post this because I am honestly thankful that I'm able to do what I need to do for my family without having to cancel any phone lines and I don't want people to read this as a possible strategy or a way to cheat the system. But I'm more than just a little bit irritated that I had to actually call to cancel a phone line to get the good customer service I felt I deserved.
+
+But I'm getting ahead of myself...
+
+We have 6 smart phones on my Sprint mobile phone account. Prior to today and with absolute certainty for the last month, I was told that Sprint is utterly and physically and technically unable to add more than 5 phone lines to a shared family plan, and that if you add more lines, you have to add another plan. This meant that I had 5 phone lines on Sprint's "1500 minutes, shared everything" plan for ~ $250 per month and then I had to buy another plan to service the 6th phone line. So instead of spending $250 for 5 lines and adding the 6th line on for the usual $19.99 per month, Sprint was making me pay $70 per month for the 6th phone line because it required an additional plan. Mind you, we use maybe only 500 shared minutes on our main "1500 minutes, shared everything" plan, so we're theoretically paying for a lot of minutes that just go to waste every month. But anyway...
+
+I have tried at least 5 times in the last month to get Sprint to figure out some way to let me include the 6th phone line as part of our 5-line shared everything plan. I spent 4 hours in the Verizon and AT&T stores, talking with their sales people and comparing how much they'd charge for the same services that I'm getting from Sprint. I did a pretty extensive spreadsheet which showed me that while AT&T and Verizon would cost me less in the long run, I'd have an up-front cost of about $1000 between early termination fees and buying new phones to switch from Sprint and one of their competitors. And I was honestly at the point of being tired of getting poor customer service from Sprint on the 6 lines thing, and also the mobile hotspot thing, that I was willing to pay that $1000 and move from Sprint to AT&T or Verizon. I called Sprint's customer service and told them that I was unwilling to pay $70 for a 6th line and $19.99 for the privilege of having 2GB of mobile hotspot on one phone. I asked them if there was anything that they could do to work with me and convince me to stay with Sprint rather than canceling my 6 phone lines with them and my $350/month bill. And I received a resounding and final "nope, sorry, there's nothing we can do for you."
+
+And so, today, I called Sprint customer service and told them that I wanted to cancel one of my phone lines. I spoke to an account representative who understood that I was not threatening to cancel. I was actually calling to cancel. And to my HUMONGOUS surprise, the account rep told me that she talked to her manager and they were able to just go ahead and put the 6th phone line on our main shared everything plan. This means that instead of having to have a separate plan for the 6th line and pay $70 per month for it alone, we would only have one phone plan and the 6th line would only cost us $19.99 extra per month.
+
+Hallelujah! This is what I've been asking for for the last month!
+
+But... wait a second.... Why didn't Sprint do this to begin with? What is the difference between asking if there's anything Sprint is willing to do to keep me as a customer, versus canceling a phone line?
+
+It seems to my poor, uneducated-in-the-ways-of-mobile-phone-providers head that the difference is between making threats to cancel and actually canceling. Maybe in their minds, what I was doing before was trying to trick Sprint into giving me better customer service by threatening to leave them, and maybe they don't respond to that or like it? But when I call to actually cancel a phone line with no questions first, then they're able to actually give me good customer service so I don't leave them?
+
+Either way, it seems really petty and stupid to me. Maybe it makes sense to them because if people could just call and ask for good service and say that they're thinking of leaving Sprint, they'd end up not making as much money because they wouldn't be able to charge people as much per month? Maybe people would take advantage of Sprint and sign up all of their friends on their phone plan and that would be dishonest? Maybe there's a rule book for Sprint customer service that says not to budge on things like this unless the customer is not merely threatening to cancel, but actually canceling?
+
+I dunno... it's just frustrating to be pushed to the wall and have to actually say "screw this; I'm outta here" to get what you feel like is fair and good customer service from a company. Maybe Sprint could sense fear or uncertainty when I called previously to say "hey, take me seriously, I'm really thinking of jumping ship"? Maybe they thought "ah, he's just bluffing... he won't really do it... we should stand firm and not give in?" Maybe the lady I spoke to previously didn't actually care about giving good customer service and this lady did? Maybe when I called today, I had a manlier voice and it was clear that I wasn't messing around?
+
+Anyway, I don't know what the rules and guidelines are for this game--either for the customer's or Sprint's side. I feel like I just discovered a secret way of getting good customer service... and I really don't like it. I don't want to have to start canceling service to get what I need. I'd like to just have good customer service provided to me because it's the right thing to do and that's how you should treat people. Say what you will about Apple, but I feel like they do a really good job at this and I think they deserve the customer loyalty that they've earned because of it.
+
+End result: if the coming month's bills reflect what was promised to me today, I'll be staying with Sprint. Somewhere between grudgingly and happily, but staying nonetheless. For a family with 5 smart phones, Sprint honestly is the cheapest provider out there right now. And other than a few hiccups with my iPhone5 (which decided to get stuck in an infinite reboot loop last night and had to be DFU-restored to stop!?) and mobile hotspot reporting that I used 2GB worth of tethered data in 3 hours (is that even possible to do over a 3G data connection??), I'm otherwise very happy with Sprint. And today, I got good customer service from them, just as I have in the past.
+
+I just hate that I had to go to [DEFCON 1](http://en.wikipedia.org/wiki/DEFCON) to get it.

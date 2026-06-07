@@ -1,0 +1,24 @@
+---
+layout: post
+title: I got my clock cleaned in Capture the Flag
+date: 2004-10-17 00:38:10.000000000 -07:00
+published: true
+categories:
+- Video Games
+tags: []
+permalink: "/2004/10/17/i-got-my-clock-cleaned-in-capture-the-flag/"
+---
+
+[![halo]({{site.baseurl}}/assets/2004/10/3067583797_6880141d8a_o.jpg)]({{site.baseurl}}/assets/2004/10/3067583797_6880141d8a_o.jpg "halo by vanRijn") and finally.... a [post on slashdot](http://slashdot.org/askslashdot/00/06/02/0337257.shtml) that give me a slight glimmer of hope...
+
+> You *can* train yourself out of this. The UK RAF does this for pilots over a matter of months: its worst for navigators because they do the reverse of what we're speaking about: they look at a motionless screen while being subjected to motion. The USAF actually sends their vomiting pilots to the RAf to be debugged on this one...
+
+of course... everyone knows that you can believe everything you read on slashdot....
+
+as for me, I tried setting our 2 cheapo old computers at home up to run Halo--just to see if maybe using a different computer/hardware/CRT would help, but the one is a P3-600 (too slow, methinks) and uses an NVidia card, and the other one uses an embedded S3 cheapo card (and worse yet--that computer doesn't even have an extra AGP slot!!). And after installing halo on each of them, they both come up and say something along the lines of "your computer has funky, horrible hardware, and we know that bad things will happen if we even let you try to play halo with it, so we won't".
+
+well, something like that. and my only option at that point is "exit".
+
+so, the only computer I have to play halo on is my laptop... an IBM A31 with an ATI Technologies Inc Radeon Mobility M7 LW [Radeon Mobility 7500]. *shrug*
+
+anyway, I finally got into a half-full room online and played capture the flag for the first time... and... let's just say... I think I was killed at least twice a minute for the 10 minutes I was there. =:) it was pretty funny--and embarassing. heh.

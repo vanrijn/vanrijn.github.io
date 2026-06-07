@@ -1,0 +1,12 @@
+---
+layout: post
+title: KDE-PIM Social Network
+date: 2006-09-06 00:15:10.000000000 -07:00
+published: true
+categories:
+- Life in General
+tags: []
+permalink: "/2006/09/06/kde-pim-social-network/"
+---
+
+It's nice to see your name [up in lights](http://www.ired.org/kdesurvey/sna/kdepim_name.html)... =;)

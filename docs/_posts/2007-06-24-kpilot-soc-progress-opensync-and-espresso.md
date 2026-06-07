@@ -1,0 +1,38 @@
+---
+layout: post
+title: KPilot SOC Progress, OpenSync, and Espresso
+date: 2007-06-24 22:16:37.000000000 -07:00
+published: true
+categories:
+- Google
+- KDE
+- KPilot
+tags: []
+permalink: "/2007/06/24/kpilot-soc-progress-opensync-and-espresso/"
+---
+
+Our little KPilot Summer of Code project that Bertjan and I are co-laboring on is going fairly well.
+
+> We're working through finalizing the Use Case, with me helping out with some word-smithing and architectural review ([http://websvn.kde.org/trunk/KDE/kdepim/kpilot/conduits/base/design/](http://websvn.kde.org/trunk/KDE/kdepim/kpilot/conduits/base/design/)).
+>
+>
+> Bertjan has started doing Class and Sequence diagrams for the main and alternate flows ([http://websvn.kde.org/trunk/KDE/kdepim/kpilot/conduits/base/design/bouml-design/](http://websvn.kde.org/trunk/KDE/kdepim/kpilot/conduits/base/design/bouml-design/)).
+>
+>
+> We're pretty much on-track according to our schedule ([http://websvn.kde.org/trunk/KDE/kdepim/kpilot/conduits/base/design/SOC2007-schedule.ods?view=log](http://websvn.kde.org/trunk/KDE/kdepim/kpilot/conduits/base/design/SOC2007-schedule.ods?view=log))
+>
+>
+> And Bertjan has set up some info on his blog ([http://bertjan.broeksemaatjes.nl/](http://bertjan.broeksemaatjes.nl/)), and has done some level of progress-updates as well ([http://bertjan.broeksemaatjes.nl/node/4](http://bertjan.broeksemaatjes.nl/node/4)).
+
+Also, I had a very interesting conversation with the inimitable [JPR](http://jprosevear.org/blog/) on Friday about a little bit of [this](http://kpilot.org/) and a [little](http://www.gnome.org/gnome-office/gnome-pim.shtml) [bit](http://www.novell.com/) [of](http://en.opensuse.org/Welcome_to_openSUSE.org) [that](http://www.opensync.org/)... and we chatted a bit about KPilot and OpenSync and other things. Anyway, just for the record, I was aware as I was chatting with him that I don't know if I've clarified my intentions regarding the future of KPilot and OpenSync play-together-nicely-ness. It's kind of become a religious war as of late (OpenSync, kitchensync, KPilot, etc.), and it's easy to bash us KPilot folk for having the audacity for continuing to ply our trade instead of throwing full effort in with the OpenSync and kitchensync guys. But here's some things to consider...
+
+1. OpenSync is still trying to stabilize itself.  0.30 was just released very recently, and as of yet, it doesn't have the full complement of plugins that are necessary to make it useful.  That's not to say it's not a viable thing to be working towards, but it does mean that there's some lead time before it's a viable replacement, imho.
+2. KPilot, when it works correctly, is the best syncing solution for Linux that I've seen and/or used (imho). It synchronizes very nicely with the KDE PIM suite, which I have currently convinced myself to use.
+3. KPilot does things that OpenSync does not do.  That's not to say that  OpenSync  can't be made to do them, but currently, it doesn't.  For instance, last I checked, OpenSync (at least kitchensync's usage of it) does not allow for a constantly-running daemon that handles syncing for you.  KPilot users have come to rely on this, and not having it would be a regression at the very least.
+4. KPilot's conduits are good at what they do but are lacking in having a common code base underneath.  This is actually the entire focus of the SOC project this year for KPilot--to finally give KPilot's record-based conduits a common and solid framework.  Once this framework is in place and the conduits are ported to it, we could conceivably leverage  the OpenSync framework for the lower-level common syncing algorithm.  That's my hope, at any rate.
+
+So, anyway, hope that clarifies something for someone (man it's getting late).... The goal of this year's KPilot SOC project is to stabilize, refactor, and re-architect KPilot's conduit code so that it can be maintained going forward and at some point in the not-too-distant future, synergy with kitchensync/OpenSync would actually be a doable thing.
+
+In other news, my darling bride encouraged me to splurge on a $100 Krups coffee/espresso maker. I have yet to master the fine art of frothing. And from what I've read, the hard water that comes out of our well will require me to also learn the fine art of descaling/deliming. Any suggestions on good products for said espresso-maker-maintenance-foo?
+
+**Update Thingey (TM):** I spent some time talking with Dan Gollub (Hi Dan!! =:) ) the other day, making sure that my take on the current and future state of OpenSync holds water, and was pleased to find out that I was not talking out of my ear (read: yipee, I knew what I was talking about!). So, my plans hold and at some point after: 1) KDE4's KPilot is usable and stable, 2) KPilot's Summer of Code project is finished, 3) KPilot's conduits are ported to the new SOC-produced architecture, and 4) KPilot has a functional Keyring conduit, I will start moving towards 5) helping to improve OpenSync's palm plugins, 6) looking to replace pieces of KPilot's syncing logic with OpenSync, and 7) looking for synergy/commonality/duplicate code with kitchensync. Oh--also, other examples of some things that KPilot does that OpenSync was not designed to do include installing databases, doing scheduled backups, dealing with Palm's VFS, and managing the Palm's userid/username stuffies. Okay, bye.

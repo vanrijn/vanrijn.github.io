@@ -1,0 +1,26 @@
+---
+layout: post
+title: 'You had me at "Re: Information Request"'
+date: 2004-12-14 07:54:11.000000000 -08:00
+published: true
+categories:
+- Life in General
+tags: []
+permalink: "/2004/12/14/you-had-me-at-re-information-request/"
+---
+
+After a good couple of days of research, I've decided to take a chance on [vortexhost.com](http://www.vortexhost.com/). Unfortunately, I could not find any feedback on the webhost-reviewing sites about them, which doesn't help put my mind at ease. But in the end, the really good comments I've read in [vortexhost.com's forums](http://web.archive.org/web/20060118140216/http://www.vortexhost.com:80/forum/index.php?act=idx), combined with the really quick and professional replies to the e-mails I've sent Justin Reel (the admin of vortexhost) won me over to at least give them a try. They offer a 14-day money-back period, so here's to hoping that I won't need to see if I can get my money back.
+
+This is the first time that I've ever wanted to leave my e-mail on my webhost. Previous to now, I've always used fetchmail to POP my e-mail off of the webhost to a machine on my home LAN, and then a combination of procmail for filtering, bogofilter for spam filtering, and courier-IMAP to store my e-mail on my home machine and be able to retrieve it via IMAP. Though the weakest link in this chain is the constantly-changing and semi-flaky Verizon DSL connection, this has worked pretty well for me for the last several years. The problem is that when this breaks (and it does, periodically), I am completely without e-mail. Which is why I want to start keeping my e-mail on my webhost, thinking that I should never go without e-mail this way.
+
+The problems/differences that I've hit thus far:
+
+- cPanel's IMAP uses mbox instead of Maildir format for storing e-mail. I've had problems in the past with mbox corruption, and do NOT want to deal with this again. This is my biggest concern, actually. I am most tempted to change hosts (after < 1 day with my new host) and find a host that will use Maildir format for storing my e-mail. I've read that Plesk stores e-mail in Maildir format. You can look forward to seeing quite the rant here if for some reason, I lose e-mail because of cPanel/IMAP/mbox, I guarantee you that.
+
+- SpamAssassin is the defacto standard used on cPanel-based sites nowadays. I'm a little leary of relying on it, as I've read that bogofilter is more efficient and has a better algorithm for dealing with spam. I've also had very good success with bogofilter for the last couple of years, and am a little hesitant to have to go through the learning process (pun intended) again. I've gotten bogofilter trained/seasoned very well by now.... So, what I cannot find information on is how you can train spamassassin on a webhost that uses cPanel. It can't be that hard....
+
+I had previously been using bogofilter on my home machine combined with procmail to check for spam. I had 2 folders set up for training bogofilter... one for Spam and one for Ham. I had a cron job that ran every couple of hours that went through these 2 folders and trained bogofilter as to what Spam it had missed or what Ham it had mistakenly identified as Spam. It worked. =:)
+
+I need to be able to train SpamAssassin when it makes a mistake.
+
+Does anyone know how I can do this? I don't see anything built into cPanel that allows me to do this, nor do I see anything built into any of the webmail front-ends. Is there a "provided" or approved way to do this in a hosted site? Or do I need to create my own solution by using a similar approach to what I did before, with separate mailboxes and cron jobs?

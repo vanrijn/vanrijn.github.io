@@ -1,0 +1,39 @@
+---
+layout: post
+title: Wrapping up the Summer of Code
+date: 2007-08-18 16:22:31.000000000 -07:00
+published: true
+categories:
+- KDE
+- KPilot
+tags: []
+permalink: "/2007/08/18/wrapping-up-the-summer-of-code/"
+---
+
+I wrote this for this last week's commit digest and didn't want to steal Danny's thunder, but here's my thoughts on this year's SOC KPilot project...
+
+The KPilot summer of code project is winding down to a close, with this Monday being the “pencil's down” date. Bertjan Broeksema has done an outstanding job and has accomplished all that we said we wanted to on our [Summer of Code proposal](http://code.google.com/soc/2007/kde/app.html?csaid=Ol0GAQRUWDIANRIkFAZQWi1LOxwJSV4FVyMAOUEHSV5UVndQPhZc). The problem that we faced in KPilot was that each of our conduits did a lot of things in common, but all of them had their own code for doing these things. This has made maintenance a much harder job than it should be, and has led to some conduits being less feature-complete than they should be--not to mention having too many bugs from the duplicate code. So the idea was that each of our record-based conduits should be doing the same sorts of things as far as algorithm, process, and flow, and that we should pull as much of this common code out of the conduits and into some base classes as possible. This leaves our conduits to be responsible mainly for data transformation (turning a PC calendar vcal record into something that can be synchronized with a Palm database record), and should address the problems listed above.
+
+But while we were at it (and while we were taking the time to think through and design how KPilot should work), we also put as much effort into making it as hard as possible for our conduits to destroy our user's data. It's something that needs to be carefully included in the design process, since it simply doesn't happen by accident (not destroying data during edge cases, etc.). So we made some intentional design decisions that should hopefully result in fewer ["KPilot ate my future"](http://lists.kde.org/?l=kdepim-users&m=117535933600408&w=2) e-mails.
+
+We officially had 3 main goals for our Summer of Code project:
+
+[![Classdiagram]({{site.baseurl}}/assets/2007/08/1172096675_0e340d4b2d_m.jpg)]({{site.baseurl}}/assets/2007/08/1172096675_0e340d4b2d_m.jpg "Photo Sharing")1. Sequence Diagrams and Class Diagrams
+
+We used a loose interpretation of the [Rational Unified Process](http://en.wikipedia.org/wiki/Rational_Unified_Process) for our project this year. We spent 5 weeks at the beginning of the project, creating the [Use Case for our upcoming work](http://websvn.kde.org/*checkout*/trunk/KDE/kdepim/kpilot/conduits/base/design/Use_Case_-_Conduit_Syncing.odt), and then laying down some [Class and Sequence diagrams](http://websvn.kde.org/trunk/KDE/kdepim/kpilot/conduits/base/design/bouml-design/) which showed how all of the requirements and flows from our Use Case would be realized. We used [BOUML](http://bouml.free.fr/) for our [UML](http://en.wikipedia.org/wiki/Unified_Modeling_Language) diagrams (I'd have rather used [Umbrello](http://uml.sourceforge.net/index.php), but Bertjan had some difficulties in getting it working on his Gentoo box). All in all, though, I believe we found a good balance between spending enough time to make sure we had a well-thought-out design and having enough time to implement it all.
+
+2. Implementation of the abstract record framework
+
+Since our Use Case focused almost entirely on the functionality required for all of our conduits, Bertjan was able to fairly quickly write the code for the base conduit classes. We found very few design challenges and misses during the code-writing phase, which I credit largely to the thorough work we did on our Use Case and UML models. It goes against the typical Open Source Hacker mindset to spend so much time preparing to code and not actually coding (I mean, coding is the fun part, right?). But Bertjan patiently worked with me through this phase and I think we have some really good quality code as a result. Bertjan also wrote a series of unit tests to help verify his code in the base classes.
+
+![exciting new kpilot keyring viewer]({{site.baseurl}}/assets/2007/08/1172024261_efcabcc8ee_m.jpg "exciting new kpilot keyring viewer")3. Implementation of a new conduit as proof of concept.
+
+Early on, we weren't sure which route to go--whether we should try to port one of our existing conduits to the new base classes or whether we should just create a new conduit. As it turns out, we did our SOC work in trunk, which means we didn't have a very stable code base (we're still working on getting KPilot stable in trunk) to start from. So we decided to create a new conduit to use as an implementation for our new base classes rather than struggle with porting code and also trying to fit it into the new base system. I've been wanting to have a way to sync with the [Keyring](http://gnukeyring.sourceforge.net/) Palm application (encrypted, multi-purpose Palm database for storing passwords, account numbers, etc.) for a long time now, so we decided to create a new conduit in trunk to test and verify the new base classes. We're just finishing up a few minor nits with it and hope to have it fully functional by EOD, Monday.
+
+So, to summarize, thanks to this year's Google Summer of Code KPilot project, we now have a solid base conduit framework that is implemented in a new Keyring conduit. Our next steps in the KPilot team are:
+
+- stabilize the daemon and user-visible portions of KPilot
+- finish porting the old conduits over to the new KDE4 APIs
+- port the old/existing conduits over to our new base record framework
+- stabilize, test, wash, rinse, repeat
+- look at OpenSync framework again and (now that we have a common conduit framework in KPilot) see if we can leverage OpenSync's libraries for the underlying syncing algorithms.

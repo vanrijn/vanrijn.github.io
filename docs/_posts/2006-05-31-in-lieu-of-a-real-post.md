@@ -1,0 +1,36 @@
+---
+layout: post
+title: In Lieu of a Real Post...
+date: 2006-05-31 01:27:57.000000000 -07:00
+published: true
+categories:
+- Life in General
+tags: []
+permalink: "/2006/05/31/in-lieu-of-a-real-post/"
+---
+
+... I shall list the things that I would actually put into a real post if I had the time:
+
+- I would post about the incredibly fun time my little brood and I had down South-Easterly-like in our previous home-town of Harrisburg, PA, visiting the best of friends.
+- I might mention the adverse effects that driving for 7 contiguous hours will have on your posterior region.
+- I would upload some pictures to my flickr account, showing some of the fun, frivolity, and freakishness from previous weekend, including:
+  1. a thorough smashing of one candy-stuffed Dora The Explorer pinata, culminating in my delicate, beautiful eldest daughter, smashing the utter bejeebers out of said beloved cartoon character, in full witness of several of her very young frequent viewers, Tiger-Woods-style.
+2. another outrageously fun all-out Nerf dart gun war, in which all fought valiantly, but none moreso than I, even going up against the infamous Captain Smythe who was armed dangerously with 2 25-shot gatling guns and 2 backup 6-shot semi-automatics tucked into her belt.
+3. proof of the dangerous effect of family driveway fireworks on the middle-aged and younger generation alike!!!
+4. my beautiful daughter, who is now unbelievably 16 years old *sniffle*  Dangit, I want to turn back time and hold her delicate little body in my arms, singing "Silent Lucidity" to her through the small hours of the night.  Where the crap is Doc Brown and his DeLorean anyway????  =:(
+- I would mention how stinking hot it got on Monday and how utterly un-fun it is to have that and also a house that does not have air conditioning of any sort
+- I would describe to some level of detail how very much I hate insects.  I would also probably note that there is some degree of stupidity involved here, being that I have willingly purchased a home for my family in the middle of a bloody forest, surrounded by a rather large amount of insects and... other... larger... animals.
+- I would undoubtedly use some very colorful language, detailing my current level of disdain for carpenter ants, my utter hatred for insects in general who dare to assault my fortress of solitude, and my particular dislike for carpenter ants who have decided to start invading my home as of late.  Phaaaaawwww!!!  Ick!  *shudder*  Also, anyone have any suggestions on how to get rid of the disgusting not-so-little varmints without also poisoning my well?
+- I might also mention how little I am fond of the family dog at the moment, who has not been content to cost me > $200 to cure her most recent ails, but has decided to add insult to injury by puking and pooping not once but twice in our upstairs living quarters last night, at around 2:00 a.m. and 3:00 a.m.
+- I would probably mention that I've made a conscious effort to become consciously aware of how little time I've been spending keeping my OSS skillz in general and my KDE PIM skillz in particular up to snuff and to finally do something about it.
+- I might also mention how a certain Google recruiter is far smarter than me in regards to the following questions:
+  1. How to correctly de-allocate an array of memory that has been allocated in C++ with the new operator. (yes, I fully realize it's kind of a trick question...  the correct answer is delete[], not simply delete.  I should get partial credit here, I think.  =;) )
+2. What kill -QUIT (or kill -3) does to a JVM.  (now, having never had to sysadmin a naughty java server, I had no stinking clue about this one.  turns out it causes the jvm to print a stack trace and not quit.  makes sense now that I think about it (and `man kill`).  but seriously, if I ever needed to know this, why should I expect to have it committed to memory?  I mean, come on, a quarter of my job includes employing google searches to pull up something I need to know...  =;).
+3. What the speed and worst-case scenario of the Quick-Sort algorithm are.  okay, this one I really must plead "oh gimme a break" on.  though I suppose that there are plenty of uber-geeks out there who delight in this sort of college academia obscureness, I can definitely say that I have managed to do pretty well in the IT field and still don't know the answer to this question.  calculus, trig, linear algebra, and binary arithmetic have definitely come in handy in my life.  not knowing the statistics of this recursive sort algorithm has not yet hampered me (other than on a certain phone interview with a certain (very nice!) Google recruiter) yet.  I'm the first to admit... I was a Math major, not a CS major.  =:(
+- I might also mention how amazingly King David (of 1&2 Samuel in the OT) was messed up!  His life, children, and family (many wives and children thereof) put today's "daytime dramas" to shame!   I've been reading through his life story as of late in The Message and am amazed that God called this man "a man after God's own heart."  Maybe that's the point.  Maybe it's not about how good you can smell, coming through this life.  Maybe it's about the condition of your heart when all is said and done and along the way, in relation to God.  Maybe it's about recognizing that you need to fix things when they're wrong between you and your Maker.  Maybe it's about taking His laws serious enough to do something about making sure you  honor and respect them, and making things right in your heart with Him when you don't.  Maybe I have some chance of being a man after God's own heart too.  =:)
+
+Well, I sure wish I had the time to write properly about all of this, but since it's 1:30 of the clock already and I have another night of less-than-what-I-need of sleep ahead of me, I just don't have the time, you see.
+
+Maybe another week...
+
+Shalom.
