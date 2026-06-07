@@ -27,6 +27,9 @@ My main complaints are around little quirks, such as:
 - I'm using Beep media player (a gtk2 port of xmms, which is WAY nicer already than xmms) instead of a native KDE music app.  I honestly do want to use a KDE app for my music, but Fedora has chosen to not allow any KDE apps to be able to handle the mp3 format.  I understand why, and that's a different issue.  But the problem is that whereas with Gnome apps, one is able to remedy this pretty easily by downloading gstreamer-plugins-mp3, I haven't found an equivalent method for getting KDE apps to handle mp3's, short of recompiling KDE, which I'm not aching to do right yet.  Anyone know how to fix this??
 - Kdevelop : WOW, this has really gotten good!!!  I am amazed at how much they'e done with it.  If I could just figure out how to get it to do code insight like JBuilder does, I'd actually pay money for this!
 
+- Group scheduling : it takes far more to schedule an appointment in KMail/Korganizer than it does in Evolution.  I would LOVE to see this get easier and simpler for the user.  Evolution does this very well, IMO.
+- Related to the above : accepting incoming meeting requests don't seem to work.  I got one from my friend the other day, sent from an Outlook mail client, and Kmail displayed the meeting request correctly, with "Accept" and "Decline" links at the bottom of the e-mail, but clicking "Accept" did not either reply to the sender, nor did it place the appointment in my calendar.  Slightly disappointing.  On the good side, though, sending requests finally works correctly!!  =:)
+
 Anyway, like I said, KDE is a REALLY solid environment. I am using Opera for my web browsing (7.60 P3 for Linux just plain kicks butt, and its developers are REALLY responsive on the opera-linux mailing list!!), Kontact/Kmail/Korganizer for my PIM, KPilot for my Pilot, and Gaim and beep media player are my only 2 GTK/Gnome apps at this point. =:)
 
 Back to work with you now....
